@@ -1,15 +1,34 @@
 {
- "version": "2.0.59",
- "build": 659,
+ "version": "2.0.60",
+ "build": 660,
  "minBuild": 0,
- "publishedAt": "2026-10-08T23:38:50-03:00",
+ "publishedAt": "2026-10-09T00:22:39-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/4riiqsj6o29e0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/4ohedkpg96et0?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/0sb80lt4dq3rg?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/2mc8qcc0u5qvg?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.60",
+   "build": 660,
+   "date": "09/10",
+   "new": [
+    "Aviso de versão nova: quando sai uma versão, o app avisa sozinho — uma folha ao abrir com tudo o que mudou desde a sua versão, \"Atualizar\" (abre a versão no App Tester / App Distribution) e \"Agora não\" (cala por um dia). No Android, o aviso também chega no balão do painel rápido e como notificação, de 6 em 6 horas.",
+    "\"O que há de novo\": na primeira abertura depois de atualizar, uma folha curta com o que mudou na versão instalada.",
+    "Configurações › Versão do app › Novidades: a sua versão, \"Procurar atualização\" e o que mudou nas últimas versões (funciona sem internet)."
+   ],
+   "changed": [
+    "Painel da meta: \"No app: entrou R$ X · falta entrar ≈ R$ Y\" logo abaixo do \"Falta\" (ou do \"acima da meta\"), no mesmo tamanho dele: o bruto para conferir com a Uber/99 e quanto ainda precisa entrar no app para o bolso fechar. Sai o \"app pagou\" pequeno do canto.",
+    "\"Seu dia, hora a hora\" com todas as jornadas do dia: cada jornada ganha \"início\" e, a encerrada, \"fim\", com um fundo leve no período dela — o intervalo entre as jornadas fica à mostra. Antes só a jornada aberta aparecia. Na tela de Metas e no painel da meta."
+   ],
+   "fixed": [
+    "Tela dividida Uber + 99: corrida da Uber aceita ficava só \"analisada\". Quando a 99 oferecia logo depois de você aceitar a Uber, o Didur passava a acompanhar a oferta da 99 e não reconhecia a Uber \"a caminho\" — a corrida não entrava na jornada, nem a próxima empilhada nela. Agora a oferta de cada app fica guardada e a tela de corrida do app certo a aceita.",
+    "Categoria com letra trocada no histórico e nos filtros (\"Comnfort\"): o nome lido com uma letra errada agora vira o da categoria conhecida (\"Comfort\"). Categoria nova de verdade continua entrando como aparece na tela.",
+    "Selo \"Meta batida\" do painel que não abria nada quando a jornada estava sem horário de parar. Agora abre a folha do ritmo: o ritmo de agora, quanto passou da meta e a escolha do horário de parar."
+   ]
+  },
   {
    "version": "2.0.59",
    "build": 659,
@@ -179,18 +198,6 @@
    "changed": [],
    "fixed": [
     "Ofertas de viagem longa não são mais descartadas como leitura errada (o limite subiu para 1.000 km e R$ 3.000)."
-   ]
-  },
-  {
-   "version": "2.0.50",
-   "build": 650,
-   "date": "03/10",
-   "new": [],
-   "changed": [
-    "\"Baixa demanda\" virou um selo no cabeçalho do painel da meta, e as médias aparecem com os zeros."
-   ],
-   "fixed": [
-    "O ponto da \"Baixa demanda\" fica dentro do círculo do botão da meta."
    ]
   }
  ]
