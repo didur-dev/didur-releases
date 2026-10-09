@@ -1,15 +1,86 @@
 {
- "version": "2.0.62",
- "build": 662,
+ "version": "2.0.63",
+ "build": 663,
  "minBuild": 0,
- "publishedAt": "2026-10-09T09:55:51-03:00",
+ "publishedAt": "2026-10-09T11:04:06-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/243456cd42r90?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/7ms2ulc7qjps0?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/6pktfeh9tsvi0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/03j0do8f8kf6o?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.63",
+   "build": 663,
+   "date": "09/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "🏠",
+      "area": "Início",
+      "title": "O sino abre as Novidades",
+      "body": "A bolinha só acende quando há versão nova para instalar."
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Novidades no menu lateral do tablet",
+      "body": "Acima de Ajustes, com uma bolinha verde quando há versão nova.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "📜",
+      "area": "Histórico",
+      "title": "Cards inteiros no celular deitado",
+      "body": "A grade usa quantas colunas couberem: 2 no tablet, 1 no celular deitado."
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "O que há de novo com as versões puladas",
+      "body": "Pulou versões? Mostra tudo desde a sua anterior: 3 destaques e a lista por versão."
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "O que há de novo só some no \"Entendi\"",
+      "body": "Fechar tocando fora esconde agora, e a folha volta na próxima abertura."
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Aviso de Novidades no lugar certo",
+      "body": "\"Você está na versão mais nova\" aparece embaixo, não sobre a barra do sistema."
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "O que há de novo vindo de versão antiga",
+      "body": "Quem atualiza de antes da 2.0.60 também vê o que mudou na primeira abertura."
+     }
+    ]
+   },
+   "new": [
+    "O sino abre as Novidades: A bolinha só acende quando há versão nova para instalar.",
+    "Novidades no menu lateral do tablet: Acima de Ajustes, com uma bolinha verde quando há versão nova."
+   ],
+   "changed": [
+    "Cards inteiros no celular deitado: A grade usa quantas colunas couberem: 2 no tablet, 1 no celular deitado.",
+    "O que há de novo com as versões puladas: Pulou versões? Mostra tudo desde a sua anterior: 3 destaques e a lista por versão."
+   ],
+   "fixed": [
+    "O que há de novo só some no \"Entendi\": Fechar tocando fora esconde agora, e a folha volta na próxima abertura.",
+    "Aviso de Novidades no lugar certo: \"Você está na versão mais nova\" aparece embaixo, não sobre a barra do sistema.",
+    "O que há de novo vindo de versão antiga: Quem atualiza de antes da 2.0.60 também vê o que mudou na primeira abertura."
+   ]
+  },
   {
    "version": "2.0.62",
    "build": 662,
@@ -883,37 +954,6 @@
    "changed": [],
    "fixed": [
     "Trocar Mensal e Semanal: Muda na hora, sem precisar sair da tela."
-   ]
-  },
-  {
-   "version": "2.0.53",
-   "build": 653,
-   "date": "03/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Meta semanal",
-      "body": "A meta por semana, começando no dia em que você paga o carro."
-     }
-    ],
-    "changed": [],
-    "fixed": [
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Pausa no botão",
-      "body": "Uma oferta recebida não retoma mais a jornada pausada."
-     }
-    ]
-   },
-   "new": [
-    "Meta semanal: A meta por semana, começando no dia em que você paga o carro."
-   ],
-   "changed": [],
-   "fixed": [
-    "Pausa no botão: Uma oferta recebida não retoma mais a jornada pausada."
    ]
   }
  ]
