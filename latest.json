@@ -2,7 +2,7 @@
  "version": "2.0.63",
  "build": 663,
  "minBuild": 0,
- "publishedAt": "2026-10-09T11:04:06-03:00",
+ "publishedAt": "2026-10-09T11:04:54-03:00",
  "android": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/7ms2ulc7qjps0?utm_source=firebase-tools"
  },
@@ -17,9 +17,9 @@
    "items": {
     "new": [
      {
-      "emoji": "🏠",
-      "area": "Início",
-      "title": "O sino abre as Novidades",
+      "emoji": "📲",
+      "area": "App",
+      "title": "Sino do Início abre as Novidades",
       "body": "A bolinha só acende quando há versão nova para instalar."
      },
      {
@@ -68,7 +68,7 @@
     ]
    },
    "new": [
-    "O sino abre as Novidades: A bolinha só acende quando há versão nova para instalar.",
+    "Sino do Início abre as Novidades: A bolinha só acende quando há versão nova para instalar.",
     "Novidades no menu lateral do tablet: Acima de Ajustes, com uma bolinha verde quando há versão nova."
    ],
    "changed": [
