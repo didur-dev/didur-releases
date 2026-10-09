@@ -1,15 +1,25 @@
 {
- "version": "2.0.60",
- "build": 660,
+ "version": "2.0.61",
+ "build": 661,
  "minBuild": 0,
- "publishedAt": "2026-10-09T00:22:39-03:00",
+ "publishedAt": "2026-10-09T06:28:55-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/4ohedkpg96et0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/7iabbe866jpr0?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/2mc8qcc0u5qvg?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/1dn577ucpncug?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.61",
+   "build": 661,
+   "date": "09/10",
+   "new": [],
+   "changed": [],
+   "fixed": [
+    "Tablet deitado: oferta da Uber com o app atrás de outro não era lida. Com a Uber em segundo plano (Play Store, tela inicial ou outro app na frente), a oferta chega numa janela flutuante da largura de um celular ou num card largo embaixo — e o Didur só reconhecia a de largura quase toda. Agora as duas são lidas, só a janela da oferta (sem o app de trás)."
+   ]
+  },
   {
    "version": "2.0.60",
    "build": 660,
@@ -188,16 +198,6 @@
    "changed": [],
    "fixed": [
     "99: o app toca em \"Continuar correndo\" na tela de Taxa de Aceitação."
-   ]
-  },
-  {
-   "version": "2.0.51",
-   "build": 651,
-   "date": "03/10",
-   "new": [],
-   "changed": [],
-   "fixed": [
-    "Ofertas de viagem longa não são mais descartadas como leitura errada (o limite subiu para 1.000 km e R$ 3.000)."
    ]
   }
  ]
