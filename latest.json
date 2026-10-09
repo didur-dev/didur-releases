@@ -1,15 +1,134 @@
 {
- "version": "2.0.63",
- "build": 663,
+ "version": "2.0.64",
+ "build": 664,
  "minBuild": 0,
- "publishedAt": "2026-10-09T11:04:54-03:00",
+ "publishedAt": "2026-10-09T18:19:04-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/7ms2ulc7qjps0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/17omf75vc3lkg?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/03j0do8f8kf6o?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/4tuiqbrdi8s7g?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.64",
+   "build": 664,
+   "date": "09/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Widgets da meta na tela inicial",
+      "body": "Meta de hoje, da semana e do ciclo e o Painel do dia, com o ritmo, sem abrir o app.",
+      "highlight": true,
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Controle da jornada no widget",
+      "body": "O tempo ativo contando e Pausar, Retomar e Iniciar direto da tela inicial.",
+      "highlight": true,
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Widget Melhor horário",
+      "body": "As faixas que mais rendem no mesmo dia da semana, com a hora boa que vem a seguir.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Widgets da meta no iPhone",
+      "body": "Hoje, semana, ciclo, Melhor horário e Painel do dia na tela inicial e no bloqueio.",
+      "highlight": true,
+      "platforms": [
+       "ios"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Controle da jornada no iPhone",
+      "body": "Tempo contando, Pausar e Retomar no widget; Iniciar abre o app.",
+      "platforms": [
+       "ios"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Lembretes de meta com o app fechado",
+      "body": "Ritmo abaixo, melhor janela, meta batida e semana abaixo; até 3 por dia.",
+      "highlight": true
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Widgets na tela inicial",
+      "body": "Os 6 widgets e como pôr na tela; no Android, o botão Adicionar faz por você."
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🔊",
+      "area": "Voz e alertas",
+      "title": "Lembretes no lugar do horário fixo",
+      "body": "Em Notificações, liga cada lembrete e o limite por dia; o sino da Metas leva lá."
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Exportar logs leva os prints do painel",
+      "body": "Os prints tirados pelo botão do painel no dia vão no zip; somem após 7 dias.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "99: ganho confirmado no fim da corrida",
+      "body": "Com \"confirmar ganho\" ligado, a corrida da 99 que termina não fica mais pendente.",
+      "highlight": true
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "99: fecha sem a tela de avaliação",
+      "body": "Avaliou rápido e a 99 voltou a \"Buscando\"? Em 20 s a corrida fecha; o ganho fica para confirmar."
+     }
+    ]
+   },
+   "new": [
+    "Widgets da meta na tela inicial: Meta de hoje, da semana e do ciclo e o Painel do dia, com o ritmo, sem abrir o app.",
+    "Controle da jornada no widget: O tempo ativo contando e Pausar, Retomar e Iniciar direto da tela inicial.",
+    "Widget Melhor horário: As faixas que mais rendem no mesmo dia da semana, com a hora boa que vem a seguir.",
+    "Widgets da meta no iPhone: Hoje, semana, ciclo, Melhor horário e Painel do dia na tela inicial e no bloqueio.",
+    "Controle da jornada no iPhone: Tempo contando, Pausar e Retomar no widget; Iniciar abre o app.",
+    "Lembretes de meta com o app fechado: Ritmo abaixo, melhor janela, meta batida e semana abaixo; até 3 por dia.",
+    "Widgets na tela inicial: Os 6 widgets e como pôr na tela; no Android, o botão Adicionar faz por você."
+   ],
+   "changed": [
+    "Lembretes no lugar do horário fixo: Em Notificações, liga cada lembrete e o limite por dia; o sino da Metas leva lá.",
+    "Exportar logs leva os prints do painel: Os prints tirados pelo botão do painel no dia vão no zip; somem após 7 dias."
+   ],
+   "fixed": [
+    "99: ganho confirmado no fim da corrida: Com \"confirmar ganho\" ligado, a corrida da 99 que termina não fica mais pendente.",
+    "99: fecha sem a tela de avaliação: Avaliou rápido e a 99 voltou a \"Buscando\"? Em 20 s a corrida fecha; o ganho fica para confirmar."
+   ]
+  },
   {
    "version": "2.0.63",
    "build": 663,
@@ -932,28 +1051,6 @@
    "changed": [],
    "fixed": [
     "Gastos fixos por semana: Passam a valer com a meta semanal."
-   ]
-  },
-  {
-   "version": "2.0.54",
-   "build": 654,
-   "date": "04/10",
-   "items": {
-    "new": [],
-    "changed": [],
-    "fixed": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Trocar Mensal e Semanal",
-      "body": "Muda na hora, sem precisar sair da tela."
-     }
-    ]
-   },
-   "new": [],
-   "changed": [],
-   "fixed": [
-    "Trocar Mensal e Semanal: Muda na hora, sem precisar sair da tela."
    ]
   }
  ]
