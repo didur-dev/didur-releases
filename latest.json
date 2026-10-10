@@ -1,15 +1,49 @@
 {
- "version": "2.0.64",
- "build": 664,
+ "version": "2.0.65",
+ "build": 665,
  "minBuild": 0,
- "publishedAt": "2026-10-09T18:19:04-03:00",
+ "publishedAt": "2026-10-10T15:45:44-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/17omf75vc3lkg?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/0gh4en4qigfj0?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/4tuiqbrdi8s7g?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.65",
+   "build": 665,
+   "date": "10/10",
+   "items": {
+    "new": [],
+    "changed": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Print com retorno na hora",
+      "body": "Segurar o botão vibra e avisa \"Print tirado\" na hora; o \"Print salvo\" vem depois.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Viagem de hora cheia na Uber",
+      "body": "Oferta com \"1h\" sem minutos no trajeto deixava de ser lida e não aparecia o card."
+     }
+    ]
+   },
+   "new": [],
+   "changed": [
+    "Print com retorno na hora: Segurar o botão vibra e avisa \"Print tirado\" na hora; o \"Print salvo\" vem depois."
+   ],
+   "fixed": [
+    "Viagem de hora cheia na Uber: Oferta com \"1h\" sem minutos no trajeto deixava de ser lida e não aparecia o card."
+   ]
+  },
   {
    "version": "2.0.64",
    "build": 664,
@@ -1020,37 +1054,6 @@
    "fixed": [
     "99 com o painel recolhido: A corrida não some mais no meio da viagem e o fim é registrado.",
     "99: recusar durante a viagem: Recusar uma oferta não cancela mais a corrida em curso."
-   ]
-  },
-  {
-   "version": "2.0.55",
-   "build": 655,
-   "date": "04/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Lançar dia passado",
-      "body": "Registre um dia em que o app não estava ligado."
-     }
-    ],
-    "changed": [],
-    "fixed": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Gastos fixos por semana",
-      "body": "Passam a valer com a meta semanal."
-     }
-    ]
-   },
-   "new": [
-    "Lançar dia passado: Registre um dia em que o app não estava ligado."
-   ],
-   "changed": [],
-   "fixed": [
-    "Gastos fixos por semana: Passam a valer com a meta semanal."
    ]
   }
  ]
