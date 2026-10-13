@@ -1,15 +1,37 @@
 {
- "version": "2.0.66",
- "build": 666,
+ "version": "2.0.67",
+ "build": 667,
  "minBuild": 0,
- "publishedAt": "2026-10-13T15:42:16-03:00",
+ "publishedAt": "2026-10-13T18:37:56-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/0tqpc5msm7v40?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/3em33vv011t48?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/43r0vf9ndtcig?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/4enqh0njr98g8?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.67",
+   "build": 667,
+   "date": "13/10",
+   "items": {
+    "new": [],
+    "changed": [],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Status de corrida que já terminou",
+      "body": "Corrida com fim há mais de 30 min não volta para Em viagem, e o fim pela oferta não vai horas à frente."
+     }
+    ]
+   },
+   "new": [],
+   "changed": [],
+   "fixed": [
+    "Status de corrida que já terminou: Corrida com fim há mais de 30 min não volta para Em viagem, e o fim pela oferta não vai horas à frente."
+   ]
+  },
   {
    "version": "2.0.66",
    "build": 666,
@@ -658,316 +680,6 @@
    ],
    "fixed": [
     "Hoje sem jornada no dia: Mostra as próximas horas boas, o hora a hora e os insights do mesmo dia da semana."
-   ]
-  },
-  {
-   "version": "2.0.57",
-   "build": 657,
-   "date": "06/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Aba Ciclo",
-      "body": "Com o mês fechando no vencimento, a aba vira Ciclo, com contas cobertas e custo do km.",
-      "highlight": true
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "\"Quanto você quer no bolso?\"",
-      "body": "Sem meta, um formulário com a prévia ao vivo do bruto que precisa entrar.",
-      "highlight": true
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Ajustar meta",
-      "body": "O lápis no card do período abre o formulário: só este ciclo ou este e os próximos."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Dias de trabalho marcados",
-      "body": "Dia desmarcado é folga: fica sem meta e o valor vai para os outros dias."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Plano dos dias que faltam",
-      "body": "Meta, horas e melhor janela de cada dia que resta na semana; tocar simula."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Semana passada, horas e abastecimentos",
-      "body": "Três cards novos na Semana: contra a semana passada, descanso e tanque."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Entrou e saiu",
-      "body": "Quanto entrou de cada app, gorjeta e bônus, e quanto saiu em energia, lançados e fixos."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Oferta mínima pelo ritmo",
-      "body": "Quanto uma oferta precisa pagar por km e por minuto para não atrasar a meta."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Próximas horas boas e Uber × 99",
-      "body": "Quanto as próximas horas costumam render e qual app pagou mais agora."
-     },
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Três avisos novos na voz",
-      "body": "Passageiro novo, perto de casa e a meta de hoje ao fim de cada corrida."
-     },
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Volume e \"Ouvir exemplo\"",
-      "body": "Baixa a fala sem mexer no aparelho e ouve uma corrida de amostra."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Manutenção por km",
-      "body": "Pneu, óleo e revisão por km em Custos do veículo, com o custo total por km."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Busca",
-      "body": "A lupa acha a tela pelo nome e pelo que tem dentro (\"velocidade\" → Alertas por voz)."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Tablet com menu lateral",
-      "body": "No tablet, a barra de baixo vira um menu à esquerda e o Início fica em duas colunas.",
-      "highlight": true,
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Vencimento dos gastos fixos",
-      "body": "Cada gasto tem a data em que vence; o app avisa na véspera e no dia."
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Ignorar reservas da Uber",
-      "body": "O app toca em \"Ignorar\" na janela de reservas e fecha a faixa.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Avisar dinâmica",
-      "body": "A voz diz \"dinâmica de 5 reais\" ou \"1,5 vezes\" quando a oferta tem."
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Reserva da Uber analisada",
-      "body": "Ao abrir uma reserva, um card com partida, trajeto e análise só da viagem.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Atalhos da voz",
-      "body": "Falar o valor, avisar dinâmica e falar ao recusar, direto na aba Config.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Meta sempre no bolso",
-      "body": "Saiu o \"Bruto | Líquido\": com contas fixas, a meta tem que cobri-las."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Redistribuição dentro do Plano",
-      "body": "Os interruptores e o que faltou nas semanas anteriores ficam no Plano."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "\"Você / precisa\" na Semana e no Mês",
-      "body": "Cada um com a sua conta, pelas horas dos dias de trabalho que restam."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Sem o botão Pausar",
-      "body": "Pausar é na Jornada; o \"Estou em pausa\" do aviso de parado continua."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Meta semanal variável fecha o mês",
-      "body": "O que faltou se reparte pelos dias que restam até o fechamento."
-     },
-     {
-      "emoji": "🗺️",
-      "area": "Mapa",
-      "title": "Tablet: mapas com painel ao lado",
-      "body": "Distância, parado, ocioso e km morto ao lado do mapa da jornada.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📊",
-      "area": "Estatísticas",
-      "title": "Tablet: cards em pares",
-      "body": "Abas ao lado do título, cards em pares e trios e insights em três colunas.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Tablet: lista e detalhe",
-      "body": "A lista fica à esquerda e o ajuste escolhido abre à direita.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Tablet: duas colunas",
-      "body": "Corridas e viagens em duas colunas; no detalhe, resumo e print lado a lado.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Metas nova",
-      "body": "A aba mostra o mesmo que o painel da meta; no tablet, a meta à esquerda e os cards à direita."
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Toque cancela a recusa em qualquer lugar",
-      "body": "Antes só valia no app da oferta; o jeito antigo está em Recusa automática.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Card da reserva sumindo",
-      "body": "Fica até a reserva sair da tela ou você tocar nele.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Nota do passageiro na 99",
-      "body": "A dinâmica (\"1,5x\") não é mais gravada como nota."
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Valor ou distância sem vírgula",
-      "body": "R$ 7,55 lido 755 ou 11,6 km lido 116: o app recoloca a vírgula."
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Tablet: card da Uber minimizada",
-      "body": "O card largo é lido quase inteiro e a oferta não passa mais.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Recusa quando o \"X\" não é lido",
-      "body": "O app acha o fechar na linha da categoria, no canto do card.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Detalhe de reserva",
-      "body": "Não sai mais como \"oferta incompleta\"."
-     }
-    ]
-   },
-   "new": [
-    "Aba Ciclo: Com o mês fechando no vencimento, a aba vira Ciclo, com contas cobertas e custo do km.",
-    "\"Quanto você quer no bolso?\": Sem meta, um formulário com a prévia ao vivo do bruto que precisa entrar.",
-    "Ajustar meta: O lápis no card do período abre o formulário: só este ciclo ou este e os próximos.",
-    "Dias de trabalho marcados: Dia desmarcado é folga: fica sem meta e o valor vai para os outros dias.",
-    "Plano dos dias que faltam: Meta, horas e melhor janela de cada dia que resta na semana; tocar simula.",
-    "Semana passada, horas e abastecimentos: Três cards novos na Semana: contra a semana passada, descanso e tanque.",
-    "Entrou e saiu: Quanto entrou de cada app, gorjeta e bônus, e quanto saiu em energia, lançados e fixos.",
-    "Oferta mínima pelo ritmo: Quanto uma oferta precisa pagar por km e por minuto para não atrasar a meta.",
-    "Próximas horas boas e Uber × 99: Quanto as próximas horas costumam render e qual app pagou mais agora.",
-    "Três avisos novos na voz: Passageiro novo, perto de casa e a meta de hoje ao fim de cada corrida.",
-    "Volume e \"Ouvir exemplo\": Baixa a fala sem mexer no aparelho e ouve uma corrida de amostra.",
-    "Manutenção por km: Pneu, óleo e revisão por km em Custos do veículo, com o custo total por km.",
-    "Busca: A lupa acha a tela pelo nome e pelo que tem dentro (\"velocidade\" → Alertas por voz).",
-    "Tablet com menu lateral: No tablet, a barra de baixo vira um menu à esquerda e o Início fica em duas colunas.",
-    "Vencimento dos gastos fixos: Cada gasto tem a data em que vence; o app avisa na véspera e no dia.",
-    "Ignorar reservas da Uber: O app toca em \"Ignorar\" na janela de reservas e fecha a faixa.",
-    "Avisar dinâmica: A voz diz \"dinâmica de 5 reais\" ou \"1,5 vezes\" quando a oferta tem.",
-    "Reserva da Uber analisada: Ao abrir uma reserva, um card com partida, trajeto e análise só da viagem.",
-    "Atalhos da voz: Falar o valor, avisar dinâmica e falar ao recusar, direto na aba Config."
-   ],
-   "changed": [
-    "Meta sempre no bolso: Saiu o \"Bruto | Líquido\": com contas fixas, a meta tem que cobri-las.",
-    "Redistribuição dentro do Plano: Os interruptores e o que faltou nas semanas anteriores ficam no Plano.",
-    "\"Você / precisa\" na Semana e no Mês: Cada um com a sua conta, pelas horas dos dias de trabalho que restam.",
-    "Sem o botão Pausar: Pausar é na Jornada; o \"Estou em pausa\" do aviso de parado continua.",
-    "Meta semanal variável fecha o mês: O que faltou se reparte pelos dias que restam até o fechamento.",
-    "Tablet: mapas com painel ao lado: Distância, parado, ocioso e km morto ao lado do mapa da jornada.",
-    "Tablet: cards em pares: Abas ao lado do título, cards em pares e trios e insights em três colunas.",
-    "Tablet: lista e detalhe: A lista fica à esquerda e o ajuste escolhido abre à direita.",
-    "Tablet: duas colunas: Corridas e viagens em duas colunas; no detalhe, resumo e print lado a lado.",
-    "Metas nova: A aba mostra o mesmo que o painel da meta; no tablet, a meta à esquerda e os cards à direita.",
-    "Toque cancela a recusa em qualquer lugar: Antes só valia no app da oferta; o jeito antigo está em Recusa automática."
-   ],
-   "fixed": [
-    "Card da reserva sumindo: Fica até a reserva sair da tela ou você tocar nele.",
-    "Nota do passageiro na 99: A dinâmica (\"1,5x\") não é mais gravada como nota.",
-    "Valor ou distância sem vírgula: R$ 7,55 lido 755 ou 11,6 km lido 116: o app recoloca a vírgula.",
-    "Tablet: card da Uber minimizada: O card largo é lido quase inteiro e a oferta não passa mais.",
-    "Recusa quando o \"X\" não é lido: O app acha o fechar na linha da categoria, no canto do card.",
-    "Detalhe de reserva: Não sai mais como \"oferta incompleta\"."
    ]
   }
  ]
