@@ -1,15 +1,49 @@
 {
- "version": "2.0.65",
- "build": 665,
+ "version": "2.0.66",
+ "build": 666,
  "minBuild": 0,
- "publishedAt": "2026-10-10T15:45:44-03:00",
+ "publishedAt": "2026-10-13T15:42:16-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/0gh4en4qigfj0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/0tqpc5msm7v40?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/4tuiqbrdi8s7g?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/43r0vf9ndtcig?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.66",
+   "build": 666,
+   "date": "13/10",
+   "items": {
+    "new": [],
+    "changed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "99 confirma o ganho no aceite",
+      "body": "Com a confirmação automática ligada, a corrida da 99 entra na jornada sem o botão de confirmar."
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Aviso de versão nova abre as Novidades",
+      "body": "Tocar na notificação ou no balão leva às Novidades, com o botão de atualizar.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [],
+   "changed": [
+    "99 confirma o ganho no aceite: Com a confirmação automática ligada, a corrida da 99 entra na jornada sem o botão de confirmar."
+   ],
+   "fixed": [
+    "Aviso de versão nova abre as Novidades: Tocar na notificação ou no balão leva às Novidades, com o botão de atualizar."
+   ]
+  },
   {
    "version": "2.0.65",
    "build": 665,
@@ -934,126 +968,6 @@
     "Tablet: card da Uber minimizada: O card largo é lido quase inteiro e a oferta não passa mais.",
     "Recusa quando o \"X\" não é lido: O app acha o fechar na linha da categoria, no canto do card.",
     "Detalhe de reserva: Não sai mais como \"oferta incompleta\"."
-   ]
-  },
-  {
-   "version": "2.0.56",
-   "build": 656,
-   "date": "05/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "O que passa da meta",
-      "body": "Bônus, diminuir as próximas ou acabar a meta antes.",
-      "highlight": true
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Print de depuração",
-      "body": "Segure o botão do painel para salvar um print da tela.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Selo \"Radar\"",
-      "body": "As corridas que vieram da lista de ofertas aparecem marcadas."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Tela Depuração",
-      "body": "Modo diagnóstico, \"Ocultar em prints\" e exportar banco e logs."
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Um painel por vez",
-      "body": "Abrir o painel da meta fecha o painel rápido, e o contrário também.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Painel menor no tablet",
-      "body": "Desce até 35% da tela; abaixo de 55%, uma coluna com rolagem.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "\"Ocultar em prints\" em Depuração",
-      "body": "Saiu de \"Janela sobre o Uber/99\".",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Tablet mais leve na viagem",
-      "body": "Com passageiro a bordo, lê a tela a cada 3 s; com oferta, volta ao normal.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Meta da semana concluída",
-      "body": "Com \"Acabar a meta antes\", o painel avisa quando a semana ou o mês fechou."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Diluir despesas fixas explicado",
-      "body": "A opção diz o que faz, na lista e dentro dela."
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "99 com o painel recolhido",
-      "body": "A corrida não some mais no meio da viagem e o fim é registrado.",
-      "highlight": true
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "99: recusar durante a viagem",
-      "body": "Recusar uma oferta não cancela mais a corrida em curso."
-     }
-    ]
-   },
-   "new": [
-    "O que passa da meta: Bônus, diminuir as próximas ou acabar a meta antes.",
-    "Print de depuração: Segure o botão do painel para salvar um print da tela.",
-    "Selo \"Radar\": As corridas que vieram da lista de ofertas aparecem marcadas.",
-    "Tela Depuração: Modo diagnóstico, \"Ocultar em prints\" e exportar banco e logs."
-   ],
-   "changed": [
-    "Um painel por vez: Abrir o painel da meta fecha o painel rápido, e o contrário também.",
-    "Painel menor no tablet: Desce até 35% da tela; abaixo de 55%, uma coluna com rolagem.",
-    "\"Ocultar em prints\" em Depuração: Saiu de \"Janela sobre o Uber/99\".",
-    "Tablet mais leve na viagem: Com passageiro a bordo, lê a tela a cada 3 s; com oferta, volta ao normal.",
-    "Meta da semana concluída: Com \"Acabar a meta antes\", o painel avisa quando a semana ou o mês fechou.",
-    "Diluir despesas fixas explicado: A opção diz o que faz, na lista e dentro dela."
-   ],
-   "fixed": [
-    "99 com o painel recolhido: A corrida não some mais no meio da viagem e o fim é registrado.",
-    "99: recusar durante a viagem: Recusar uma oferta não cancela mais a corrida em curso."
    ]
   }
  ]
