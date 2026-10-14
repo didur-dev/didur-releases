@@ -1,15 +1,145 @@
 {
- "version": "2.0.67",
- "build": 667,
+ "version": "2.0.68",
+ "build": 668,
  "minBuild": 0,
- "publishedAt": "2026-10-13T18:37:56-03:00",
+ "publishedAt": "2026-10-14T20:04:41-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/3em33vv011t48?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/5l92k78lgrm60?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/4enqh0njr98g8?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/1g56ivbdchg5o?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.68",
+   "build": 668,
+   "date": "14/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Encerrar corrida",
+      "body": "Na aba Corrida, com passageiro a bordo, dois toques fecham a corrida quando o app não viu o fim.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Espera na tela dividida",
+      "body": "Esperando o passageiro, a Jornada em tela dividida mostra o cronômetro da espera."
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "A mais só hoje",
+      "body": "Some um extra à meta de hoje, como +R$ 50, no painel ou na Metas; amanhã ela volta ao normal.",
+      "highlight": true
+     },
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Gasto sem jornada",
+      "body": "No Histórico › Jornadas, lance gasto de dia sem jornada, como manutenção; sai da meta e vai às Estatísticas."
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Print da oferta",
+      "body": "Na aba Corrida, o ícone de imagem abre o print da oferta ali mesmo, com zoom.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "99: Atualizar pausa com passageiro",
+      "body": "Com passageiro a bordo, em qualquer app, o Atualizar automático da lista vazia da 99 espera.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Bruto junto do número grande",
+      "body": "Nas três abas da Metas, o bruto e quanto falta entrar ficam logo abaixo do valor no bolso."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Todas as corridas na jornada",
+      "body": "A jornada lista todas as corridas vinculadas, sem o atalho para o Histórico."
+     },
+     {
+      "emoji": "📜",
+      "area": "Histórico",
+      "title": "Resumo mostra as aceitas",
+      "body": "O número grande é o ganho das aceitas; as médias seguem o filtro e ganham o R$/min."
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Uber paga em dinheiro encerra",
+      "body": "A cobrança em dinheiro fecha a corrida, e a aceita em seguida passa a ser acompanhada."
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Uber encerra sem a avaliação",
+      "body": "Avaliar rápido não deixa a corrida aberta: a busca logo depois do Encerrar a fecha."
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "99: parada não derruba a corrida",
+      "body": "A espera na parada da 99 conta como viagem, e a corrida segue acompanhada até o destino."
+     },
+     {
+      "emoji": "📜",
+      "area": "Histórico",
+      "title": "Estimado × real em toda corrida",
+      "body": "O detalhe da corrida finalizada compara o que a oferta prometeu com o que deu, mesmo sem as etapas gravadas."
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Modo de exibição do combustível",
+      "body": "Depois de pago, o painel da meta mostra só o que sobrou ou esconde o card, como escolhido em Metas.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [
+    "Encerrar corrida: Na aba Corrida, com passageiro a bordo, dois toques fecham a corrida quando o app não viu o fim.",
+    "Espera na tela dividida: Esperando o passageiro, a Jornada em tela dividida mostra o cronômetro da espera.",
+    "A mais só hoje: Some um extra à meta de hoje, como +R$ 50, no painel ou na Metas; amanhã ela volta ao normal.",
+    "Gasto sem jornada: No Histórico › Jornadas, lance gasto de dia sem jornada, como manutenção; sai da meta e vai às Estatísticas.",
+    "Print da oferta: Na aba Corrida, o ícone de imagem abre o print da oferta ali mesmo, com zoom."
+   ],
+   "changed": [
+    "99: Atualizar pausa com passageiro: Com passageiro a bordo, em qualquer app, o Atualizar automático da lista vazia da 99 espera.",
+    "Bruto junto do número grande: Nas três abas da Metas, o bruto e quanto falta entrar ficam logo abaixo do valor no bolso.",
+    "Todas as corridas na jornada: A jornada lista todas as corridas vinculadas, sem o atalho para o Histórico.",
+    "Resumo mostra as aceitas: O número grande é o ganho das aceitas; as médias seguem o filtro e ganham o R$/min."
+   ],
+   "fixed": [
+    "Uber paga em dinheiro encerra: A cobrança em dinheiro fecha a corrida, e a aceita em seguida passa a ser acompanhada.",
+    "Uber encerra sem a avaliação: Avaliar rápido não deixa a corrida aberta: a busca logo depois do Encerrar a fecha.",
+    "99: parada não derruba a corrida: A espera na parada da 99 conta como viagem, e a corrida segue acompanhada até o destino.",
+    "Estimado × real em toda corrida: O detalhe da corrida finalizada compara o que a oferta prometeu com o que deu, mesmo sem as etapas gravadas.",
+    "Modo de exibição do combustível: Depois de pago, o painel da meta mostra só o que sobrou ou esconde o card, como escolhido em Metas."
+   ]
+  },
   {
    "version": "2.0.67",
    "build": 667,
@@ -467,219 +597,6 @@
    "changed": [],
    "fixed": [
     "99 no celular: aceite ficava \"analisada\": Com o GPS da 99, a corrida aceita volta a entrar na jornada."
-   ]
-  },
-  {
-   "version": "2.0.58",
-   "build": 658,
-   "date": "08/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Ritmo na Semana e no Ciclo",
-      "body": "Tocar no \"você / precisa\" abre o Ritmo do período, com o que está puxando.",
-      "highlight": true
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "No bolso por dia",
-      "body": "Na Semana, o que ficou no bolso em cada dia, contra o plano e a média de 4 semanas."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Alertas e insights nas três abas",
-      "body": "Até 3 alertas no topo, do mais urgente ao informativo, com o botão certo.",
-      "highlight": true
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Tablet em duas colunas",
-      "body": "Relógio, meta e lançamentos à esquerda; corrida, mapa e lucro ao vivo à direita.",
-      "highlight": true,
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Ocultar valores no tablet",
-      "body": "Vale na Jornada inteira, não só na tela dividida.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Detalhe da jornada novo",
-      "body": "O líquido e de onde veio, R$/h, R$/km, mapa, corridas, lançamentos e pausas."
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Viagem particular: \"Foi trabalho?\"",
-      "body": "Vincula a viagem a uma jornada; o km e as despesas passam a contar no trabalho."
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Excluir vários de uma vez",
-      "body": "Segure um card, marque os outros e use a lixeira."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Categorias editáveis",
-      "body": "Renomear, trocar ícone, ordenar o Lançar, criar e marcar o que conta no custo do km."
-     },
-     {
-      "emoji": "💰",
-      "area": "Lançamentos",
-      "title": "\"+ Nova\" no Lançar",
-      "body": "Cria uma categoria na hora e já deixa escolhida."
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Um período só para as três abas",
-      "body": "Hoje, semana, mês ou ciclo, 60 dias ou personalizado, no chip do topo."
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Resumo e cards iguais nas três abas",
-      "body": "Tocar numa classificação, num dia ou numa categoria do resumo filtra a lista."
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Detalhe da viagem particular",
-      "body": "Custo líquido, custo por pessoa, onde foi o dinheiro e a linha do tempo."
-     },
-     {
-      "emoji": "📊",
-      "area": "Estatísticas",
-      "title": "Viagens particulares",
-      "body": "O mesmo resumo do Histórico, com \"Ver no Histórico\"."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "\"Ver as N corridas\" no tablet",
-      "body": "Abre o Histórico filtrado pela jornada.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Atalhos de categoria",
-      "body": "O Lançar rápido e o painel mostram as categorias marcadas, na ordem da lista."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Custo do km com as categorias",
-      "body": "Soma os gastos marcados \"Conta no custo do km\", além de energia e fixos."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Linha do bruto no período",
-      "body": "\"Bruto · entrou · falta entrar ≈\" no lugar do \"app pagou\"."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Cor do \"você / precisa\"",
-      "body": "Verde no ritmo, âmbar até 10% abaixo, vermelho mais longe."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Marcador de hoje na Semana e no Ciclo",
-      "body": "Mostra onde a barra deveria estar no começo do dia; folga não conta."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Composição com cores fixas",
-      "body": "Base cinza, semana azul, ciclo roxo e fixos dourado, no painel e na Metas."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "6 semanas de histórico",
-      "body": "Horas, plano e melhor janela olham 6 semanas; avisos de margem e folga recalibrados."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Fechar um alerta",
-      "body": "Deslizar fecha até o fim do período; o \"1/3\" passa ao próximo."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Alertas sem jornada aberta",
-      "body": "Os alertas e insights do dia aparecem mesmo sem jornada."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Parado e pausa saíram da Metas",
-      "body": "Ficam no painel flutuante e na Jornada; a ociosidade alta virou insight."
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Hoje sem jornada no dia",
-      "body": "Mostra as próximas horas boas, o hora a hora e os insights do mesmo dia da semana."
-     }
-    ]
-   },
-   "new": [
-    "Ritmo na Semana e no Ciclo: Tocar no \"você / precisa\" abre o Ritmo do período, com o que está puxando.",
-    "No bolso por dia: Na Semana, o que ficou no bolso em cada dia, contra o plano e a média de 4 semanas.",
-    "Alertas e insights nas três abas: Até 3 alertas no topo, do mais urgente ao informativo, com o botão certo.",
-    "Tablet em duas colunas: Relógio, meta e lançamentos à esquerda; corrida, mapa e lucro ao vivo à direita.",
-    "Ocultar valores no tablet: Vale na Jornada inteira, não só na tela dividida.",
-    "Detalhe da jornada novo: O líquido e de onde veio, R$/h, R$/km, mapa, corridas, lançamentos e pausas.",
-    "Viagem particular: \"Foi trabalho?\": Vincula a viagem a uma jornada; o km e as despesas passam a contar no trabalho.",
-    "Excluir vários de uma vez: Segure um card, marque os outros e use a lixeira.",
-    "Categorias editáveis: Renomear, trocar ícone, ordenar o Lançar, criar e marcar o que conta no custo do km.",
-    "\"+ Nova\" no Lançar: Cria uma categoria na hora e já deixa escolhida."
-   ],
-   "changed": [
-    "Um período só para as três abas: Hoje, semana, mês ou ciclo, 60 dias ou personalizado, no chip do topo.",
-    "Resumo e cards iguais nas três abas: Tocar numa classificação, num dia ou numa categoria do resumo filtra a lista.",
-    "Detalhe da viagem particular: Custo líquido, custo por pessoa, onde foi o dinheiro e a linha do tempo.",
-    "Viagens particulares: O mesmo resumo do Histórico, com \"Ver no Histórico\".",
-    "\"Ver as N corridas\" no tablet: Abre o Histórico filtrado pela jornada.",
-    "Atalhos de categoria: O Lançar rápido e o painel mostram as categorias marcadas, na ordem da lista.",
-    "Custo do km com as categorias: Soma os gastos marcados \"Conta no custo do km\", além de energia e fixos.",
-    "Linha do bruto no período: \"Bruto · entrou · falta entrar ≈\" no lugar do \"app pagou\".",
-    "Cor do \"você / precisa\": Verde no ritmo, âmbar até 10% abaixo, vermelho mais longe.",
-    "Marcador de hoje na Semana e no Ciclo: Mostra onde a barra deveria estar no começo do dia; folga não conta.",
-    "Composição com cores fixas: Base cinza, semana azul, ciclo roxo e fixos dourado, no painel e na Metas.",
-    "6 semanas de histórico: Horas, plano e melhor janela olham 6 semanas; avisos de margem e folga recalibrados.",
-    "Fechar um alerta: Deslizar fecha até o fim do período; o \"1/3\" passa ao próximo.",
-    "Alertas sem jornada aberta: Os alertas e insights do dia aparecem mesmo sem jornada.",
-    "Parado e pausa saíram da Metas: Ficam no painel flutuante e na Jornada; a ociosidade alta virou insight."
-   ],
-   "fixed": [
-    "Hoje sem jornada no dia: Mostra as próximas horas boas, o hora a hora e os insights do mesmo dia da semana."
    ]
   }
  ]
