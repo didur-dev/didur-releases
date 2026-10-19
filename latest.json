@@ -1,15 +1,144 @@
 {
- "version": "2.0.69",
- "build": 669,
+ "version": "2.0.70",
+ "build": 670,
  "minBuild": 0,
- "publishedAt": "2026-10-18T13:51:24-03:00",
+ "publishedAt": "2026-10-19T20:22:01-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/2p0r0gbu4blp8?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/29f583kl0ldso?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/457675k6ok7kg?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/3rmk1qln13qcg?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.70",
+   "build": 670,
+   "date": "19/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Recarga em casa com kWh",
+      "body": "Na recarga, diga se foi em casa ou na rua e meça por kWh, % da bateria ou leitura do medidor.",
+      "highlight": true
+     },
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Conta de luz",
+      "body": "Com o dia da leitura em Veículo e custos, as recargas se somam no ciclo da conta, casa e rua separadas."
+     },
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Fatura de luz acerta as recargas",
+      "body": "Lance o valor e os kWh da conta: o app tira a tarifa real e refaz as recargas em casa do ciclo."
+     },
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Lembrete da conta de luz",
+      "body": "Com o vencimento em Veículo e custos, a conta ganha o nome do mês e o app avisa para lançar a fatura."
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Caixa da energia",
+      "body": "No lugar do Tanque/recarga: o saldo em kWh ou litros, os km que ainda dá e as últimas recargas.",
+      "highlight": true
+     },
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Tela Recargas",
+      "body": "As recargas do ciclo com casa × rua, o que cada uma deixou no caixa, editar e excluir; e a conta de luz."
+     },
+     {
+      "emoji": "📜",
+      "area": "Histórico",
+      "title": "Aba Recargas",
+      "body": "As últimas contas de luz com as recargas de cada uma e a conta que venceu sem fatura."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Conferir bateria",
+      "body": "A cada 80 km o painel pede o % da bateria; o consumo da jornada passa a ser o medido."
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Consumo medido",
+      "body": "Em Veículo e custos, a média das últimas jornadas conferidas, com «Usar como padrão»."
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Gasto sem jornada com quantidade",
+      "body": "Abastecimento e recarga fora da jornada guardam litros, m³ ou kWh, e o caixa da energia usa."
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Energia no Entrou e saiu",
+      "body": "A energia sai dos gastos e ganha bloco próprio: o que entrou no caixa e o que saiu pelos km."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Preço da energia pelo caixa",
+      "body": "A folha Energia mostra o preço do caixa; mexer nele fixa só esta jornada, e dá para voltar ao caixa."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Encerrar com a bateria",
+      "body": "No elétrico, encerrar pede a bateria de agora e mostra as recargas do turno; dá para pular."
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto no visual novo",
+      "body": "Início com a oferta e o ganho em destaque, abas Corridas e Jornada e o Ouvir fixo na barra.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Recarga em kWh nos lançamentos",
+      "body": "A recarga do elétrico aparecia como «Abastecimento · 0,0 L»; agora mostra «Recarga» e os kWh."
+     }
+    ]
+   },
+   "new": [
+    "Recarga em casa com kWh: Na recarga, diga se foi em casa ou na rua e meça por kWh, % da bateria ou leitura do medidor.",
+    "Conta de luz: Com o dia da leitura em Veículo e custos, as recargas se somam no ciclo da conta, casa e rua separadas.",
+    "Fatura de luz acerta as recargas: Lance o valor e os kWh da conta: o app tira a tarifa real e refaz as recargas em casa do ciclo.",
+    "Lembrete da conta de luz: Com o vencimento em Veículo e custos, a conta ganha o nome do mês e o app avisa para lançar a fatura.",
+    "Caixa da energia: No lugar do Tanque/recarga: o saldo em kWh ou litros, os km que ainda dá e as últimas recargas.",
+    "Tela Recargas: As recargas do ciclo com casa × rua, o que cada uma deixou no caixa, editar e excluir; e a conta de luz.",
+    "Aba Recargas: As últimas contas de luz com as recargas de cada uma e a conta que venceu sem fatura.",
+    "Conferir bateria: A cada 80 km o painel pede o % da bateria; o consumo da jornada passa a ser o medido.",
+    "Consumo medido: Em Veículo e custos, a média das últimas jornadas conferidas, com «Usar como padrão»."
+   ],
+   "changed": [
+    "Gasto sem jornada com quantidade: Abastecimento e recarga fora da jornada guardam litros, m³ ou kWh, e o caixa da energia usa.",
+    "Energia no Entrou e saiu: A energia sai dos gastos e ganha bloco próprio: o que entrou no caixa e o que saiu pelos km.",
+    "Preço da energia pelo caixa: A folha Energia mostra o preço do caixa; mexer nele fixa só esta jornada, e dá para voltar ao caixa.",
+    "Encerrar com a bateria: No elétrico, encerrar pede a bateria de agora e mostra as recargas do turno; dá para pular.",
+    "Android Auto no visual novo: Início com a oferta e o ganho em destaque, abas Corridas e Jornada e o Ouvir fixo na barra."
+   ],
+   "fixed": [
+    "Recarga em kWh nos lançamentos: A recarga do elétrico aparecia como «Abastecimento · 0,0 L»; agora mostra «Recarga» e os kWh."
+   ]
+  },
   {
    "version": "2.0.69",
    "build": 669,
@@ -998,87 +1127,6 @@
    "changed": [],
    "fixed": [
     "Tablet: oferta da Uber atrás de outro app: A janela flutuante e o card largo da oferta agora são lidos, só a janela da oferta."
-   ]
-  },
-  {
-   "version": "2.0.60",
-   "build": 660,
-   "date": "09/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Aviso de versão nova",
-      "body": "Uma folha ao abrir com tudo o que mudou desde a sua versão, \"Atualizar\" e \"Agora não\".",
-      "highlight": true
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "O que há de novo",
-      "body": "Na primeira abertura depois de atualizar, o que mudou na versão instalada.",
-      "highlight": true
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Novidades em Versão do app",
-      "body": "A sua versão, \"Procurar atualização\" e as últimas versões, sem internet.",
-      "highlight": true
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Painel da meta: entrou × falta entrar",
-      "body": "Logo abaixo do \"Falta\": o bruto para conferir com a Uber/99 e quanto ainda precisa entrar."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Seu dia, hora a hora, com todas as jornadas",
-      "body": "Cada jornada com início e fim; o intervalo entre elas fica à mostra."
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Tela dividida Uber + 99: aceite perdido",
-      "body": "A oferta de cada app fica guardada e a corrida certa é aceita e entra na jornada.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Categoria com letra trocada",
-      "body": "\"Comnfort\" volta a ser \"Comfort\" no histórico e nos filtros."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Selo \"Meta batida\" sem horário de parar",
-      "body": "Agora abre a folha do ritmo, com a escolha do horário de parar."
-     }
-    ]
-   },
-   "new": [
-    "Aviso de versão nova: Uma folha ao abrir com tudo o que mudou desde a sua versão, \"Atualizar\" e \"Agora não\".",
-    "O que há de novo: Na primeira abertura depois de atualizar, o que mudou na versão instalada.",
-    "Novidades em Versão do app: A sua versão, \"Procurar atualização\" e as últimas versões, sem internet."
-   ],
-   "changed": [
-    "Painel da meta: entrou × falta entrar: Logo abaixo do \"Falta\": o bruto para conferir com a Uber/99 e quanto ainda precisa entrar.",
-    "Seu dia, hora a hora, com todas as jornadas: Cada jornada com início e fim; o intervalo entre elas fica à mostra."
-   ],
-   "fixed": [
-    "Tela dividida Uber + 99: aceite perdido: A oferta de cada app fica guardada e a corrida certa é aceita e entra na jornada.",
-    "Categoria com letra trocada: \"Comnfort\" volta a ser \"Comfort\" no histórico e nos filtros.",
-    "Selo \"Meta batida\" sem horário de parar: Agora abre a folha do ritmo, com a escolha do horário de parar."
    ]
   }
  ]
