@@ -1,15 +1,130 @@
 {
- "version": "2.0.72",
- "build": 672,
+ "version": "2.0.73",
+ "build": 673,
  "minBuild": 0,
- "publishedAt": "2026-10-20T12:31:30-03:00",
+ "publishedAt": "2026-10-20T17:19:27-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/2e4btl9u1ciug?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/0uclnmuhb9l60?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/651ousn3pl458?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/4jhjebit6pcto?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.73",
+   "build": 673,
+   "date": "20/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Mapa da jornada de outro aparelho",
+      "body": "Sem o trajeto do GPS, o mapa marca onde chegou cada oferta, na ordem, ligadas por um tracejado."
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Iniciar em dia de folga tira a folga",
+      "body": "Iniciar a jornada num dia marcado como folga, pelo botão ou sozinha, o torna dia de trabalho."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Cabeçalho do detalhe mais legível",
+      "body": "O título mostra só a data, e o horário e a duração ficam em letra maior."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Nome da corrida na linha do tempo",
+      "body": "As corridas aparecem como \"Corrida ótima\" e \"Corrida aceitável\", sem o nome em maiúsculas."
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: aviso da oferta sem botões",
+      "body": "O alerta da oferta no carro fica só com o texto, e tocar nele abre o Didur.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto colorido",
+      "body": "Ícones na cor de cada assunto, disco do score na oferta, anel da meta e bateria enchendo.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: aviso da oferta com as cores",
+      "body": "Uma bolinha na cor de cada métrica (🟢🔵🟡🔴), o R$/h e o disco do score, como no app antigo.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Início no topo da linha do tempo",
+      "body": "Com o início automático, a primeira corrida não aparece mais antes do Início da jornada."
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Widgets com a folga marcada no calendário",
+      "body": "Os widgets seguem a folga ou o trabalho marcados na data, e o dia de folga em que rodou mostra o ganho."
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Ciclo e semana sem texto cortado no celular",
+      "body": "O calendário do ciclo deixa a coluna Semana para o tablet, e o No bolso por dia mostra tudo inteiro."
+     },
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Como medir a recarga inteiro",
+      "body": "Os três jeitos de medir a recarga mostram o nome todo, em duas linhas quando precisa."
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: Consumo não fecha o app",
+      "body": "Abrir o Consumo da jornada no carro fechava o Didur; o botão da bateria virou só ícone.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [
+    "Mapa da jornada de outro aparelho: Sem o trajeto do GPS, o mapa marca onde chegou cada oferta, na ordem, ligadas por um tracejado."
+   ],
+   "changed": [
+    "Iniciar em dia de folga tira a folga: Iniciar a jornada num dia marcado como folga, pelo botão ou sozinha, o torna dia de trabalho.",
+    "Cabeçalho do detalhe mais legível: O título mostra só a data, e o horário e a duração ficam em letra maior.",
+    "Nome da corrida na linha do tempo: As corridas aparecem como \"Corrida ótima\" e \"Corrida aceitável\", sem o nome em maiúsculas.",
+    "Android Auto: aviso da oferta sem botões: O alerta da oferta no carro fica só com o texto, e tocar nele abre o Didur.",
+    "Android Auto colorido: Ícones na cor de cada assunto, disco do score na oferta, anel da meta e bateria enchendo.",
+    "Android Auto: aviso da oferta com as cores: Uma bolinha na cor de cada métrica (🟢🔵🟡🔴), o R$/h e o disco do score, como no app antigo."
+   ],
+   "fixed": [
+    "Início no topo da linha do tempo: Com o início automático, a primeira corrida não aparece mais antes do Início da jornada.",
+    "Widgets com a folga marcada no calendário: Os widgets seguem a folga ou o trabalho marcados na data, e o dia de folga em que rodou mostra o ganho.",
+    "Ciclo e semana sem texto cortado no celular: O calendário do ciclo deixa a coluna Semana para o tablet, e o No bolso por dia mostra tudo inteiro.",
+    "Como medir a recarga inteiro: Os três jeitos de medir a recarga mostram o nome todo, em duas linhas quando precisa.",
+    "Android Auto: Consumo não fecha o app: Abrir o Consumo da jornada no carro fechava o Didur; o botão da bateria virou só ícone."
+   ]
+  },
   {
    "version": "2.0.72",
    "build": 672,
@@ -1114,77 +1229,6 @@
    "fixed": [
     "99: ganho confirmado no fim da corrida: Com \"confirmar ganho\" ligado, a corrida da 99 que termina não fica mais pendente.",
     "99: fecha sem a tela de avaliação: Avaliou rápido e a 99 voltou a \"Buscando\"? Em 20 s a corrida fecha; o ganho fica para confirmar."
-   ]
-  },
-  {
-   "version": "2.0.63",
-   "build": 663,
-   "date": "09/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Sino do Início abre as Novidades",
-      "body": "A bolinha só acende quando há versão nova para instalar."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Novidades no menu lateral do tablet",
-      "body": "Acima de Ajustes, com uma bolinha verde quando há versão nova.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Cards inteiros no celular deitado",
-      "body": "A grade usa quantas colunas couberem: 2 no tablet, 1 no celular deitado."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "O que há de novo com as versões puladas",
-      "body": "Pulou versões? Mostra tudo desde a sua anterior: 3 destaques e a lista por versão."
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "O que há de novo só some no \"Entendi\"",
-      "body": "Fechar tocando fora esconde agora, e a folha volta na próxima abertura."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Aviso de Novidades no lugar certo",
-      "body": "\"Você está na versão mais nova\" aparece embaixo, não sobre a barra do sistema."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "O que há de novo vindo de versão antiga",
-      "body": "Quem atualiza de antes da 2.0.60 também vê o que mudou na primeira abertura."
-     }
-    ]
-   },
-   "new": [
-    "Sino do Início abre as Novidades: A bolinha só acende quando há versão nova para instalar.",
-    "Novidades no menu lateral do tablet: Acima de Ajustes, com uma bolinha verde quando há versão nova."
-   ],
-   "changed": [
-    "Cards inteiros no celular deitado: A grade usa quantas colunas couberem: 2 no tablet, 1 no celular deitado.",
-    "O que há de novo com as versões puladas: Pulou versões? Mostra tudo desde a sua anterior: 3 destaques e a lista por versão."
-   ],
-   "fixed": [
-    "O que há de novo só some no \"Entendi\": Fechar tocando fora esconde agora, e a folha volta na próxima abertura.",
-    "Aviso de Novidades no lugar certo: \"Você está na versão mais nova\" aparece embaixo, não sobre a barra do sistema.",
-    "O que há de novo vindo de versão antiga: Quem atualiza de antes da 2.0.60 também vê o que mudou na primeira abertura."
    ]
   }
  ]
