@@ -1,15 +1,52 @@
 {
- "version": "2.0.75",
- "build": 675,
+ "version": "2.0.76",
+ "build": 676,
  "minBuild": 0,
- "publishedAt": "2026-10-20T18:58:45-03:00",
+ "publishedAt": "2026-10-20T19:30:28-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/4995ac1bl9j2o?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/271qucvpces9o?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/4jhjebit6pcto?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.76",
+   "build": 676,
+   "date": "20/10",
+   "items": {
+    "new": [],
+    "changed": [
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: avisos sem som",
+      "body": "As notificações do Didur no carro aparecem em silêncio, como no app antigo.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: meta com o que já entrou",
+      "body": "Sem jornada aberta, o anel da meta mostra o que você já fez no dia.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [],
+   "changed": [
+    "Android Auto: avisos sem som: As notificações do Didur no carro aparecem em silêncio, como no app antigo."
+   ],
+   "fixed": [
+    "Android Auto: meta com o que já entrou: Sem jornada aberta, o anel da meta mostra o que você já fez no dia."
+   ]
+  },
   {
    "version": "2.0.75",
    "build": 675,
@@ -1113,40 +1150,6 @@
    "changed": [],
    "fixed": [
     "Status de corrida que já terminou: Corrida com fim há mais de 30 min não volta para Em viagem, e o fim pela oferta não vai horas à frente."
-   ]
-  },
-  {
-   "version": "2.0.66",
-   "build": 666,
-   "date": "13/10",
-   "items": {
-    "new": [],
-    "changed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "99 confirma o ganho no aceite",
-      "body": "Com a confirmação automática ligada, a corrida da 99 entra na jornada sem o botão de confirmar."
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Aviso de versão nova abre as Novidades",
-      "body": "Tocar na notificação ou no balão leva às Novidades, com o botão de atualizar.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [],
-   "changed": [
-    "99 confirma o ganho no aceite: Com a confirmação automática ligada, a corrida da 99 entra na jornada sem o botão de confirmar."
-   ],
-   "fixed": [
-    "Aviso de versão nova abre as Novidades: Tocar na notificação ou no balão leva às Novidades, com o botão de atualizar."
    ]
   }
  ]
