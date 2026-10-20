@@ -1,15 +1,60 @@
 {
- "version": "2.0.73",
- "build": 673,
+ "version": "2.0.74",
+ "build": 674,
  "minBuild": 0,
- "publishedAt": "2026-10-20T17:19:27-03:00",
+ "publishedAt": "2026-10-20T18:33:16-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/0uclnmuhb9l60?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/420bpl7ej6fpo?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/4jhjebit6pcto?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.74",
+   "build": 674,
+   "date": "20/10",
+   "items": {
+    "new": [],
+    "changed": [],
+    "fixed": [
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: detalhe e bateria sem fechar",
+      "body": "Abrir o detalhe de uma corrida e mudar o % da bateria no carro fechavam o Didur.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: aba Jornada da jornada",
+      "body": "Ganho, R$/h e corridas são os da jornada; o Início segue mostrando o dia.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: tela parada",
+      "body": "A tela do carro não desliza mais de lado a cada 2 segundos; só se mexe quando algo muda.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [],
+   "changed": [],
+   "fixed": [
+    "Android Auto: detalhe e bateria sem fechar: Abrir o detalhe de uma corrida e mudar o % da bateria no carro fechavam o Didur.",
+    "Android Auto: aba Jornada da jornada: Ganho, R$/h e corridas são os da jornada; o Início segue mostrando o dia.",
+    "Android Auto: tela parada: A tela do carro não desliza mais de lado a cada 2 segundos; só se mexe quando algo muda."
+   ]
+  },
   {
    "version": "2.0.73",
    "build": 673,
@@ -1110,125 +1155,6 @@
    ],
    "fixed": [
     "Viagem de hora cheia na Uber: Oferta com \"1h\" sem minutos no trajeto deixava de ser lida e não aparecia o card."
-   ]
-  },
-  {
-   "version": "2.0.64",
-   "build": 664,
-   "date": "09/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Widgets da meta na tela inicial",
-      "body": "Meta de hoje, da semana e do ciclo e o Painel do dia, com o ritmo, sem abrir o app.",
-      "highlight": true,
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Controle da jornada no widget",
-      "body": "O tempo ativo contando e Pausar, Retomar e Iniciar direto da tela inicial.",
-      "highlight": true,
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Widget Melhor horário",
-      "body": "As faixas que mais rendem no mesmo dia da semana, com a hora boa que vem a seguir.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Widgets da meta no iPhone",
-      "body": "Hoje, semana, ciclo, Melhor horário e Painel do dia na tela inicial e no bloqueio.",
-      "highlight": true,
-      "platforms": [
-       "ios"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Controle da jornada no iPhone",
-      "body": "Tempo contando, Pausar e Retomar no widget; Iniciar abre o app.",
-      "platforms": [
-       "ios"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Lembretes de meta com o app fechado",
-      "body": "Ritmo abaixo, melhor janela, meta batida e semana abaixo; até 3 por dia.",
-      "highlight": true
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Widgets na tela inicial",
-      "body": "Os 6 widgets e como pôr na tela; no Android, o botão Adicionar faz por você."
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Lembretes no lugar do horário fixo",
-      "body": "Em Notificações, liga cada lembrete e o limite por dia; o sino da Metas leva lá."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Exportar logs leva os prints do painel",
-      "body": "Os prints tirados pelo botão do painel no dia vão no zip; somem após 7 dias.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "99: ganho confirmado no fim da corrida",
-      "body": "Com \"confirmar ganho\" ligado, a corrida da 99 que termina não fica mais pendente.",
-      "highlight": true
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "99: fecha sem a tela de avaliação",
-      "body": "Avaliou rápido e a 99 voltou a \"Buscando\"? Em 20 s a corrida fecha; o ganho fica para confirmar."
-     }
-    ]
-   },
-   "new": [
-    "Widgets da meta na tela inicial: Meta de hoje, da semana e do ciclo e o Painel do dia, com o ritmo, sem abrir o app.",
-    "Controle da jornada no widget: O tempo ativo contando e Pausar, Retomar e Iniciar direto da tela inicial.",
-    "Widget Melhor horário: As faixas que mais rendem no mesmo dia da semana, com a hora boa que vem a seguir.",
-    "Widgets da meta no iPhone: Hoje, semana, ciclo, Melhor horário e Painel do dia na tela inicial e no bloqueio.",
-    "Controle da jornada no iPhone: Tempo contando, Pausar e Retomar no widget; Iniciar abre o app.",
-    "Lembretes de meta com o app fechado: Ritmo abaixo, melhor janela, meta batida e semana abaixo; até 3 por dia.",
-    "Widgets na tela inicial: Os 6 widgets e como pôr na tela; no Android, o botão Adicionar faz por você."
-   ],
-   "changed": [
-    "Lembretes no lugar do horário fixo: Em Notificações, liga cada lembrete e o limite por dia; o sino da Metas leva lá.",
-    "Exportar logs leva os prints do painel: Os prints tirados pelo botão do painel no dia vão no zip; somem após 7 dias."
-   ],
-   "fixed": [
-    "99: ganho confirmado no fim da corrida: Com \"confirmar ganho\" ligado, a corrida da 99 que termina não fica mais pendente.",
-    "99: fecha sem a tela de avaliação: Avaliou rápido e a 99 voltou a \"Buscando\"? Em 20 s a corrida fecha; o ganho fica para confirmar."
    ]
   }
  ]
