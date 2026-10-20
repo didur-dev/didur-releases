@@ -1,15 +1,94 @@
 {
- "version": "2.0.70",
- "build": 670,
+ "version": "2.0.71",
+ "build": 671,
  "minBuild": 0,
- "publishedAt": "2026-10-19T20:22:01-03:00",
+ "publishedAt": "2026-10-20T11:10:43-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/29f583kl0ldso?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/7ofi4jmt8icao?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/3rmk1qln13qcg?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/1pjnjo81eqg38?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.71",
+   "build": 671,
+   "date": "20/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: consumo e bateria pelo carro",
+      "body": "Na aba Jornada, toque em Consumo e escolha o valor do painel; no elétrico, confira a bateria.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: avisos na central do carro",
+      "body": "Jornada iniciada, pausada e encerrada, etapas da corrida e meta; meta batida e pausa automática saltam.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Tablet: lucro sem duplicidade",
+      "body": "A etiqueta ao lado de «Lucro real» diz «+R$ 4,70 vs previsto», e não parece um segundo lucro.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto no jeito do app antigo",
+      "body": "Veredito grande em cada corrida, emojis de leitura rápida, meta em blocos e o detalhe por assunto.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: aviso da oferta no carro",
+      "body": "A oferta aparece sobre o mapa com valor, veredito e métricas, mesmo com a notificação do celular desligada.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: lista com ícones",
+      "body": "No Android Auto atual, as telas voltam a ser listas com ícone em cada linha, como antes.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [
+    "Android Auto: consumo e bateria pelo carro: Na aba Jornada, toque em Consumo e escolha o valor do painel; no elétrico, confira a bateria.",
+    "Android Auto: avisos na central do carro: Jornada iniciada, pausada e encerrada, etapas da corrida e meta; meta batida e pausa automática saltam."
+   ],
+   "changed": [
+    "Tablet: lucro sem duplicidade: A etiqueta ao lado de «Lucro real» diz «+R$ 4,70 vs previsto», e não parece um segundo lucro.",
+    "Android Auto no jeito do app antigo: Veredito grande em cada corrida, emojis de leitura rápida, meta em blocos e o detalhe por assunto."
+   ],
+   "fixed": [
+    "Android Auto: aviso da oferta no carro: A oferta aparece sobre o mapa com valor, veredito e métricas, mesmo com a notificação do celular desligada.",
+    "Android Auto: lista com ícones: No Android Auto atual, as telas voltam a ser listas com ícone em cada linha, como antes."
+   ]
+  },
   {
    "version": "2.0.70",
    "build": 670,
@@ -1102,32 +1181,6 @@
     "Aviso de versão com ícone: Verde na opcional e vermelho na obrigatória; notificação no canal \"Atualizações\"."
    ],
    "fixed": []
-  },
-  {
-   "version": "2.0.61",
-   "build": 661,
-   "date": "09/10",
-   "items": {
-    "new": [],
-    "changed": [],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Tablet: oferta da Uber atrás de outro app",
-      "body": "A janela flutuante e o card largo da oferta agora são lidos, só a janela da oferta.",
-      "highlight": true,
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [],
-   "changed": [],
-   "fixed": [
-    "Tablet: oferta da Uber atrás de outro app: A janela flutuante e o card largo da oferta agora são lidos, só a janela da oferta."
-   ]
   }
  ]
 }
