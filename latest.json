@@ -1,15 +1,41 @@
 {
- "version": "2.0.74",
- "build": 674,
+ "version": "2.0.75",
+ "build": 675,
  "minBuild": 0,
- "publishedAt": "2026-10-20T18:33:16-03:00",
+ "publishedAt": "2026-10-20T18:58:45-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/420bpl7ej6fpo?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/4995ac1bl9j2o?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/4jhjebit6pcto?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.75",
+   "build": 675,
+   "date": "20/10",
+   "items": {
+    "new": [],
+    "changed": [],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Valor sem vírgula na Uber",
+      "body": "Quando o card traz o R$/km aprox., o app confere o valor lido: R$ 1764 volta a ser R$ 17,64.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     }
+    ]
+   },
+   "new": [],
+   "changed": [],
+   "fixed": [
+    "Valor sem vírgula na Uber: Quando o card traz o R$/km aprox., o app confere o valor lido: R$ 1764 volta a ser R$ 17,64."
+   ]
+  },
   {
    "version": "2.0.74",
    "build": 674,
@@ -1121,40 +1147,6 @@
    ],
    "fixed": [
     "Aviso de versão nova abre as Novidades: Tocar na notificação ou no balão leva às Novidades, com o botão de atualizar."
-   ]
-  },
-  {
-   "version": "2.0.65",
-   "build": 665,
-   "date": "10/10",
-   "items": {
-    "new": [],
-    "changed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Print com retorno na hora",
-      "body": "Segurar o botão vibra e avisa \"Print tirado\" na hora; o \"Print salvo\" vem depois.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Viagem de hora cheia na Uber",
-      "body": "Oferta com \"1h\" sem minutos no trajeto deixava de ser lida e não aparecia o card."
-     }
-    ]
-   },
-   "new": [],
-   "changed": [
-    "Print com retorno na hora: Segurar o botão vibra e avisa \"Print tirado\" na hora; o \"Print salvo\" vem depois."
-   ],
-   "fixed": [
-    "Viagem de hora cheia na Uber: Oferta com \"1h\" sem minutos no trajeto deixava de ser lida e não aparecia o card."
    ]
   }
  ]
