@@ -1,15 +1,164 @@
 {
- "version": "2.0.77",
- "build": 677,
+ "version": "2.0.78",
+ "build": 678,
  "minBuild": 0,
- "publishedAt": "2026-10-21T11:51:41-03:00",
+ "publishedAt": "2026-10-22T07:46:42-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/3iup0kusv4n2o?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/1k3u1kclb3de8?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/4jhjebit6pcto?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/7fahvfatv0a60?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.78",
+   "build": 678,
+   "date": "22/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Sugestão de encerrar",
+      "body": "No Total da plataforma, sem sinal da Uber e da 99 pelo tempo do encerramento, o Didur pergunta se encerra.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta lateral",
+      "body": "Uma aba na borda junta a meta, as ofertas, o lançar e o painel rápido; a borda da aba é a meta do dia.",
+      "highlight": true,
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "CarPlay e relógio: Live Activity inteira",
+      "body": "Com iOS 18, a corrida e a meta aparecem completas no CarPlay e no Apple Watch, com relógio e atraso.",
+      "platforms": [
+       "ios"
+      ]
+     }
+    ],
+    "changed": [],
+    "fixed": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "99 no celular: Painel lido",
+      "body": "Em tela estreita o card da semana quebra em duas linhas; o Didur agora reconhece o Painel e lê o total.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Total do dia na jornada nova",
+      "body": "Cancelar a jornada e abrir outra leva junto o total da Uber e da 99 já salvo no dia; a meta volta a contar.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Celular: Dias de trabalho legíveis",
+      "body": "Em tela estreita os dias da semana descem para baixo do texto, que volta a ser lido inteiro."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Pausa automática no detalhe",
+      "body": "A pausa que a jornada fez sozinha aparece como automática, não mais como manual."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Encerrar na hora da pausa",
+      "body": "Encerrar pela sugestão da pausa longa não deixa mais uma pausa de 0 min no detalhe."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Tablet: sugestão da pausa longa uma vez",
+      "body": "O \"Encerrar às\" da pausa longa aparece só no cartão do cronômetro, não mais repetido no aviso ao lado.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Voltar fecha a folha",
+      "body": "Com uma folha aberta, o voltar do Android fecha a folha antes de sair da tela.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Tablet em pé: cartões legíveis",
+      "body": "Os cartões em par empilham quando a coluna não comporta os dois; o texto não quebra mais letra por letra.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Widget Painel do dia: vão no botão",
+      "body": "Sem jornada, o texto não encosta mais no Iniciar jornada.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Celular: valor da oferta inteiro",
+      "body": "Na aba Corrida o valor encolhe para caber em vez de sair cortado.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "99: Buscando fora do destino",
+      "body": "O botão de status do rodapé da 99 não entra mais no fim do endereço de destino.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [
+    "Sugestão de encerrar: No Total da plataforma, sem sinal da Uber e da 99 pelo tempo do encerramento, o Didur pergunta se encerra.",
+    "Gaveta lateral: Uma aba na borda junta a meta, as ofertas, o lançar e o painel rápido; a borda da aba é a meta do dia.",
+    "CarPlay e relógio: Live Activity inteira: Com iOS 18, a corrida e a meta aparecem completas no CarPlay e no Apple Watch, com relógio e atraso."
+   ],
+   "changed": [],
+   "fixed": [
+    "99 no celular: Painel lido: Em tela estreita o card da semana quebra em duas linhas; o Didur agora reconhece o Painel e lê o total.",
+    "Total do dia na jornada nova: Cancelar a jornada e abrir outra leva junto o total da Uber e da 99 já salvo no dia; a meta volta a contar.",
+    "Celular: Dias de trabalho legíveis: Em tela estreita os dias da semana descem para baixo do texto, que volta a ser lido inteiro.",
+    "Pausa automática no detalhe: A pausa que a jornada fez sozinha aparece como automática, não mais como manual.",
+    "Encerrar na hora da pausa: Encerrar pela sugestão da pausa longa não deixa mais uma pausa de 0 min no detalhe.",
+    "Tablet: sugestão da pausa longa uma vez: O \"Encerrar às\" da pausa longa aparece só no cartão do cronômetro, não mais repetido no aviso ao lado.",
+    "Voltar fecha a folha: Com uma folha aberta, o voltar do Android fecha a folha antes de sair da tela.",
+    "Tablet em pé: cartões legíveis: Os cartões em par empilham quando a coluna não comporta os dois; o texto não quebra mais letra por letra.",
+    "Widget Painel do dia: vão no botão: Sem jornada, o texto não encosta mais no Iniciar jornada.",
+    "Celular: valor da oferta inteiro: Na aba Corrida o valor encolhe para caber em vez de sair cortado.",
+    "99: Buscando fora do destino: O botão de status do rodapé da 99 não entra mais no fim do endereço de destino."
+   ]
+  },
   {
    "version": "2.0.77",
    "build": 677,
@@ -1117,136 +1266,6 @@
     "Onboarding no Samsung: No Samsung, os ajustes vêm na ordem que funciona, o título diz «Samsung» e o tablet não estica mais a tela.",
     "Voltar fecha o painel: O voltar do Android fecha Ritmo, Ajustar meta, Nova conta e Dias que faltam, em vez de sair da Metas.",
     "iPhone: oferta lida duas vezes: No iPhone, um quadro com tempo ou km mal lido também não cria outra corrida."
-   ]
-  },
-  {
-   "version": "2.0.68",
-   "build": 668,
-   "date": "14/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Encerrar corrida",
-      "body": "Na aba Corrida, com passageiro a bordo, dois toques fecham a corrida quando o app não viu o fim.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Espera na tela dividida",
-      "body": "Esperando o passageiro, a Jornada em tela dividida mostra o cronômetro da espera."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "A mais só hoje",
-      "body": "Some um extra à meta de hoje, como +R$ 50, no painel ou na Metas; amanhã ela volta ao normal.",
-      "highlight": true
-     },
-     {
-      "emoji": "💰",
-      "area": "Lançamentos",
-      "title": "Gasto sem jornada",
-      "body": "No Histórico › Jornadas, lance gasto de dia sem jornada, como manutenção; sai da meta e vai às Estatísticas."
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Print da oferta",
-      "body": "Na aba Corrida, o ícone de imagem abre o print da oferta ali mesmo, com zoom.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "99: Atualizar pausa com passageiro",
-      "body": "Com passageiro a bordo, em qualquer app, o Atualizar automático da lista vazia da 99 espera.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Bruto junto do número grande",
-      "body": "Nas três abas da Metas, o bruto e quanto falta entrar ficam logo abaixo do valor no bolso."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Todas as corridas na jornada",
-      "body": "A jornada lista todas as corridas vinculadas, sem o atalho para o Histórico."
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Resumo mostra as aceitas",
-      "body": "O número grande é o ganho das aceitas; as médias seguem o filtro e ganham o R$/min."
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Uber paga em dinheiro encerra",
-      "body": "A cobrança em dinheiro fecha a corrida, e a aceita em seguida passa a ser acompanhada."
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Uber encerra sem a avaliação",
-      "body": "Avaliar rápido não deixa a corrida aberta: a busca logo depois do Encerrar a fecha."
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "99: parada não derruba a corrida",
-      "body": "A espera na parada da 99 conta como viagem, e a corrida segue acompanhada até o destino."
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Estimado × real em toda corrida",
-      "body": "O detalhe da corrida finalizada compara o que a oferta prometeu com o que deu, mesmo sem as etapas gravadas."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Modo de exibição do combustível",
-      "body": "Depois de pago, o painel da meta mostra só o que sobrou ou esconde o card, como escolhido em Metas.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Encerrar corrida: Na aba Corrida, com passageiro a bordo, dois toques fecham a corrida quando o app não viu o fim.",
-    "Espera na tela dividida: Esperando o passageiro, a Jornada em tela dividida mostra o cronômetro da espera.",
-    "A mais só hoje: Some um extra à meta de hoje, como +R$ 50, no painel ou na Metas; amanhã ela volta ao normal.",
-    "Gasto sem jornada: No Histórico › Jornadas, lance gasto de dia sem jornada, como manutenção; sai da meta e vai às Estatísticas.",
-    "Print da oferta: Na aba Corrida, o ícone de imagem abre o print da oferta ali mesmo, com zoom."
-   ],
-   "changed": [
-    "99: Atualizar pausa com passageiro: Com passageiro a bordo, em qualquer app, o Atualizar automático da lista vazia da 99 espera.",
-    "Bruto junto do número grande: Nas três abas da Metas, o bruto e quanto falta entrar ficam logo abaixo do valor no bolso.",
-    "Todas as corridas na jornada: A jornada lista todas as corridas vinculadas, sem o atalho para o Histórico.",
-    "Resumo mostra as aceitas: O número grande é o ganho das aceitas; as médias seguem o filtro e ganham o R$/min."
-   ],
-   "fixed": [
-    "Uber paga em dinheiro encerra: A cobrança em dinheiro fecha a corrida, e a aceita em seguida passa a ser acompanhada.",
-    "Uber encerra sem a avaliação: Avaliar rápido não deixa a corrida aberta: a busca logo depois do Encerrar a fecha.",
-    "99: parada não derruba a corrida: A espera na parada da 99 conta como viagem, e a corrida segue acompanhada até o destino.",
-    "Estimado × real em toda corrida: O detalhe da corrida finalizada compara o que a oferta prometeu com o que deu, mesmo sem as etapas gravadas.",
-    "Modo de exibição do combustível: Depois de pago, o painel da meta mostra só o que sobrou ou esconde o card, como escolhido em Metas."
    ]
   }
  ]
