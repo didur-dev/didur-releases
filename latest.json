@@ -1,15 +1,94 @@
 {
- "version": "2.0.78",
- "build": 678,
+ "version": "2.0.79",
+ "build": 679,
  "minBuild": 0,
- "publishedAt": "2026-10-22T07:46:42-03:00",
+ "publishedAt": "2026-10-22T09:51:26-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/1k3u1kclb3de8?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/61l02da2uggu8?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/7fahvfatv0a60?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.79",
+   "build": 679,
+   "date": "22/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Opacidade da gaveta",
+      "body": "Em Config da gaveta, escolha de 60% a 100% o quanto o app de corrida aparece por trás.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gasto sem jornada pela gaveta",
+      "body": "Sem jornada aberta, o Lançar da gaveta grava o gasto como avulso, igual à tela de gastos.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Config da gaveta",
+      "body": "Só os ajustes que valem na gaveta, em grupos, com a chave embaixo do texto.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Motor na gaveta",
+      "body": "Cada limiar mostra a explicação em cima e o valor embaixo, sem espremer o texto.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Voltar no detalhe da oferta",
+      "body": "Tocar no fundo do detalhe ou fora da gaveta volta para a lista; outro toque fora fecha a gaveta.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta no texto grande",
+      "body": "O tamanho do texto da Acessibilidade agora vale também dentro da gaveta.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [
+    "Opacidade da gaveta: Em Config da gaveta, escolha de 60% a 100% o quanto o app de corrida aparece por trás.",
+    "Gasto sem jornada pela gaveta: Sem jornada aberta, o Lançar da gaveta grava o gasto como avulso, igual à tela de gastos."
+   ],
+   "changed": [
+    "Config da gaveta: Só os ajustes que valem na gaveta, em grupos, com a chave embaixo do texto.",
+    "Motor na gaveta: Cada limiar mostra a explicação em cima e o valor embaixo, sem espremer o texto.",
+    "Voltar no detalhe da oferta: Tocar no fundo do detalhe ou fora da gaveta volta para a lista; outro toque fora fecha a gaveta."
+   ],
+   "fixed": [
+    "Gaveta no texto grande: O tamanho do texto da Acessibilidade agora vale também dentro da gaveta."
+   ]
+  },
   {
    "version": "2.0.78",
    "build": 678,
@@ -761,511 +840,6 @@
    ],
    "fixed": [
     "Recarga em kWh nos lançamentos: A recarga do elétrico aparecia como «Abastecimento · 0,0 L»; agora mostra «Recarga» e os kWh."
-   ]
-  },
-  {
-   "version": "2.0.69",
-   "build": 669,
-   "date": "18/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Onde deveria estar hoje",
-      "body": "Com jornada aberta, a barra de hoje na Metas e no widget marca onde deveria estar até o parar."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Widget responde ao toque",
-      "body": "Pausar, Retomar e Iniciar no widget mostram “…” até a jornada mudar, por até 3 segundos."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "iPhone: Iniciar pelo widget",
-      "body": "O botão Iniciar do widget começa a jornada sem abrir o app; se não der, abre como antes.",
-      "platforms": [
-       "ios"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "iPhone: Melhor horário por hora",
-      "body": "O widget grande mostra uma barra por hora, das 6h às 2h, com a melhor faixa e a hora atual.",
-      "platforms": [
-       "ios"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Entre ciclos",
-      "body": "Escolha se o que faltou no ciclo que fechou passa para o novo. Desligada, o ciclo novo começa limpo."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Plano no calendário",
-      "body": "Hoje e os dias que faltam mostram quanto fazer em cada um; a semana soma o planejado."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Ciclos e folgas",
-      "body": "Setas no calendário mostram o ciclo anterior e o próximo; toque num dia marca folga ou trabalho na data."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Conta Google",
-      "body": "Conta e dados mostra a sua conta e deixa sair; sem conta, tudo segue funcionando no aparelho."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Conta no fim do primeiro uso",
-      "body": "O último passo do primeiro uso convida a entrar com Google; dá para deixar para depois."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Dados em mais de um celular",
-      "body": "Com a conta, jornadas, metas, categorias e filtros vão para os outros celulares; apagar da nuvem sai da conta."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Jornada aberta noutro celular",
-      "body": "Início e Jornada mostram a jornada que roda noutro aparelho da conta, com o ganho até a última sincronização."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "iPhone: sincroniza em segundo plano",
-      "body": "Além de ao abrir o app e na jornada, o iPhone sincroniza em segundo plano quando o iOS deixa.",
-      "platforms": [
-       "ios"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Pausa longa sugere encerrar",
-      "body": "Depois de 1 hora de pausa automática, o Didur avisa e oferece encerrar na hora em que a pausa começou."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Players desligados na jornada",
-      "body": "Na tela Shizuku, desative Spotify, YouTube e outros players enquanto a jornada roda; eles voltam no fim.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Lembrete da média de consumo",
-      "body": "Ao encerrar, se a média não muda há 7 dias, o Didur lembra de conferir no painel do carro."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Jornada no Didur Fin",
-      "body": "Com a opção ligada em Conta e dados, cada jornada encerrada vira dia de trabalho no Fin, com ganhos e gastos."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Backup em arquivo",
-      "body": "Exporte tudo do aparelho (menos o GPS) num arquivo e restaure noutro celular, com ou sem conta."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Já usa o Didur? Entrar",
-      "body": "No primeiro passo, quem reinstalou entra e recebe os dados da nuvem sem refazer o setup."
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Lembretes de meta já ligados",
-      "body": "Ritmo abaixo, Melhor janela e Meta batida vêm ligados; o Semana fecha abaixo segue desligado."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Widget mostra a hora do retrato",
-      "body": "Sem leitura nova há 30 min, o widget mostra de quando é; no ciclo, a semana atual diz “agora”."
-     },
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "iPhone: Melhor janela no horário",
-      "body": "Sem jornada, o aviso da melhor faixa fica marcado no iPhone e chega mesmo com o app fechado.",
-      "platforms": [
-       "ios"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "iPhone: widgets no StandBy e no vidro",
-      "body": "No StandBy, Hoje e Controle ficam grandes; no vidro do iOS 26, barras e anéis aparecem.",
-      "platforms": [
-       "ios"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Prévias dos widgets no Android antigo",
-      "body": "Antes do Android 15, a lista de widgets mostra o desenho de cada um.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Novidades em duas linhas",
-      "body": "Na folha de versão nova, cada destaque mostra até duas linhas de texto antes de cortar."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Ajustar meta",
-      "body": "No modo manual por dia, o botão Só este ciclo não aparece mais: ali ele não fazia efeito."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Painel no celular",
-      "body": "Sem espaço ao lado do botão, o painel abre acima ou abaixo dele, onde couber mais.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📊",
-      "area": "Estatísticas",
-      "title": "Linha da meta",
-      "body": "Na semana, a linha da meta segue a meta de cada dia e some na folga."
-     },
-     {
-      "emoji": "📊",
-      "area": "Estatísticas",
-      "title": "Avisos",
-      "body": "Os avisos ganham uma linha de detalhe e o tom de notícia boa, como no painel da meta."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Painel calibrado",
-      "body": "Sai do aquecendo na 1ª corrida, avisa parado entre 15 e 30 min e usa a média já com 1 semana com ganho."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Recarga à parte",
-      "body": "A recarga aparece no Entrou e saiu e no bolso, sem descontar de novo, com os kWh."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Contas dentro da meta",
-      "body": "A composição mostra os fixos dentro da meta do ciclo e avisa se ela não cobre as contas."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Folga marcada em roxo",
-      "body": "No calendário do ciclo, o dia que você marcou de folga fica roxo, e o de trabalho ganha um ponto."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Tablet: filtros e dashcam ao lado",
-      "body": "Filtros personalizados e Dashcam abrem ao lado da lista, sem tela cheia nem voltar."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Sem o card de conta de exemplo",
-      "body": "O topo das Configurações não mostra mais um nome inventado; a conta volta com o login."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Desde quando está pausada",
-      "body": "Em tela dividida, a pausa mostra a hora em que começou, com «ontem» ou a data se não foi hoje."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Entrou e falta entrar em caixas",
-      "body": "No painel da meta e na Metas, o que entrou no app e o que falta entrar ficam em duas caixas."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Abastecimentos: o que ficou no tanque",
-      "body": "Na Semana e no Ciclo, o posto contra o gasto rodando mostra se sobrou no tanque ou veio de antes."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Energia ao preço que você pagou",
-      "body": "O bolso desconta a energia ao preço da recarga ou do abastecimento, a mais antiga primeiro.",
-      "highlight": true
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Virada do ciclo",
-      "body": "A folha do dia mostra o efeito em R$; a semana partida diz onde ficaram os outros dias."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Celular: abas fixas no topo",
-      "body": "As abas ficam paradas, os alertas sobem para logo abaixo do resumo e os painéis abrem em tela própria."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Widgets no tablet e sem jornada",
-      "body": "Tablet com 4×2 e 4×3 próprios, Controle 4×3 no celular e o dia sem jornada com a melhor faixa.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Lembrete de meta no horário",
-      "body": "Segurado por corrida sai ou some aos 10 min; com o canal desligado não gasta o limite do dia."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Dias do ciclo",
-      "body": "Ciclo que começa no meio da semana não conta mais seg a qui como folga até o fim."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Semana do vencimento",
-      "body": "A semana em que o ciclo vira mostra só os dias do ciclo novo, no topo e no Entrou e saiu."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Histórico de metas",
-      "body": "Mostra só os ciclos desde a primeira jornada, sem os meses de antes de você usar o app."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Lembrar em 10 min",
-      "body": "Vale no painel flutuante e na tela Metas ao mesmo tempo.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Lançar atualiza na hora",
-      "body": "Ganho, gasto ou recarga lançados aparecem no painel e na Metas na hora."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Aviso de fecha abaixo",
-      "body": "Semana e Ciclo só avisam que fecham abaixo depois do aquecendo e com uma corrida."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Precisa por hora no ciclo",
-      "body": "As horas que faltam no ciclo vêm do seu histórico, não dos minutos de hoje."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Tablet: lista e Aplicar meta",
-      "body": "Aplicar a meta abre Ajustes › Metas, e a lista do tablet não volta mais ao topo."
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Ocultar em prints vale na hora",
-      "body": "Trocar a opção já muda o card, o painel rápido e o da meta abertos, sem fechar e abrir.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Tablet: recusa com a tela girada",
-      "body": "Ligado em pé e usado deitado, o Didur deixava de achar o × e a recusa falhava.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Uber aceita durante a viagem",
-      "body": "Uma oferta da 99 no meio da viagem não apaga mais a próxima da Uber já aceita.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Oferta lida duas vezes",
-      "body": "Um quadro com um tempo ou km mal lido não cria outra corrida; vale a leitura que mais apareceu.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Correção vale na hora",
-      "body": "Corrigir a corrida em andamento no detalhe já muda o ganho que será lançado, sem esperar o fim.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Corrida em viagem não cai sozinha",
-      "body": "Com o passageiro a bordo, um diálogo de cancelar seguido da tela de busca não cancela mais a corrida."
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Correção muda o ganho",
-      "body": "Corrigir o valor de uma corrida já encerrada atualiza o ganho dela na jornada e a meta."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Celular deitado",
-      "body": "Com o celular deitado, o Didur fica no layout de celular, sem menu lateral cortado nem cards espremidos."
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Km da corrida anterior",
-      "body": "A corrida de outro dia mostra o km e o lucro pelo GPS da jornada dela, não mais 0,0 km."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Onboarding no Samsung",
-      "body": "No Samsung, os ajustes vêm na ordem que funciona, o título diz «Samsung» e o tablet não estica mais a tela."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Voltar fecha o painel",
-      "body": "O voltar do Android fecha Ritmo, Ajustar meta, Nova conta e Dias que faltam, em vez de sair da Metas.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "iPhone: oferta lida duas vezes",
-      "body": "No iPhone, um quadro com tempo ou km mal lido também não cria outra corrida.",
-      "platforms": [
-       "ios"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Onde deveria estar hoje: Com jornada aberta, a barra de hoje na Metas e no widget marca onde deveria estar até o parar.",
-    "Widget responde ao toque: Pausar, Retomar e Iniciar no widget mostram “…” até a jornada mudar, por até 3 segundos.",
-    "iPhone: Iniciar pelo widget: O botão Iniciar do widget começa a jornada sem abrir o app; se não der, abre como antes.",
-    "iPhone: Melhor horário por hora: O widget grande mostra uma barra por hora, das 6h às 2h, com a melhor faixa e a hora atual.",
-    "Entre ciclos: Escolha se o que faltou no ciclo que fechou passa para o novo. Desligada, o ciclo novo começa limpo.",
-    "Plano no calendário: Hoje e os dias que faltam mostram quanto fazer em cada um; a semana soma o planejado.",
-    "Ciclos e folgas: Setas no calendário mostram o ciclo anterior e o próximo; toque num dia marca folga ou trabalho na data.",
-    "Conta Google: Conta e dados mostra a sua conta e deixa sair; sem conta, tudo segue funcionando no aparelho.",
-    "Conta no fim do primeiro uso: O último passo do primeiro uso convida a entrar com Google; dá para deixar para depois.",
-    "Dados em mais de um celular: Com a conta, jornadas, metas, categorias e filtros vão para os outros celulares; apagar da nuvem sai da conta.",
-    "Jornada aberta noutro celular: Início e Jornada mostram a jornada que roda noutro aparelho da conta, com o ganho até a última sincronização.",
-    "iPhone: sincroniza em segundo plano: Além de ao abrir o app e na jornada, o iPhone sincroniza em segundo plano quando o iOS deixa.",
-    "Pausa longa sugere encerrar: Depois de 1 hora de pausa automática, o Didur avisa e oferece encerrar na hora em que a pausa começou.",
-    "Players desligados na jornada: Na tela Shizuku, desative Spotify, YouTube e outros players enquanto a jornada roda; eles voltam no fim.",
-    "Lembrete da média de consumo: Ao encerrar, se a média não muda há 7 dias, o Didur lembra de conferir no painel do carro.",
-    "Jornada no Didur Fin: Com a opção ligada em Conta e dados, cada jornada encerrada vira dia de trabalho no Fin, com ganhos e gastos.",
-    "Backup em arquivo: Exporte tudo do aparelho (menos o GPS) num arquivo e restaure noutro celular, com ou sem conta.",
-    "Já usa o Didur? Entrar: No primeiro passo, quem reinstalou entra e recebe os dados da nuvem sem refazer o setup."
-   ],
-   "changed": [
-    "Lembretes de meta já ligados: Ritmo abaixo, Melhor janela e Meta batida vêm ligados; o Semana fecha abaixo segue desligado.",
-    "Widget mostra a hora do retrato: Sem leitura nova há 30 min, o widget mostra de quando é; no ciclo, a semana atual diz “agora”.",
-    "iPhone: Melhor janela no horário: Sem jornada, o aviso da melhor faixa fica marcado no iPhone e chega mesmo com o app fechado.",
-    "iPhone: widgets no StandBy e no vidro: No StandBy, Hoje e Controle ficam grandes; no vidro do iOS 26, barras e anéis aparecem.",
-    "Prévias dos widgets no Android antigo: Antes do Android 15, a lista de widgets mostra o desenho de cada um.",
-    "Novidades em duas linhas: Na folha de versão nova, cada destaque mostra até duas linhas de texto antes de cortar.",
-    "Ajustar meta: No modo manual por dia, o botão Só este ciclo não aparece mais: ali ele não fazia efeito.",
-    "Painel no celular: Sem espaço ao lado do botão, o painel abre acima ou abaixo dele, onde couber mais.",
-    "Linha da meta: Na semana, a linha da meta segue a meta de cada dia e some na folga.",
-    "Avisos: Os avisos ganham uma linha de detalhe e o tom de notícia boa, como no painel da meta.",
-    "Painel calibrado: Sai do aquecendo na 1ª corrida, avisa parado entre 15 e 30 min e usa a média já com 1 semana com ganho.",
-    "Recarga à parte: A recarga aparece no Entrou e saiu e no bolso, sem descontar de novo, com os kWh.",
-    "Contas dentro da meta: A composição mostra os fixos dentro da meta do ciclo e avisa se ela não cobre as contas.",
-    "Folga marcada em roxo: No calendário do ciclo, o dia que você marcou de folga fica roxo, e o de trabalho ganha um ponto.",
-    "Tablet: filtros e dashcam ao lado: Filtros personalizados e Dashcam abrem ao lado da lista, sem tela cheia nem voltar.",
-    "Sem o card de conta de exemplo: O topo das Configurações não mostra mais um nome inventado; a conta volta com o login.",
-    "Desde quando está pausada: Em tela dividida, a pausa mostra a hora em que começou, com «ontem» ou a data se não foi hoje.",
-    "Entrou e falta entrar em caixas: No painel da meta e na Metas, o que entrou no app e o que falta entrar ficam em duas caixas.",
-    "Abastecimentos: o que ficou no tanque: Na Semana e no Ciclo, o posto contra o gasto rodando mostra se sobrou no tanque ou veio de antes.",
-    "Energia ao preço que você pagou: O bolso desconta a energia ao preço da recarga ou do abastecimento, a mais antiga primeiro.",
-    "Virada do ciclo: A folha do dia mostra o efeito em R$; a semana partida diz onde ficaram os outros dias.",
-    "Celular: abas fixas no topo: As abas ficam paradas, os alertas sobem para logo abaixo do resumo e os painéis abrem em tela própria.",
-    "Widgets no tablet e sem jornada: Tablet com 4×2 e 4×3 próprios, Controle 4×3 no celular e o dia sem jornada com a melhor faixa."
-   ],
-   "fixed": [
-    "Lembrete de meta no horário: Segurado por corrida sai ou some aos 10 min; com o canal desligado não gasta o limite do dia.",
-    "Dias do ciclo: Ciclo que começa no meio da semana não conta mais seg a qui como folga até o fim.",
-    "Semana do vencimento: A semana em que o ciclo vira mostra só os dias do ciclo novo, no topo e no Entrou e saiu.",
-    "Histórico de metas: Mostra só os ciclos desde a primeira jornada, sem os meses de antes de você usar o app.",
-    "Lembrar em 10 min: Vale no painel flutuante e na tela Metas ao mesmo tempo.",
-    "Lançar atualiza na hora: Ganho, gasto ou recarga lançados aparecem no painel e na Metas na hora.",
-    "Aviso de fecha abaixo: Semana e Ciclo só avisam que fecham abaixo depois do aquecendo e com uma corrida.",
-    "Precisa por hora no ciclo: As horas que faltam no ciclo vêm do seu histórico, não dos minutos de hoje.",
-    "Tablet: lista e Aplicar meta: Aplicar a meta abre Ajustes › Metas, e a lista do tablet não volta mais ao topo.",
-    "Ocultar em prints vale na hora: Trocar a opção já muda o card, o painel rápido e o da meta abertos, sem fechar e abrir.",
-    "Tablet: recusa com a tela girada: Ligado em pé e usado deitado, o Didur deixava de achar o × e a recusa falhava.",
-    "Uber aceita durante a viagem: Uma oferta da 99 no meio da viagem não apaga mais a próxima da Uber já aceita.",
-    "Oferta lida duas vezes: Um quadro com um tempo ou km mal lido não cria outra corrida; vale a leitura que mais apareceu.",
-    "Correção vale na hora: Corrigir a corrida em andamento no detalhe já muda o ganho que será lançado, sem esperar o fim.",
-    "Corrida em viagem não cai sozinha: Com o passageiro a bordo, um diálogo de cancelar seguido da tela de busca não cancela mais a corrida.",
-    "Correção muda o ganho: Corrigir o valor de uma corrida já encerrada atualiza o ganho dela na jornada e a meta.",
-    "Celular deitado: Com o celular deitado, o Didur fica no layout de celular, sem menu lateral cortado nem cards espremidos.",
-    "Km da corrida anterior: A corrida de outro dia mostra o km e o lucro pelo GPS da jornada dela, não mais 0,0 km.",
-    "Onboarding no Samsung: No Samsung, os ajustes vêm na ordem que funciona, o título diz «Samsung» e o tablet não estica mais a tela.",
-    "Voltar fecha o painel: O voltar do Android fecha Ritmo, Ajustar meta, Nova conta e Dias que faltam, em vez de sair da Metas.",
-    "iPhone: oferta lida duas vezes: No iPhone, um quadro com tempo ou km mal lido também não cria outra corrida."
    ]
   }
  ]
