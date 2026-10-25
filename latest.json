@@ -1,15 +1,61 @@
 {
- "version": "2.0.84",
- "build": 684,
+ "version": "2.0.85",
+ "build": 685,
  "minBuild": 0,
- "publishedAt": "2026-10-25T17:39:26-03:00",
+ "publishedAt": "2026-10-25T20:39:00-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/06klj6klc1ib0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/1i4b97qoemd90?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/14t7g77macmdo?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.85",
+   "build": 685,
+   "date": "25/10",
+   "items": {
+    "new": [],
+    "changed": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta na direita espelhada",
+      "body": "Com a aba na direita, o trilho e os botões de voltar e fechar vão para a direita.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Ícone do app de corrida no lugar do nome",
+      "body": "Card, gaveta, histórico, jornada e metas mostram o ícone da Uber, 99, inDrive ou Te Levo.",
+      "highlight": true
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Desligar a redistribuição entre dias",
+      "body": "A meta de cada dia volta ao plano na hora, sem o que ela já tinha empurrado.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     }
+    ]
+   },
+   "new": [],
+   "changed": [
+    "Gaveta na direita espelhada: Com a aba na direita, o trilho e os botões de voltar e fechar vão para a direita.",
+    "Ícone do app de corrida no lugar do nome: Card, gaveta, histórico, jornada e metas mostram o ícone da Uber, 99, inDrive ou Te Levo."
+   ],
+   "fixed": [
+    "Desligar a redistribuição entre dias: A meta de cada dia volta ao plano na hora, sem o que ela já tinha empurrado."
+   ]
+  },
   {
    "version": "2.0.84",
    "build": 684,
@@ -714,32 +760,6 @@
    ],
    "fixed": [
     "Android Auto: meta com o que já entrou: Sem jornada aberta, o anel da meta mostra o que você já fez no dia."
-   ]
-  },
-  {
-   "version": "2.0.75",
-   "build": 675,
-   "date": "20/10",
-   "items": {
-    "new": [],
-    "changed": [],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Valor sem vírgula na Uber",
-      "body": "Quando o card traz o R$/km aprox., o app confere o valor lido: R$ 1764 volta a ser R$ 17,64.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     }
-    ]
-   },
-   "new": [],
-   "changed": [],
-   "fixed": [
-    "Valor sem vírgula na Uber: Quando o card traz o R$/km aprox., o app confere o valor lido: R$ 1764 volta a ser R$ 17,64."
    ]
   }
  ]
