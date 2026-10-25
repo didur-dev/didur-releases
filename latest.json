@@ -1,15 +1,40 @@
 {
- "version": "2.0.81",
- "build": 681,
+ "version": "2.0.82",
+ "build": 682,
  "minBuild": 0,
- "publishedAt": "2026-10-25T10:22:46-03:00",
+ "publishedAt": "2026-10-25T13:17:23-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/3e4dq01qhqcao?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/5hpug0h1q05c0?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/14t7g77macmdo?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.82",
+   "build": 682,
+   "date": "25/10",
+   "items": {
+    "new": [],
+    "changed": [],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Captura volta depois do bloqueio",
+      "body": "Pausada com a tela bloqueada, ela volta ao usar o celular, mesmo sem o aviso do sistema.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [],
+   "changed": [],
+   "fixed": [
+    "Captura volta depois do bloqueio: Pausada com a tela bloqueada, ela volta ao usar o celular, mesmo sem o aviso do sistema."
+   ]
+  },
   {
    "version": "2.0.81",
    "build": 681,
@@ -776,60 +801,6 @@
     "Ciclo e semana sem texto cortado no celular: O calendário do ciclo deixa a coluna Semana para o tablet, e o No bolso por dia mostra tudo inteiro.",
     "Como medir a recarga inteiro: Os três jeitos de medir a recarga mostram o nome todo, em duas linhas quando precisa.",
     "Android Auto: Consumo não fecha o app: Abrir o Consumo da jornada no carro fechava o Didur; o botão da bateria virou só ícone."
-   ]
-  },
-  {
-   "version": "2.0.72",
-   "build": 672,
-   "date": "20/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "💰",
-      "area": "Lançamentos",
-      "title": "Lançar recarga pelo Histórico",
-      "body": "A aba Recargas do Histórico ganhou o botão para lançar a recarga de casa ou da rua."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Começar o caixa da energia",
-      "body": "No card do caixa, comece de novo a partir de agora, com o % da bateria (ou do tanque) como saldo inicial."
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Abre no dia e sem o card de km",
-      "body": "O Histórico começa em Hoje, e o resumo das corridas fica com R$/km, R$/min e R$/h."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Resumo com a energia gasta",
-      "body": "O detalhe mostra os kWh ou litros da jornada, e os indicadores abrem com R$/km, R$/min e R$/h, sem a meta."
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Sincronização: filtros e presets",
-      "body": "O primeiro login num aparelho não apaga mais os filtros e presets quando o outro não tem perfil próprio."
-     }
-    ]
-   },
-   "new": [
-    "Lançar recarga pelo Histórico: A aba Recargas do Histórico ganhou o botão para lançar a recarga de casa ou da rua.",
-    "Começar o caixa da energia: No card do caixa, comece de novo a partir de agora, com o % da bateria (ou do tanque) como saldo inicial."
-   ],
-   "changed": [
-    "Abre no dia e sem o card de km: O Histórico começa em Hoje, e o resumo das corridas fica com R$/km, R$/min e R$/h.",
-    "Resumo com a energia gasta: O detalhe mostra os kWh ou litros da jornada, e os indicadores abrem com R$/km, R$/min e R$/h, sem a meta."
-   ],
-   "fixed": [
-    "Sincronização: filtros e presets: O primeiro login num aparelho não apaga mais os filtros e presets quando o outro não tem perfil próprio."
    ]
   }
  ]
