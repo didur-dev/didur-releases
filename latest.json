@@ -1,15 +1,76 @@
 {
- "version": "2.0.82",
- "build": 682,
+ "version": "2.0.83",
+ "build": 683,
  "minBuild": 0,
- "publishedAt": "2026-10-25T13:17:23-03:00",
+ "publishedAt": "2026-10-25T17:27:54-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/5hpug0h1q05c0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/14559e3hp7mqg?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/14t7g77macmdo?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.83",
+   "build": 683,
+   "date": "25/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Te Levo: corrida aceita",
+      "body": "O Didur acompanha a corrida do Te Levo e lança o ganho sozinho, com o Negocia no valor certo.",
+      "highlight": true,
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Te Levo: recusa só no botão de cima",
+      "body": "Na oferta de arrastar o Didur não toca mais embaixo, onde o toque não recusa.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Te Levo mais leve",
+      "body": "A tela do Te Levo passa a ser lida sem OCR, o que alivia o celular na corrida.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "99: valor da oferta na lista",
+      "body": "A primeira leitura não pega mais o ganho do dia do mapa: vale só o valor do card.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     }
+    ]
+   },
+   "new": [
+    "Te Levo: corrida aceita: O Didur acompanha a corrida do Te Levo e lança o ganho sozinho, com o Negocia no valor certo."
+   ],
+   "changed": [
+    "Te Levo: recusa só no botão de cima: Na oferta de arrastar o Didur não toca mais embaixo, onde o toque não recusa.",
+    "Te Levo mais leve: A tela do Te Levo passa a ser lida sem OCR, o que alivia o celular na corrida."
+   ],
+   "fixed": [
+    "99: valor da oferta na lista: A primeira leitura não pega mais o ganho do dia do mapa: vale só o valor do card."
+   ]
+  },
   {
    "version": "2.0.82",
    "build": 682,
@@ -686,121 +747,6 @@
     "Android Auto: detalhe e bateria sem fechar: Abrir o detalhe de uma corrida e mudar o % da bateria no carro fechavam o Didur.",
     "Android Auto: aba Jornada da jornada: Ganho, R$/h e corridas são os da jornada; o Início segue mostrando o dia.",
     "Android Auto: tela parada: A tela do carro não desliza mais de lado a cada 2 segundos; só se mexe quando algo muda."
-   ]
-  },
-  {
-   "version": "2.0.73",
-   "build": 673,
-   "date": "20/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Mapa da jornada de outro aparelho",
-      "body": "Sem o trajeto do GPS, o mapa marca onde chegou cada oferta, na ordem, ligadas por um tracejado."
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Iniciar em dia de folga tira a folga",
-      "body": "Iniciar a jornada num dia marcado como folga, pelo botão ou sozinha, o torna dia de trabalho."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Cabeçalho do detalhe mais legível",
-      "body": "O título mostra só a data, e o horário e a duração ficam em letra maior."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Nome da corrida na linha do tempo",
-      "body": "As corridas aparecem como \"Corrida ótima\" e \"Corrida aceitável\", sem o nome em maiúsculas."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: aviso da oferta sem botões",
-      "body": "O alerta da oferta no carro fica só com o texto, e tocar nele abre o Didur.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto colorido",
-      "body": "Ícones na cor de cada assunto, disco do score na oferta, anel da meta e bateria enchendo.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: aviso da oferta com as cores",
-      "body": "Uma bolinha na cor de cada métrica (🟢🔵🟡🔴), o R$/h e o disco do score, como no app antigo.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Início no topo da linha do tempo",
-      "body": "Com o início automático, a primeira corrida não aparece mais antes do Início da jornada."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Widgets com a folga marcada no calendário",
-      "body": "Os widgets seguem a folga ou o trabalho marcados na data, e o dia de folga em que rodou mostra o ganho."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Ciclo e semana sem texto cortado no celular",
-      "body": "O calendário do ciclo deixa a coluna Semana para o tablet, e o No bolso por dia mostra tudo inteiro."
-     },
-     {
-      "emoji": "💰",
-      "area": "Lançamentos",
-      "title": "Como medir a recarga inteiro",
-      "body": "Os três jeitos de medir a recarga mostram o nome todo, em duas linhas quando precisa."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: Consumo não fecha o app",
-      "body": "Abrir o Consumo da jornada no carro fechava o Didur; o botão da bateria virou só ícone.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Mapa da jornada de outro aparelho: Sem o trajeto do GPS, o mapa marca onde chegou cada oferta, na ordem, ligadas por um tracejado."
-   ],
-   "changed": [
-    "Iniciar em dia de folga tira a folga: Iniciar a jornada num dia marcado como folga, pelo botão ou sozinha, o torna dia de trabalho.",
-    "Cabeçalho do detalhe mais legível: O título mostra só a data, e o horário e a duração ficam em letra maior.",
-    "Nome da corrida na linha do tempo: As corridas aparecem como \"Corrida ótima\" e \"Corrida aceitável\", sem o nome em maiúsculas.",
-    "Android Auto: aviso da oferta sem botões: O alerta da oferta no carro fica só com o texto, e tocar nele abre o Didur.",
-    "Android Auto colorido: Ícones na cor de cada assunto, disco do score na oferta, anel da meta e bateria enchendo.",
-    "Android Auto: aviso da oferta com as cores: Uma bolinha na cor de cada métrica (🟢🔵🟡🔴), o R$/h e o disco do score, como no app antigo."
-   ],
-   "fixed": [
-    "Início no topo da linha do tempo: Com o início automático, a primeira corrida não aparece mais antes do Início da jornada.",
-    "Widgets com a folga marcada no calendário: Os widgets seguem a folga ou o trabalho marcados na data, e o dia de folga em que rodou mostra o ganho.",
-    "Ciclo e semana sem texto cortado no celular: O calendário do ciclo deixa a coluna Semana para o tablet, e o No bolso por dia mostra tudo inteiro.",
-    "Como medir a recarga inteiro: Os três jeitos de medir a recarga mostram o nome todo, em duas linhas quando precisa.",
-    "Android Auto: Consumo não fecha o app: Abrir o Consumo da jornada no carro fechava o Didur; o botão da bateria virou só ícone."
    ]
   }
  ]
