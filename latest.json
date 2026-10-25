@@ -1,15 +1,53 @@
 {
- "version": "2.0.83",
- "build": 683,
+ "version": "2.0.84",
+ "build": 684,
  "minBuild": 0,
- "publishedAt": "2026-10-25T17:27:54-03:00",
+ "publishedAt": "2026-10-25T17:39:26-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/14559e3hp7mqg?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/06klj6klc1ib0?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/14t7g77macmdo?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.84",
+   "build": 684,
+   "date": "25/10",
+   "items": {
+    "new": [],
+    "changed": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Detalhe da oferta completo",
+      "body": "Na gaveta voltam score, motivos, selos, lucro, km morto e a corrida ao vivo.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "99: total do Painel",
+      "body": "O ganho de hoje é lido mesmo sem o card da semana ou com outro app por cima.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     }
+    ]
+   },
+   "new": [],
+   "changed": [
+    "Detalhe da oferta completo: Na gaveta voltam score, motivos, selos, lucro, km morto e a corrida ao vivo."
+   ],
+   "fixed": [
+    "99: total do Painel: O ganho de hoje é lido mesmo sem o card da semana ou com outro app por cima."
+   ]
+  },
   {
    "version": "2.0.83",
    "build": 683,
@@ -702,51 +740,6 @@
    "changed": [],
    "fixed": [
     "Valor sem vírgula na Uber: Quando o card traz o R$/km aprox., o app confere o valor lido: R$ 1764 volta a ser R$ 17,64."
-   ]
-  },
-  {
-   "version": "2.0.74",
-   "build": 674,
-   "date": "20/10",
-   "items": {
-    "new": [],
-    "changed": [],
-    "fixed": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: detalhe e bateria sem fechar",
-      "body": "Abrir o detalhe de uma corrida e mudar o % da bateria no carro fechavam o Didur.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: aba Jornada da jornada",
-      "body": "Ganho, R$/h e corridas são os da jornada; o Início segue mostrando o dia.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: tela parada",
-      "body": "A tela do carro não desliza mais de lado a cada 2 segundos; só se mexe quando algo muda.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [],
-   "changed": [],
-   "fixed": [
-    "Android Auto: detalhe e bateria sem fechar: Abrir o detalhe de uma corrida e mudar o % da bateria no carro fechavam o Didur.",
-    "Android Auto: aba Jornada da jornada: Ganho, R$/h e corridas são os da jornada; o Início segue mostrando o dia.",
-    "Android Auto: tela parada: A tela do carro não desliza mais de lado a cada 2 segundos; só se mexe quando algo muda."
    ]
   }
  ]
