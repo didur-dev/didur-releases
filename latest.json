@@ -1,15 +1,104 @@
 {
- "version": "2.0.80",
- "build": 680,
+ "version": "2.0.81",
+ "build": 681,
  "minBuild": 0,
- "publishedAt": "2026-10-24T21:26:08-03:00",
+ "publishedAt": "2026-10-25T10:22:46-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/33jettvrnrum8?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/3e4dq01qhqcao?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/14t7g77macmdo?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.81",
+   "build": 681,
+   "date": "25/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Te Levo: tempo calculando",
+      "body": "Um ícone gira na aba do card enquanto a rota calcula o tempo; some quando o tempo exato chega.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Recusar ofertas negociáveis",
+      "body": "Nova chave na Recusa automática: com ela ligada, 99Negocia e Negocia do Te Levo também são recusadas.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Aba com o símbolo de %",
+      "body": "Com % da meta, a aba da gaveta mostra 62% em vez de 62, para não confundir com o R$ ganho.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Te Levo no Didur Fin",
+      "body": "O ganho do Te Levo chega ao Fin com o nome do app, não como Outros.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Te Levo em segundo plano",
+      "body": "A oferta que abre por cima de outro app agora é lida, avaliada e pode ser recusada.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Aviso embaixo do card",
+      "body": "Atrasa a meta e Baixa demanda vão numa linha própria e não saem mais cortados no Destaque.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Card do Te Levo e a rota",
+      "body": "O tempo da rota entra no card assim que chega, sem esperar a tela mudar, e o card não pisca.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [
+    "Te Levo: tempo calculando: Um ícone gira na aba do card enquanto a rota calcula o tempo; some quando o tempo exato chega.",
+    "Recusar ofertas negociáveis: Nova chave na Recusa automática: com ela ligada, 99Negocia e Negocia do Te Levo também são recusadas."
+   ],
+   "changed": [
+    "Aba com o símbolo de %: Com % da meta, a aba da gaveta mostra 62% em vez de 62, para não confundir com o R$ ganho."
+   ],
+   "fixed": [
+    "Te Levo no Didur Fin: O ganho do Te Levo chega ao Fin com o nome do app, não como Outros.",
+    "Te Levo em segundo plano: A oferta que abre por cima de outro app agora é lida, avaliada e pode ser recusada.",
+    "Aviso embaixo do card: Atrasa a meta e Baixa demanda vão numa linha própria e não saem mais cortados no Destaque.",
+    "Card do Te Levo e a rota: O tempo da rota entra no card assim que chega, sem esperar a tela mudar, e o card não pisca."
+   ]
+  },
   {
    "version": "2.0.80",
    "build": 680,
@@ -741,85 +830,6 @@
    ],
    "fixed": [
     "Sincronização: filtros e presets: O primeiro login num aparelho não apaga mais os filtros e presets quando o outro não tem perfil próprio."
-   ]
-  },
-  {
-   "version": "2.0.71",
-   "build": 671,
-   "date": "20/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: consumo e bateria pelo carro",
-      "body": "Na aba Jornada, toque em Consumo e escolha o valor do painel; no elétrico, confira a bateria.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: avisos na central do carro",
-      "body": "Jornada iniciada, pausada e encerrada, etapas da corrida e meta; meta batida e pausa automática saltam.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Tablet: lucro sem duplicidade",
-      "body": "A etiqueta ao lado de «Lucro real» diz «+R$ 4,70 vs previsto», e não parece um segundo lucro.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto no jeito do app antigo",
-      "body": "Veredito grande em cada corrida, emojis de leitura rápida, meta em blocos e o detalhe por assunto.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: aviso da oferta no carro",
-      "body": "A oferta aparece sobre o mapa com valor, veredito e métricas, mesmo com a notificação do celular desligada.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: lista com ícones",
-      "body": "No Android Auto atual, as telas voltam a ser listas com ícone em cada linha, como antes.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Android Auto: consumo e bateria pelo carro: Na aba Jornada, toque em Consumo e escolha o valor do painel; no elétrico, confira a bateria.",
-    "Android Auto: avisos na central do carro: Jornada iniciada, pausada e encerrada, etapas da corrida e meta; meta batida e pausa automática saltam."
-   ],
-   "changed": [
-    "Tablet: lucro sem duplicidade: A etiqueta ao lado de «Lucro real» diz «+R$ 4,70 vs previsto», e não parece um segundo lucro.",
-    "Android Auto no jeito do app antigo: Veredito grande em cada corrida, emojis de leitura rápida, meta em blocos e o detalhe por assunto."
-   ],
-   "fixed": [
-    "Android Auto: aviso da oferta no carro: A oferta aparece sobre o mapa com valor, veredito e métricas, mesmo com a notificação do celular desligada.",
-    "Android Auto: lista com ícones: No Android Auto atual, as telas voltam a ser listas com ícone em cada linha, como antes."
    ]
   }
  ]
