@@ -1,15 +1,40 @@
 {
- "version": "2.0.85",
- "build": 685,
+ "version": "2.0.86",
+ "build": 686,
  "minBuild": 0,
- "publishedAt": "2026-10-25T20:39:00-03:00",
+ "publishedAt": "2026-10-25T23:16:00-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/1i4b97qoemd90?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/5ojogvrchg25o?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/14t7g77macmdo?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.86",
+   "build": 686,
+   "date": "25/10",
+   "items": {
+    "new": [],
+    "changed": [
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Android Auto: ícone do app de corrida",
+      "body": "No carro, Corridas, Início e o detalhe mostram o ícone da Uber, 99, inDrive ou Te Levo.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": []
+   },
+   "new": [],
+   "changed": [
+    "Android Auto: ícone do app de corrida: No carro, Corridas, Início e o detalhe mostram o ícone da Uber, 99, inDrive ou Te Levo."
+   ],
+   "fixed": []
+  },
   {
    "version": "2.0.85",
    "build": 685,
@@ -723,43 +748,6 @@
     "Sincronização: conferências e viagens: As conferências de bateria fora da jornada e as viagens pessoais agora chegam aos outros aparelhos.",
     "Live Activity mostra busca, viagem e fim: No iPhone, a Live Activity acompanha a corrida depois do aceite e volta a monitorar no fim.",
     "Radar da Uber volta a ser lido: Na Uber nova o botão do radar virou \"Viagem\"; o Didur lê esse e o \"Selecionar\" e analisa o radar."
-   ]
-  },
-  {
-   "version": "2.0.76",
-   "build": 676,
-   "date": "20/10",
-   "items": {
-    "new": [],
-    "changed": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: avisos sem som",
-      "body": "As notificações do Didur no carro aparecem em silêncio, como no app antigo.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: meta com o que já entrou",
-      "body": "Sem jornada aberta, o anel da meta mostra o que você já fez no dia.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [],
-   "changed": [
-    "Android Auto: avisos sem som: As notificações do Didur no carro aparecem em silêncio, como no app antigo."
-   ],
-   "fixed": [
-    "Android Auto: meta com o que já entrou: Sem jornada aberta, o anel da meta mostra o que você já fez no dia."
    ]
   }
  ]
