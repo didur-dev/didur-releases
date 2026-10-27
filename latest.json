@@ -1,15 +1,41 @@
 {
- "version": "2.0.86",
- "build": 686,
+ "version": "2.0.87",
+ "build": 687,
  "minBuild": 0,
- "publishedAt": "2026-10-25T23:16:00-03:00",
+ "publishedAt": "2026-10-27T11:22:08-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/5ojogvrchg25o?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/25rup4ntsctko?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/14t7g77macmdo?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/3an2cdpv330ug?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.87",
+   "build": 687,
+   "date": "27/10",
+   "items": {
+    "new": [],
+    "changed": [],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Radar da Uber com \"Tenho interesse\"",
+      "body": "A Uber trocou de novo o botão do radar; o Didur lê o \"Tenho interesse\" e analisa o radar.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     }
+    ]
+   },
+   "new": [],
+   "changed": [],
+   "fixed": [
+    "Radar da Uber com \"Tenho interesse\": A Uber trocou de novo o botão do radar; o Didur lê o \"Tenho interesse\" e analisa o radar."
+   ]
+  },
   {
    "version": "2.0.86",
    "build": 686,
@@ -629,125 +655,6 @@
     "Widget Painel do dia: vão no botão: Sem jornada, o texto não encosta mais no Iniciar jornada.",
     "Celular: valor da oferta inteiro: Na aba Corrida o valor encolhe para caber em vez de sair cortado.",
     "99: Buscando fora do destino: O botão de status do rodapé da 99 não entra mais no fim do endereço de destino."
-   ]
-  },
-  {
-   "version": "2.0.77",
-   "build": 677,
-   "date": "21/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Sincronização de viagens e etapas",
-      "body": "As viagens pessoais e as etapas das corridas da jornada passam a ir para os outros aparelhos."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Importar o faturamento da Uber e da 99",
-      "body": "O ganho do dia pode vir do total que a Uber e a 99 mostram, salvo num toque.",
-      "highlight": true,
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Ganhos por plataforma",
-      "body": "No Total da plataforma, a Jornada mostra o total de cada app e deixa digitar o do dia."
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: Ajustes sem a do celular",
-      "body": "Os Ajustes do carro não têm mais a notificação do celular, que fica nas Configurações.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Conta pelo card do topo",
-      "body": "A linha Conta e dados saiu da lista; o card da conta no topo abre a mesma tela."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: Consumo à mão",
-      "body": "O Consumo da jornada aparece no Início do carro e logo depois de Encerrar na aba Jornada.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Notificação a cada oferta nova",
-      "body": "No iPhone, ligada, ela avisa junto com a Live Activity e aparece por cima da Uber.",
-      "platforms": [
-       "ios"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Encerrar abre o resumo",
-      "body": "Encerrar pelo botão mostra o detalhe da jornada que acabou; o voltar leva ao começar."
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Busca acha todas as opções",
-      "body": "Backup, Detectar pausas, Virada do dia, Taxa do app e outras opções das telas agora saem na busca."
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Sincronização: conferências e viagens",
-      "body": "As conferências de bateria fora da jornada e as viagens pessoais agora chegam aos outros aparelhos."
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Live Activity mostra busca, viagem e fim",
-      "body": "No iPhone, a Live Activity acompanha a corrida depois do aceite e volta a monitorar no fim.",
-      "platforms": [
-       "ios"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Radar da Uber volta a ser lido",
-      "body": "Na Uber nova o botão do radar virou \"Viagem\"; o Didur lê esse e o \"Selecionar\" e analisa o radar."
-     }
-    ]
-   },
-   "new": [
-    "Sincronização de viagens e etapas: As viagens pessoais e as etapas das corridas da jornada passam a ir para os outros aparelhos.",
-    "Importar o faturamento da Uber e da 99: O ganho do dia pode vir do total que a Uber e a 99 mostram, salvo num toque.",
-    "Ganhos por plataforma: No Total da plataforma, a Jornada mostra o total de cada app e deixa digitar o do dia."
-   ],
-   "changed": [
-    "Android Auto: Ajustes sem a do celular: Os Ajustes do carro não têm mais a notificação do celular, que fica nas Configurações.",
-    "Conta pelo card do topo: A linha Conta e dados saiu da lista; o card da conta no topo abre a mesma tela.",
-    "Android Auto: Consumo à mão: O Consumo da jornada aparece no Início do carro e logo depois de Encerrar na aba Jornada.",
-    "Notificação a cada oferta nova: No iPhone, ligada, ela avisa junto com a Live Activity e aparece por cima da Uber.",
-    "Encerrar abre o resumo: Encerrar pelo botão mostra o detalhe da jornada que acabou; o voltar leva ao começar."
-   ],
-   "fixed": [
-    "Busca acha todas as opções: Backup, Detectar pausas, Virada do dia, Taxa do app e outras opções das telas agora saem na busca.",
-    "Sincronização: conferências e viagens: As conferências de bateria fora da jornada e as viagens pessoais agora chegam aos outros aparelhos.",
-    "Live Activity mostra busca, viagem e fim: No iPhone, a Live Activity acompanha a corrida depois do aceite e volta a monitorar no fim.",
-    "Radar da Uber volta a ser lido: Na Uber nova o botão do radar virou \"Viagem\"; o Didur lê esse e o \"Selecionar\" e analisa o radar."
    ]
   }
  ]
