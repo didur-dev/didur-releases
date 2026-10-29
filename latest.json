@@ -1,15 +1,162 @@
 {
- "version": "2.0.87",
- "build": 687,
+ "version": "2.0.88",
+ "build": 688,
  "minBuild": 0,
- "publishedAt": "2026-10-27T11:22:08-03:00",
+ "publishedAt": "2026-10-29T06:55:20-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/25rup4ntsctko?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/6f7no7htn1ie0?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/3an2cdpv330ug?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.88",
+   "build": 688,
+   "date": "29/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "🔊",
+      "area": "Voz e alertas",
+      "title": "Avisa corrida em dinheiro",
+      "body": "A voz termina com \"em dinheiro\" quando a oferta é paga assim; já vem ligado e desliga na tela Voz.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Aceitei e Não fiz na mão",
+      "body": "No painel e na gaveta: marque a corrida que o app não viu aceitar, ou desfaça um aceite errado.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Aviso antes de pedir permissão",
+      "body": "Antes da acessibilidade e da localização o tempo todo, o Didur explica o que lê e para quê; segue só no Concordo.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Excluir a conta",
+      "body": "Em Conta e dados: apaga a conta e os dados dela na nuvem; o histórico no aparelho fica.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Política de privacidade",
+      "body": "Link para a política no fim das Configurações e no aviso antes das permissões.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Lista de ofertas mais leve",
+      "body": "A mesma oferta parada na tela (lista da 99, card da Uber) deixa de ser tratada de novo a cada segundo.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "GPS descansa parado",
+      "body": "Parado há 10 s, o GPS passa para o modo econômico e volta à precisão assim que o carro anda; o km da jornada não muda.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Card da Uber lido por inteiro",
+      "body": "O Didur lê só o card da oferta da Uber, sem reduzir a imagem, e confere os números com o texto que a própria Uber expõe; menos minuto e km lidos errado.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Ciclo anterior na aba inteira",
+      "body": "O ‹ › do topo da aba Ciclo volta para o ciclo fechado: total, dias, energia, ociosidade e insights.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Total da plataforma marca as corridas",
+      "body": "O aceite e o fim da corrida são detectados também nesse modo; a corrida entra na jornada sem somar no ganho.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Ociosidade no Total da plataforma",
+      "body": "Tempo com passageiro, parado e sugestão de Baixa demanda passam a valer também nesse modo.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Oferta flutuante do Te Levo",
+      "body": "Com o Te Levo em segundo plano, a oferta que aparece por cima de outro app (Uber, mapa, tela inicial) volta a ser lida e analisada.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [
+    "Avisa corrida em dinheiro: A voz termina com \"em dinheiro\" quando a oferta é paga assim; já vem ligado e desliga na tela Voz.",
+    "Aceitei e Não fiz na mão: No painel e na gaveta: marque a corrida que o app não viu aceitar, ou desfaça um aceite errado.",
+    "Aviso antes de pedir permissão: Antes da acessibilidade e da localização o tempo todo, o Didur explica o que lê e para quê; segue só no Concordo.",
+    "Excluir a conta: Em Conta e dados: apaga a conta e os dados dela na nuvem; o histórico no aparelho fica.",
+    "Política de privacidade: Link para a política no fim das Configurações e no aviso antes das permissões."
+   ],
+   "changed": [
+    "Lista de ofertas mais leve: A mesma oferta parada na tela (lista da 99, card da Uber) deixa de ser tratada de novo a cada segundo.",
+    "GPS descansa parado: Parado há 10 s, o GPS passa para o modo econômico e volta à precisão assim que o carro anda; o km da jornada não muda.",
+    "Card da Uber lido por inteiro: O Didur lê só o card da oferta da Uber, sem reduzir a imagem, e confere os números com o texto que a própria Uber expõe; menos minuto e km lidos errado.",
+    "Ciclo anterior na aba inteira: O ‹ › do topo da aba Ciclo volta para o ciclo fechado: total, dias, energia, ociosidade e insights.",
+    "Total da plataforma marca as corridas: O aceite e o fim da corrida são detectados também nesse modo; a corrida entra na jornada sem somar no ganho.",
+    "Ociosidade no Total da plataforma: Tempo com passageiro, parado e sugestão de Baixa demanda passam a valer também nesse modo."
+   ],
+   "fixed": [
+    "Oferta flutuante do Te Levo: Com o Te Levo em segundo plano, a oferta que aparece por cima de outro app (Uber, mapa, tela inicial) volta a ser lida e analisada."
+   ]
+  },
   {
    "version": "2.0.87",
    "build": 687,
@@ -168,6 +315,7 @@
       "area": "Corrida",
       "title": "Te Levo: recusa só no botão de cima",
       "body": "Na oferta de arrastar o Didur não toca mais embaixo, onde o toque não recusa.",
+      "direct": true,
       "platforms": [
        "android"
       ]
@@ -251,6 +399,7 @@
       "area": "Corrida",
       "title": "Recusar ofertas negociáveis",
       "body": "Nova chave na Recusa automática: com ela ligada, 99Negocia e Negocia do Te Levo também são recusadas.",
+      "direct": true,
       "platforms": [
        "android"
       ]
@@ -282,6 +431,7 @@
       "area": "Corrida",
       "title": "Te Levo em segundo plano",
       "body": "A oferta que abre por cima de outro app agora é lida, avaliada e pode ser recusada.",
+      "direct": true,
       "platforms": [
        "android"
       ]
@@ -506,155 +656,6 @@
    ],
    "fixed": [
     "Gaveta no texto grande: O tamanho do texto da Acessibilidade agora vale também dentro da gaveta."
-   ]
-  },
-  {
-   "version": "2.0.78",
-   "build": 678,
-   "date": "22/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Sugestão de encerrar",
-      "body": "No Total da plataforma, sem sinal da Uber e da 99 pelo tempo do encerramento, o Didur pergunta se encerra.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gaveta lateral",
-      "body": "Uma aba na borda junta a meta, as ofertas, o lançar e o painel rápido; a borda da aba é a meta do dia.",
-      "highlight": true,
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "CarPlay e relógio: Live Activity inteira",
-      "body": "Com iOS 18, a corrida e a meta aparecem completas no CarPlay e no Apple Watch, com relógio e atraso.",
-      "platforms": [
-       "ios"
-      ]
-     }
-    ],
-    "changed": [],
-    "fixed": [
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "99 no celular: Painel lido",
-      "body": "Em tela estreita o card da semana quebra em duas linhas; o Didur agora reconhece o Painel e lê o total.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Total do dia na jornada nova",
-      "body": "Cancelar a jornada e abrir outra leva junto o total da Uber e da 99 já salvo no dia; a meta volta a contar.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Celular: Dias de trabalho legíveis",
-      "body": "Em tela estreita os dias da semana descem para baixo do texto, que volta a ser lido inteiro."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Pausa automática no detalhe",
-      "body": "A pausa que a jornada fez sozinha aparece como automática, não mais como manual."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Encerrar na hora da pausa",
-      "body": "Encerrar pela sugestão da pausa longa não deixa mais uma pausa de 0 min no detalhe."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Tablet: sugestão da pausa longa uma vez",
-      "body": "O \"Encerrar às\" da pausa longa aparece só no cartão do cronômetro, não mais repetido no aviso ao lado.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Voltar fecha a folha",
-      "body": "Com uma folha aberta, o voltar do Android fecha a folha antes de sair da tela.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Tablet em pé: cartões legíveis",
-      "body": "Os cartões em par empilham quando a coluna não comporta os dois; o texto não quebra mais letra por letra.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Widget Painel do dia: vão no botão",
-      "body": "Sem jornada, o texto não encosta mais no Iniciar jornada.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Celular: valor da oferta inteiro",
-      "body": "Na aba Corrida o valor encolhe para caber em vez de sair cortado.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "99: Buscando fora do destino",
-      "body": "O botão de status do rodapé da 99 não entra mais no fim do endereço de destino.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Sugestão de encerrar: No Total da plataforma, sem sinal da Uber e da 99 pelo tempo do encerramento, o Didur pergunta se encerra.",
-    "Gaveta lateral: Uma aba na borda junta a meta, as ofertas, o lançar e o painel rápido; a borda da aba é a meta do dia.",
-    "CarPlay e relógio: Live Activity inteira: Com iOS 18, a corrida e a meta aparecem completas no CarPlay e no Apple Watch, com relógio e atraso."
-   ],
-   "changed": [],
-   "fixed": [
-    "99 no celular: Painel lido: Em tela estreita o card da semana quebra em duas linhas; o Didur agora reconhece o Painel e lê o total.",
-    "Total do dia na jornada nova: Cancelar a jornada e abrir outra leva junto o total da Uber e da 99 já salvo no dia; a meta volta a contar.",
-    "Celular: Dias de trabalho legíveis: Em tela estreita os dias da semana descem para baixo do texto, que volta a ser lido inteiro.",
-    "Pausa automática no detalhe: A pausa que a jornada fez sozinha aparece como automática, não mais como manual.",
-    "Encerrar na hora da pausa: Encerrar pela sugestão da pausa longa não deixa mais uma pausa de 0 min no detalhe.",
-    "Tablet: sugestão da pausa longa uma vez: O \"Encerrar às\" da pausa longa aparece só no cartão do cronômetro, não mais repetido no aviso ao lado.",
-    "Voltar fecha a folha: Com uma folha aberta, o voltar do Android fecha a folha antes de sair da tela.",
-    "Tablet em pé: cartões legíveis: Os cartões em par empilham quando a coluna não comporta os dois; o texto não quebra mais letra por letra.",
-    "Widget Painel do dia: vão no botão: Sem jornada, o texto não encosta mais no Iniciar jornada.",
-    "Celular: valor da oferta inteiro: Na aba Corrida o valor encolhe para caber em vez de sair cortado.",
-    "99: Buscando fora do destino: O botão de status do rodapé da 99 não entra mais no fim do endereço de destino."
    ]
   }
  ]
