@@ -1,15 +1,134 @@
 {
- "version": "2.0.88",
- "build": 688,
+ "version": "2.0.89",
+ "build": 689,
  "minBuild": 0,
- "publishedAt": "2026-10-29T06:55:20-03:00",
+ "publishedAt": "2026-10-30T13:30:12-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/6f7no7htn1ie0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/1vfrbfj8lcof8?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/3an2cdpv330ug?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/3jboode45l2t8?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.89",
+   "build": 689,
+   "date": "30/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Foto da sua conta Google",
+      "body": "Ao entrar, a foto aparece nas telas de conta e o primeiro passo mostra quem está conectado."
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: ofertas do dia na jornada",
+      "body": "Com jornada, a gaveta lista as ofertas do dia; o filtro Aceitas mostra todas, sem sumir atrás das novas.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Cartão do plano com selo e cor",
+      "body": "Pro, Master e Ultra com selo e cor próprios; tocar abre o plano ativo e, no Pro, a assinatura na Play.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Aviso antes da leitura de tela e do GPS",
+      "body": "Novo desenho: cada item com título curto, botões sempre à vista e duas colunas no tablet.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Excluir conta em dois passos claros",
+      "body": "O que some e o que fica, aviso a quem assina o Pro e o erro de internet à parte.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Widgets no visual do app",
+      "body": "Cartão com borda, cabeçalho e números maiores; Painel do dia com bruto, R$/h e corridas.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "99: categoria Pop saía como Moto",
+      "body": "O balão \"Motorista\" de outro app por cima da 99 fazia a oferta do Pop ser gravada como 99Moto.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "99: corrida estornada por engano",
+      "body": "Dispensar a oferta seguinte durante a viagem (\"OK, corrida cancelada\") não cancela mais a corrida em curso.",
+      "platforms": [
+       "android",
+       "ios"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Widget da semana com dias do ciclo antigo",
+      "body": "Os dias antes do vencimento saem apagados, com o valor feito, e não mais como folga.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Tablet em pé: permissão pendente legível",
+      "body": "Os cartões do Início passam a dois por linha em pé, sem quebrar o nome no meio da palavra.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [
+    "Foto da sua conta Google: Ao entrar, a foto aparece nas telas de conta e o primeiro passo mostra quem está conectado."
+   ],
+   "changed": [
+    "Gaveta: ofertas do dia na jornada: Com jornada, a gaveta lista as ofertas do dia; o filtro Aceitas mostra todas, sem sumir atrás das novas.",
+    "Cartão do plano com selo e cor: Pro, Master e Ultra com selo e cor próprios; tocar abre o plano ativo e, no Pro, a assinatura na Play.",
+    "Aviso antes da leitura de tela e do GPS: Novo desenho: cada item com título curto, botões sempre à vista e duas colunas no tablet.",
+    "Excluir conta em dois passos claros: O que some e o que fica, aviso a quem assina o Pro e o erro de internet à parte.",
+    "Widgets no visual do app: Cartão com borda, cabeçalho e números maiores; Painel do dia com bruto, R$/h e corridas."
+   ],
+   "fixed": [
+    "99: categoria Pop saía como Moto: O balão \"Motorista\" de outro app por cima da 99 fazia a oferta do Pop ser gravada como 99Moto.",
+    "99: corrida estornada por engano: Dispensar a oferta seguinte durante a viagem (\"OK, corrida cancelada\") não cancela mais a corrida em curso.",
+    "Widget da semana com dias do ciclo antigo: Os dias antes do vencimento saem apagados, com o valor feito, e não mais como folga.",
+    "Tablet em pé: permissão pendente legível: Os cartões do Início passam a dois por linha em pé, sem quebrar o nome no meio da palavra."
+   ]
+  },
   {
    "version": "2.0.88",
    "build": 688,
@@ -577,85 +696,6 @@
    ],
    "fixed": [
     "Print das ofertas na gaveta: Celular com navegação por gestos e sem barra não gravava o print de nenhuma oferta."
-   ]
-  },
-  {
-   "version": "2.0.79",
-   "build": 679,
-   "date": "22/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Opacidade da gaveta",
-      "body": "Em Config da gaveta, escolha de 60% a 100% o quanto o app de corrida aparece por trás.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gasto sem jornada pela gaveta",
-      "body": "Sem jornada aberta, o Lançar da gaveta grava o gasto como avulso, igual à tela de gastos.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Config da gaveta",
-      "body": "Só os ajustes que valem na gaveta, em grupos, com a chave embaixo do texto.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Motor na gaveta",
-      "body": "Cada limiar mostra a explicação em cima e o valor embaixo, sem espremer o texto.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Voltar no detalhe da oferta",
-      "body": "Tocar no fundo do detalhe ou fora da gaveta volta para a lista; outro toque fora fecha a gaveta.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gaveta no texto grande",
-      "body": "O tamanho do texto da Acessibilidade agora vale também dentro da gaveta.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Opacidade da gaveta: Em Config da gaveta, escolha de 60% a 100% o quanto o app de corrida aparece por trás.",
-    "Gasto sem jornada pela gaveta: Sem jornada aberta, o Lançar da gaveta grava o gasto como avulso, igual à tela de gastos."
-   ],
-   "changed": [
-    "Config da gaveta: Só os ajustes que valem na gaveta, em grupos, com a chave embaixo do texto.",
-    "Motor na gaveta: Cada limiar mostra a explicação em cima e o valor embaixo, sem espremer o texto.",
-    "Voltar no detalhe da oferta: Tocar no fundo do detalhe ou fora da gaveta volta para a lista; outro toque fora fecha a gaveta."
-   ],
-   "fixed": [
-    "Gaveta no texto grande: O tamanho do texto da Acessibilidade agora vale também dentro da gaveta."
    ]
   }
  ]
