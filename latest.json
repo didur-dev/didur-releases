@@ -1,15 +1,639 @@
 {
- "version": "2.0.89",
- "build": 689,
+ "version": "2.0.91",
+ "build": 691,
  "minBuild": 0,
- "publishedAt": "2026-10-30T13:30:12-03:00",
+ "publishedAt": "2026-11-04T13:53:13-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/1vfrbfj8lcof8?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/3fgtghslaacog?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/3jboode45l2t8?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.91",
+   "build": 691,
+   "date": "04/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: teclado de valor",
+      "body": "«Digitar o valor» abre um teclado com centavos em Lançar e na viagem."
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: energia da viagem",
+      "body": "Tocar na Energia do caixa ajusta consumo e preço só daquela viagem."
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Android Auto: leitura parada no Início",
+      "body": "O aviso fica no topo enquanto a leitura de tela estiver parada."
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Play: atualiza sem sair do Didur",
+      "body": "Quem instalou pela Play baixa a versão nova enquanto usa o app e só toca em Reiniciar.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "BlaBlaCar: carona vira viagem",
+      "body": "«Importar do BlaBlaCar» em Viagem particular lê o resumo e cria a viagem com paradas e passageiros.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "BlaBlaCar: reservas que mudam",
+      "body": "Quem cancela sai da viagem com aviso; a tela de cada passageiro traz o valor dele.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🔊",
+      "area": "Voz e alertas",
+      "title": "Aviso de parada na viagem",
+      "body": "Uns 5 min antes e na chegada, a voz diz a parada, quem sobe, quem desce e quem não pagou."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Viagem: passageiros a receber e pago",
+      "body": "Cada passageiro da carona mostra o valor; um toque marca quem pagou, e o fechamento cobra o resto.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta da viagem particular",
+      "body": "Com a viagem aberta, a gaveta vira a dela: paradas, quem sobe e desce, pessoas e lançar.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: chegando e custo ao vivo",
+      "body": "A gaveta da viagem mostra o custo andando, quanto falta para a parada e o «Chegando em…» com quem desce.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Android Auto: carona na viagem",
+      "body": "O carro mostra a próxima parada com o combinado, quem desce, quem não pagou e o atalho para navegar.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: fechamento da carona",
+      "body": "Ao encerrar, a gaveta mostra recebido menos combustível e pedágio e quem ainda não pagou, com o Recebi.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Viagem: Waze e quem desce",
+      "body": "O mapa da viagem mostra quem desce na próxima parada, o Waze e o «Chegou em…» com a seguinte.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "BlaBlaCar: aviso por cima do app",
+      "body": "Importar, atualizar e o valor de cada passageiro aparecem num aviso por cima do BlaBlaCar.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🔊",
+      "area": "Voz e alertas",
+      "title": "«Ana pagou» na notificação",
+      "body": "A notificação da chegada na parada tem o botão de quem desceu sem pagar; um toque confirma.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: na parada",
+      "body": "Logo depois de chegar, a gaveta mostra quem desceu ali com o Receber de cada um.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Viagem: tela acesa",
+      "body": "Um toque no mapa da viagem deixa a tela do celular acesa enquanto ele estiver aberto.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Viagem: pinos com hora e quem desce",
+      "body": "Cada parada mostra a hora combinada e quem desce; a já feita ganha o ✓ com a hora da chegada.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Viagem: trânsito até a próxima parada",
+      "body": "Um toque mostra o atraso pelo trânsito, a via lenta e a chegada corrigida, com os trechos lentos no mapa.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Viagem: fechamento ao encerrar",
+      "body": "Encerrar a carona pela tela, gaveta, mapa ou carro mostra o fechamento, com quem não pagou."
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Viagem: modo Acompanhar",
+      "body": "O mapa reenquadra sozinho da posição até o destino conforme o carro anda."
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Viagem: chegando na parada",
+      "body": "Perto da parada, o mapa mostra quem desce e o Recebi de cada um."
+     },
+     {
+      "emoji": "🔊",
+      "area": "Voz e alertas",
+      "title": "Voz da viagem",
+      "body": "O aviso de parada tem velocidade e volume próprios e pausa a música enquanto fala."
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Viagem particular",
+      "body": "Aviso de parada, raio de chegada, voz da viagem e como o mapa abre, num lugar só."
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Duas corridas lado a lado",
+      "body": "Com corrida em dois apps, gaveta e painel mostram as duas, cada uma com as próprias ações.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "FAB da meta com as duas corridas",
+      "body": "Os selos dos apps encostam no FAB, a etiqueta soma o que está em curso e avisa quem terminou.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Live Activity com duas corridas",
+      "body": "A tela bloqueada mostra uma linha por corrida e a ilha leva o selo 2.",
+      "platforms": [
+       "ios"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Android Auto: duas corridas",
+      "body": "O Início mostra as duas em Em curso, e a segunda aceita chega como aviso sobre o mapa.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Viagem: preço sugerido por lugar",
+      "body": "A planejada mostra o preço de cada trecho pelo custo do carro, pedágio e lugares oferecidos."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Caronas",
+      "body": "Tela nova com o recebido por mês, os passageiros que voltam e os trechos das caronas."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "iPhone: importar carona por print",
+      "body": "Compartilhar os prints do BlaBlaCar com o Didur cria a viagem com paradas e passageiros.",
+      "platforms": [
+       "ios"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Caixa da energia pela média",
+      "body": "Cada recarga atualiza o preço médio do caixa, e a jornada paga essa média."
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Android Auto: bruto e gastos na Jornada",
+      "body": "A linha do ganho mostra o bruto e os gastos, não só o líquido."
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Android Auto: mais corridas no celular",
+      "body": "A aba Corridas avisa quando tem mais do que cabe no carro."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Viagem: passageiros na ordem de descida",
+      "body": "Quem desce primeiro aparece primeiro na gaveta, na viagem, no fechamento, no mapa e no carro."
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta da viagem sem o monitoramento",
+      "body": "A gaveta aparece ao iniciar a viagem particular, mesmo com a leitura de tela desligada.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta da viagem: rodapé da viagem",
+      "body": "Placar do recebido com Waze, Mapa e ⋯; na parada, Recebi de todos; encerrada, Ver fechamento por 1 h.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: Pessoas por parada",
+      "body": "Os passageiros aparecem agrupados por onde descem, com Recebi a qualquer hora da viagem.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: teclado de valor",
+      "body": "Com o teclado aberto, as categorias recolhem na escolhida e o Lançar fica à vista."
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Viagem: barra e painel sólidos",
+      "body": "Botões e painel não se misturam com o mapa; os pinos ficam na área livre."
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Viagem: trânsito guardado e por nível",
+      "body": "O trânsito volta ao reabrir o mapa e pinta o trecho: livre, moderado ou pesado."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "BlaBlaCar: avisos novos",
+      "body": "Os avisos por cima do BlaBlaCar ganham o selo Viagem, o fechar e a barra do tempo que falta.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Ocultar em prints",
+      "body": "agora vale para toda janela do Didur, inclusive avisos e popups.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Android Auto: Início e Jornada pela arte",
+      "body": "Leitura parada tira o que não cabe, o ganho negativo leva o sinal e o R$/h ganha cor.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Folga marcada hoje não cobra a meta",
+      "body": "O que faltou não cai mais na folga: vai ao próximo dia de trabalho ou à semana seguinte."
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Duas corridas em apps diferentes",
+      "body": "Um app não cancela nem troca a corrida do outro, e o km conta uma vez só."
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: gasto na viagem aberta",
+      "body": "Lançar vai para o caixa da viagem, em vez de virar gasto avulso."
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Android Auto: detalhe abre direto",
+      "body": "Sem o «Carregando…», que gastava passo do limite do carro."
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta abre na hora em Ofertas",
+      "body": "a lista desenha só a tela, com 20 ou 100 ofertas"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "BlaBlaCar: origem e destino da carona",
+      "body": "A ponta sem passageiro entra pela carona publicada; e quem reservou 2 lugares conta 2.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Viagem: rota em linha reta",
+      "body": "Sair do mapa no meio do cálculo deixava o trecho em linha reta até o fim da viagem."
+     }
+    ]
+   },
+   "new": [
+    "Gaveta: teclado de valor: «Digitar o valor» abre um teclado com centavos em Lançar e na viagem.",
+    "Gaveta: energia da viagem: Tocar na Energia do caixa ajusta consumo e preço só daquela viagem.",
+    "Android Auto: leitura parada no Início: O aviso fica no topo enquanto a leitura de tela estiver parada.",
+    "Play: atualiza sem sair do Didur: Quem instalou pela Play baixa a versão nova enquanto usa o app e só toca em Reiniciar.",
+    "BlaBlaCar: carona vira viagem: «Importar do BlaBlaCar» em Viagem particular lê o resumo e cria a viagem com paradas e passageiros.",
+    "BlaBlaCar: reservas que mudam: Quem cancela sai da viagem com aviso; a tela de cada passageiro traz o valor dele.",
+    "Aviso de parada na viagem: Uns 5 min antes e na chegada, a voz diz a parada, quem sobe, quem desce e quem não pagou.",
+    "Viagem: passageiros a receber e pago: Cada passageiro da carona mostra o valor; um toque marca quem pagou, e o fechamento cobra o resto.",
+    "Gaveta da viagem particular: Com a viagem aberta, a gaveta vira a dela: paradas, quem sobe e desce, pessoas e lançar.",
+    "Gaveta: chegando e custo ao vivo: A gaveta da viagem mostra o custo andando, quanto falta para a parada e o «Chegando em…» com quem desce.",
+    "Android Auto: carona na viagem: O carro mostra a próxima parada com o combinado, quem desce, quem não pagou e o atalho para navegar.",
+    "Gaveta: fechamento da carona: Ao encerrar, a gaveta mostra recebido menos combustível e pedágio e quem ainda não pagou, com o Recebi.",
+    "Viagem: Waze e quem desce: O mapa da viagem mostra quem desce na próxima parada, o Waze e o «Chegou em…» com a seguinte.",
+    "BlaBlaCar: aviso por cima do app: Importar, atualizar e o valor de cada passageiro aparecem num aviso por cima do BlaBlaCar.",
+    "«Ana pagou» na notificação: A notificação da chegada na parada tem o botão de quem desceu sem pagar; um toque confirma.",
+    "Gaveta: na parada: Logo depois de chegar, a gaveta mostra quem desceu ali com o Receber de cada um.",
+    "Viagem: tela acesa: Um toque no mapa da viagem deixa a tela do celular acesa enquanto ele estiver aberto.",
+    "Viagem: pinos com hora e quem desce: Cada parada mostra a hora combinada e quem desce; a já feita ganha o ✓ com a hora da chegada.",
+    "Viagem: trânsito até a próxima parada: Um toque mostra o atraso pelo trânsito, a via lenta e a chegada corrigida, com os trechos lentos no mapa.",
+    "Viagem: fechamento ao encerrar: Encerrar a carona pela tela, gaveta, mapa ou carro mostra o fechamento, com quem não pagou.",
+    "Viagem: modo Acompanhar: O mapa reenquadra sozinho da posição até o destino conforme o carro anda.",
+    "Viagem: chegando na parada: Perto da parada, o mapa mostra quem desce e o Recebi de cada um.",
+    "Voz da viagem: O aviso de parada tem velocidade e volume próprios e pausa a música enquanto fala.",
+    "Viagem particular: Aviso de parada, raio de chegada, voz da viagem e como o mapa abre, num lugar só.",
+    "Duas corridas lado a lado: Com corrida em dois apps, gaveta e painel mostram as duas, cada uma com as próprias ações.",
+    "FAB da meta com as duas corridas: Os selos dos apps encostam no FAB, a etiqueta soma o que está em curso e avisa quem terminou.",
+    "Live Activity com duas corridas: A tela bloqueada mostra uma linha por corrida e a ilha leva o selo 2.",
+    "Android Auto: duas corridas: O Início mostra as duas em Em curso, e a segunda aceita chega como aviso sobre o mapa.",
+    "Viagem: preço sugerido por lugar: A planejada mostra o preço de cada trecho pelo custo do carro, pedágio e lugares oferecidos.",
+    "Caronas: Tela nova com o recebido por mês, os passageiros que voltam e os trechos das caronas.",
+    "iPhone: importar carona por print: Compartilhar os prints do BlaBlaCar com o Didur cria a viagem com paradas e passageiros."
+   ],
+   "changed": [
+    "Caixa da energia pela média: Cada recarga atualiza o preço médio do caixa, e a jornada paga essa média.",
+    "Android Auto: bruto e gastos na Jornada: A linha do ganho mostra o bruto e os gastos, não só o líquido.",
+    "Android Auto: mais corridas no celular: A aba Corridas avisa quando tem mais do que cabe no carro.",
+    "Viagem: passageiros na ordem de descida: Quem desce primeiro aparece primeiro na gaveta, na viagem, no fechamento, no mapa e no carro.",
+    "Gaveta da viagem sem o monitoramento: A gaveta aparece ao iniciar a viagem particular, mesmo com a leitura de tela desligada.",
+    "Gaveta da viagem: rodapé da viagem: Placar do recebido com Waze, Mapa e ⋯; na parada, Recebi de todos; encerrada, Ver fechamento por 1 h.",
+    "Gaveta: Pessoas por parada: Os passageiros aparecem agrupados por onde descem, com Recebi a qualquer hora da viagem.",
+    "Gaveta: teclado de valor: Com o teclado aberto, as categorias recolhem na escolhida e o Lançar fica à vista.",
+    "Viagem: barra e painel sólidos: Botões e painel não se misturam com o mapa; os pinos ficam na área livre.",
+    "Viagem: trânsito guardado e por nível: O trânsito volta ao reabrir o mapa e pinta o trecho: livre, moderado ou pesado.",
+    "BlaBlaCar: avisos novos: Os avisos por cima do BlaBlaCar ganham o selo Viagem, o fechar e a barra do tempo que falta.",
+    "Ocultar em prints: agora vale para toda janela do Didur, inclusive avisos e popups.",
+    "Android Auto: Início e Jornada pela arte: Leitura parada tira o que não cabe, o ganho negativo leva o sinal e o R$/h ganha cor."
+   ],
+   "fixed": [
+    "Folga marcada hoje não cobra a meta: O que faltou não cai mais na folga: vai ao próximo dia de trabalho ou à semana seguinte.",
+    "Duas corridas em apps diferentes: Um app não cancela nem troca a corrida do outro, e o km conta uma vez só.",
+    "Gaveta: gasto na viagem aberta: Lançar vai para o caixa da viagem, em vez de virar gasto avulso.",
+    "Android Auto: detalhe abre direto: Sem o «Carregando…», que gastava passo do limite do carro.",
+    "Gaveta abre na hora em Ofertas: a lista desenha só a tela, com 20 ou 100 ofertas",
+    "BlaBlaCar: origem e destino da carona: A ponta sem passageiro entra pela carona publicada; e quem reservou 2 lugares conta 2.",
+    "Viagem: rota em linha reta: Sair do mapa no meio do cálculo deixava o trecho em linha reta até o fim da viagem."
+   ]
+  },
+  {
+   "version": "2.0.90",
+   "build": 690,
+   "date": "30/10",
+   "items": {
+    "new": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: viagem particular",
+      "body": "Botão no trilho: inicia, pausa e encerra a viagem, mostra o caixa dela e lança gasto ou ajuda de custo.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Android Auto: viagem particular",
+      "body": "Inicia pelo Início, mostra tempo, km e o caixa na aba Viagem, pausa e encerra retomando ou não a jornada.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Aceitei e Não fiz com Refazer",
+      "body": "Toque duplo com barrinha do tempo e o que acontece; errou no Não fiz, o Refazer volta a corrida.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Encerrar a jornada? com linha do tempo",
+      "body": "Início, última leitura e agora, com tempo, ganho e corridas; o botão diz a hora em que fecha.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Ciclo anterior e próximo no desenho novo",
+      "body": "Batida ou não, quanto faltou em dias, contra o ciclo de antes e a meta planejada do próximo."
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Trocar para Corrida a corrida",
+      "body": "A jornada aberta pelo online, sem corrida nem ganho, é descartada; a próxima abre no 1º aceite."
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: chaves à direita e filtro com espera",
+      "body": "Filtro seu liga em 3 s com «Ativando…», e tocar de novo cancela.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta › Lançar sem nada cortado",
+      "body": "Grade 2 × 2 com a Recarga (Abastecer na combustão); Estacionamento foi para o «Outro».",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta › Hoje sem quebra no celular",
+      "body": "«Faltam» desce inteiro, «Parar às» numa grade e os números do dia em 2 × 2.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta › Ofertas em cartões",
+      "body": "Cada oferta num cartão com o ícone do app, km e minutos; filtro Recusadas inteiro no texto Grande.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta › Motor com o valor no meio",
+      "body": "O − e o + vão às pontas e o valor fica no centro; o ícone do Valendo agora acompanha o texto.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta › Corrida feita: feito × estimado",
+      "body": "Km, tempo, R$/km, ritmo e lucro contra a oferta, com o selo abaixo, como ou acima do estimado.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🎥",
+      "area": "Dashcam",
+      "title": "Gaveta: câmera no próprio cartão",
+      "body": "Estado e tempo, Frontal ou Traseira, incidente e Parar num cartão só, como na arte.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Sair da conta só com conta",
+      "body": "O botão do fim das Configurações só aparece com conta conectada e pede confirmação antes de sair."
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Ociosidade contra o ciclo de antes",
+      "body": "O card dizia «melhor» quando a ociosidade tinha subido, e o contrário."
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Lucro da corrida sem GPS",
+      "body": "Jornada sem pontos de GPS na corrida deixava 0,0 km e o lucro sem custo; agora fica no previsto.",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [
+    "Gaveta: viagem particular: Botão no trilho: inicia, pausa e encerra a viagem, mostra o caixa dela e lança gasto ou ajuda de custo.",
+    "Android Auto: viagem particular: Inicia pelo Início, mostra tempo, km e o caixa na aba Viagem, pausa e encerra retomando ou não a jornada."
+   ],
+   "changed": [
+    "Aceitei e Não fiz com Refazer: Toque duplo com barrinha do tempo e o que acontece; errou no Não fiz, o Refazer volta a corrida.",
+    "Encerrar a jornada? com linha do tempo: Início, última leitura e agora, com tempo, ganho e corridas; o botão diz a hora em que fecha.",
+    "Ciclo anterior e próximo no desenho novo: Batida ou não, quanto faltou em dias, contra o ciclo de antes e a meta planejada do próximo.",
+    "Trocar para Corrida a corrida: A jornada aberta pelo online, sem corrida nem ganho, é descartada; a próxima abre no 1º aceite.",
+    "Gaveta: chaves à direita e filtro com espera: Filtro seu liga em 3 s com «Ativando…», e tocar de novo cancela.",
+    "Gaveta › Lançar sem nada cortado: Grade 2 × 2 com a Recarga (Abastecer na combustão); Estacionamento foi para o «Outro».",
+    "Gaveta › Hoje sem quebra no celular: «Faltam» desce inteiro, «Parar às» numa grade e os números do dia em 2 × 2.",
+    "Gaveta › Ofertas em cartões: Cada oferta num cartão com o ícone do app, km e minutos; filtro Recusadas inteiro no texto Grande.",
+    "Gaveta › Motor com o valor no meio: O − e o + vão às pontas e o valor fica no centro; o ícone do Valendo agora acompanha o texto.",
+    "Gaveta › Corrida feita: feito × estimado: Km, tempo, R$/km, ritmo e lucro contra a oferta, com o selo abaixo, como ou acima do estimado.",
+    "Gaveta: câmera no próprio cartão: Estado e tempo, Frontal ou Traseira, incidente e Parar num cartão só, como na arte."
+   ],
+   "fixed": [
+    "Sair da conta só com conta: O botão do fim das Configurações só aparece com conta conectada e pede confirmação antes de sair.",
+    "Ociosidade contra o ciclo de antes: O card dizia «melhor» quando a ociosidade tinha subido, e o contrário.",
+    "Lucro da corrida sem GPS: Jornada sem pontos de GPS na corrida deixava 0,0 km e o lucro sem custo; agora fica no previsto."
+   ]
+  },
   {
    "version": "2.0.89",
    "build": 689,
@@ -496,206 +1120,6 @@
    "changed": [],
    "fixed": [
     "Captura volta depois do bloqueio: Pausada com a tela bloqueada, ela volta ao usar o celular, mesmo sem o aviso do sistema."
-   ]
-  },
-  {
-   "version": "2.0.81",
-   "build": 681,
-   "date": "25/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Te Levo: tempo calculando",
-      "body": "Um ícone gira na aba do card enquanto a rota calcula o tempo; some quando o tempo exato chega.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Recusar ofertas negociáveis",
-      "body": "Nova chave na Recusa automática: com ela ligada, 99Negocia e Negocia do Te Levo também são recusadas.",
-      "direct": true,
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Aba com o símbolo de %",
-      "body": "Com % da meta, a aba da gaveta mostra 62% em vez de 62, para não confundir com o R$ ganho.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "💰",
-      "area": "Lançamentos",
-      "title": "Te Levo no Didur Fin",
-      "body": "O ganho do Te Levo chega ao Fin com o nome do app, não como Outros.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Te Levo em segundo plano",
-      "body": "A oferta que abre por cima de outro app agora é lida, avaliada e pode ser recusada.",
-      "direct": true,
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Aviso embaixo do card",
-      "body": "Atrasa a meta e Baixa demanda vão numa linha própria e não saem mais cortados no Destaque.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Card do Te Levo e a rota",
-      "body": "O tempo da rota entra no card assim que chega, sem esperar a tela mudar, e o card não pisca.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Te Levo: tempo calculando: Um ícone gira na aba do card enquanto a rota calcula o tempo; some quando o tempo exato chega.",
-    "Recusar ofertas negociáveis: Nova chave na Recusa automática: com ela ligada, 99Negocia e Negocia do Te Levo também são recusadas."
-   ],
-   "changed": [
-    "Aba com o símbolo de %: Com % da meta, a aba da gaveta mostra 62% em vez de 62, para não confundir com o R$ ganho."
-   ],
-   "fixed": [
-    "Te Levo no Didur Fin: O ganho do Te Levo chega ao Fin com o nome do app, não como Outros.",
-    "Te Levo em segundo plano: A oferta que abre por cima de outro app agora é lida, avaliada e pode ser recusada.",
-    "Aviso embaixo do card: Atrasa a meta e Baixa demanda vão numa linha própria e não saem mais cortados no Destaque.",
-    "Card do Te Levo e a rota: O tempo da rota entra no card assim que chega, sem esperar a tela mudar, e o card não pisca."
-   ]
-  },
-  {
-   "version": "2.0.80",
-   "build": 680,
-   "date": "24/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Ganho na aba da gaveta",
-      "body": "Em Config da gaveta, escolha o que a aba mostra: nada, o % da meta ou o R$ que você já fez hoje.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Pausa com a tela bloqueada",
-      "body": "Celular bloqueado por 10 min para de ler a tela e volta sozinho ao desbloquear. Em Captura ou na gaveta.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Ofertas do Te Levo",
-      "body": "O Didur lê e avalia a oferta do Te Levo e de outros apps de cidade da Machine. Ligue em Captura.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Tempo do Te Levo",
-      "body": "O app não mostra minutos: o card abre com ~ pela sua velocidade e troca pela rota calculada.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Radar do Te Levo",
-      "body": "Cada corrida da lista Corridas e do detalhe ganha o veredito do Didur. Nada é recusado ali.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Ganhos do Te Levo",
-      "body": "No modo Total da plataforma, a tela Atividades do Te Levo importa o total do dia e o Conectado abre a jornada.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Dia no negativo na aba",
-      "body": "Gastos e energia maiores que o faturado deixam a borda da aba vermelha, descendo de cima.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Parado no Total da plataforma",
-      "body": "Com os ganhos pelo total da Uber/99, sem alerta de parado nem sugestão de Baixa demanda.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Print das ofertas na gaveta",
-      "body": "Celular com navegação por gestos e sem barra não gravava o print de nenhuma oferta.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Ganho na aba da gaveta: Em Config da gaveta, escolha o que a aba mostra: nada, o % da meta ou o R$ que você já fez hoje.",
-    "Pausa com a tela bloqueada: Celular bloqueado por 10 min para de ler a tela e volta sozinho ao desbloquear. Em Captura ou na gaveta.",
-    "Ofertas do Te Levo: O Didur lê e avalia a oferta do Te Levo e de outros apps de cidade da Machine. Ligue em Captura.",
-    "Tempo do Te Levo: O app não mostra minutos: o card abre com ~ pela sua velocidade e troca pela rota calculada.",
-    "Radar do Te Levo: Cada corrida da lista Corridas e do detalhe ganha o veredito do Didur. Nada é recusado ali.",
-    "Ganhos do Te Levo: No modo Total da plataforma, a tela Atividades do Te Levo importa o total do dia e o Conectado abre a jornada."
-   ],
-   "changed": [
-    "Dia no negativo na aba: Gastos e energia maiores que o faturado deixam a borda da aba vermelha, descendo de cima.",
-    "Parado no Total da plataforma: Com os ganhos pelo total da Uber/99, sem alerta de parado nem sugestão de Baixa demanda."
-   ],
-   "fixed": [
-    "Print das ofertas na gaveta: Celular com navegação por gestos e sem barra não gravava o print de nenhuma oferta."
    ]
   }
  ]
