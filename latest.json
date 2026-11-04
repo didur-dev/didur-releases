@@ -2,12 +2,12 @@
  "version": "2.0.91",
  "build": 691,
  "minBuild": 0,
- "publishedAt": "2026-11-04T13:53:13-03:00",
+ "publishedAt": "2026-11-04T15:31:30-03:00",
  "android": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/3fgtghslaacog?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/3jboode45l2t8?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/07tlr7rg3d5ao?utm_source=firebase-tools"
  },
  "history": [
   {
