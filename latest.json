@@ -1,15 +1,60 @@
 {
- "version": "2.0.92",
- "build": 692,
+ "version": "2.0.93",
+ "build": 693,
  "minBuild": 0,
- "publishedAt": "2026-11-05T12:57:30-03:00",
+ "publishedAt": "2026-11-05T13:57:05-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/6koa0h5c1461o?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/29fn6j9ctq680?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/07tlr7rg3d5ao?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.93",
+   "build": 693,
+   "date": "05/11",
+   "items": {
+    "new": [],
+    "changed": [
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Início: folga com a arte nova",
+      "body": "selo azul, anel de descanso e Semana e Ciclo completos no dia de folga"
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Personalizar: selo de exemplo",
+      "body": "a prévia ganha moldura e o selo «Exemplo · ter 14:20», sem cobrir o widget"
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Início: folga não é falta de meta",
+      "body": "em dia de folga o card diz «Hoje é folga» e mostra a semana e o ciclo"
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Personalizar com prévia de exemplo",
+      "body": "a prévia dos widgets mostra o exemplo da arte, mesmo sem dados no dia"
+     }
+    ]
+   },
+   "new": [],
+   "changed": [
+    "Início: folga com a arte nova: selo azul, anel de descanso e Semana e Ciclo completos no dia de folga",
+    "Personalizar: selo de exemplo: a prévia ganha moldura e o selo «Exemplo · ter 14:20», sem cobrir o widget"
+   ],
+   "fixed": [
+    "Início: folga não é falta de meta: em dia de folga o card diz «Hoje é folga» e mostra a semana e o ciclo",
+    "Personalizar com prévia de exemplo: a prévia dos widgets mostra o exemplo da arte, mesmo sem dados no dia"
+   ]
+  },
   {
    "version": "2.0.92",
    "build": 692,
@@ -1220,68 +1265,6 @@
    ],
    "fixed": [
     "99: total do Painel: O ganho de hoje é lido mesmo sem o card da semana ou com outro app por cima."
-   ]
-  },
-  {
-   "version": "2.0.83",
-   "build": 683,
-   "date": "25/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Te Levo: corrida aceita",
-      "body": "O Didur acompanha a corrida do Te Levo e lança o ganho sozinho, com o Negocia no valor certo.",
-      "highlight": true,
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Te Levo: recusa só no botão de cima",
-      "body": "Na oferta de arrastar o Didur não toca mais embaixo, onde o toque não recusa.",
-      "direct": true,
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Te Levo mais leve",
-      "body": "A tela do Te Levo passa a ser lida sem OCR, o que alivia o celular na corrida.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "99: valor da oferta na lista",
-      "body": "A primeira leitura não pega mais o ganho do dia do mapa: vale só o valor do card.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Te Levo: corrida aceita: O Didur acompanha a corrida do Te Levo e lança o ganho sozinho, com o Negocia no valor certo."
-   ],
-   "changed": [
-    "Te Levo: recusa só no botão de cima: Na oferta de arrastar o Didur não toca mais embaixo, onde o toque não recusa.",
-    "Te Levo mais leve: A tela do Te Levo passa a ser lida sem OCR, o que alivia o celular na corrida."
-   ],
-   "fixed": [
-    "99: valor da oferta na lista: A primeira leitura não pega mais o ganho do dia do mapa: vale só o valor do card."
    ]
   }
  ]
