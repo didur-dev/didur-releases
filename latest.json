@@ -1,15 +1,411 @@
 {
- "version": "2.0.93",
- "build": 693,
+ "version": "2.0.95",
+ "build": 695,
  "minBuild": 0,
- "publishedAt": "2026-11-05T14:26:51-03:00",
+ "publishedAt": "2026-11-08T23:16:27-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/29fn6j9ctq680?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/2crq9te5g9fvg?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/2c671670kl478?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/32ib703qg9l0o?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.95",
+   "build": 695,
+   "date": "08/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Cores da classificação",
+      "body": "a janela sobre o Uber/99 mostra o estilo escolhido nas quatro notas; o botão do painel rápido virou FAB"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Busca acha o item",
+      "body": "a busca mostra o item achado e a tela onde ele mora, como «Manutenção por km · Custos do veículo»"
+     },
+     {
+      "emoji": "🔊",
+      "area": "Voz e alertas",
+      "title": "Frases para o passageiro",
+      "body": "tela própria com a próxima da vez, quando é pulada, horário da saudação e voz só da frase"
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Uber conferida pelo total do card",
+      "body": "valor, km e tempo da oferta conferidos e corrigidos pelo total e pelo R$/km do card",
+      "highlight": true
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Passageiro à mão na viagem particular",
+      "body": "nome, telefone, valor, onde sobe e desce e Já pagou; entra no aviso de parada e no caixa",
+      "highlight": true
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Paradas no caminho e Otimizar rota",
+      "body": "a parada nova entra no lugar certo, com o desvio; Otimizar propõe a ordem mais curta"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Mensagem no WhatsApp ao passageiro",
+      "body": "as mensagens do BlaBlaCar já preenchidas; abre a conversa com o texto, você só envia"
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Meta de hoje na gaveta sem jornada",
+      "body": "quantas horas no seu ritmo, o melhor horário do dia e quanto falta na semana"
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: compartilhar o print",
+      "body": "no print em tela cheia da oferta, o botão abre a folha de compartilhar",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Dias do ciclo no Início",
+      "body": "o calendário do mês, com o que bateu, folga e o planejado; tocar num dia marca folga ou trabalho",
+      "highlight": true
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Metas no visual novo",
+      "body": "a meta, os modos, os dias e as telas de cada dia em grupos com cor"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Categorias e lembretes no visual novo",
+      "body": "listas com setas e editores em grupos; o custo fixo também"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Custos do veículo no visual novo",
+      "body": "tipo, custo por km, parâmetros e conta de luz em grupos"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Captura e filtros no visual novo",
+      "body": "captura, filtros, perfis e presets em grupos; cada condição do filtro abre numa tela própria"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Recusa automática no visual novo",
+      "body": "tempo de reação, proteções, automações da Uber e da 99 e a voz em grupos",
+      "direct": true,
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Jornada e mensagens no visual novo",
+      "body": "jornada, mensagens prontas e o editor delas em grupos com cor"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Dashcam no visual novo",
+      "body": "modo, câmera, espaço e as gravações do dia em grupos; Gravar e Incidente no fim"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Aparelho no visual novo",
+      "body": "desempenho, visão e leitura, widgets, Shizuku e permissões em grupos com cor"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Backup, depuração e novidades no visual novo",
+      "body": "backup, excluir conta, depuração e a versão do app em grupos"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Tablet em duas colunas",
+      "body": "com a tela larga, os grupos vão em duas colunas e a chave da tela sobe para o cabeçalho",
+      "highlight": true
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Janela da Uber mais rápida",
+      "body": "a nota aparece meio segundo antes, e a oferta por cima da 99 sai sem esperar a tela da 99",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: endereços já na oferta",
+      "body": "Embarque e Destino, com o navegar, abrem no topo de Números; a aba Rota saiu"
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Print da oferta fecha num toque",
+      "body": "um toque fecha a tela cheia; com zoom, o primeiro toque volta ao tamanho normal"
+     },
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Valor do gasto pelo teclado",
+      "body": "no gasto e na recarga, tocar no valor abre o teclado; o − e o + continuam"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "O que tinha sumido voltou",
+      "body": "selos e condições nos filtros, nota grande no teste do perfil, conta do combustível e avisos da diluição"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Desempenho, dashcam e mensagens",
+      "body": "temperatura e memória em destaque, bloco REC com o cronômetro e selo EXEMPLO"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Janela da análise",
+      "body": "o novo nome da janela sobre o app; a corrida da prévia numa linha que abre a folha"
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Corrida em dia de folga vira trabalho",
+      "body": "a primeira corrida aceita numa folga marca o dia de trabalho e a meta do dia aparece"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Distribuição semanal completa",
+      "body": "cada dia com horas, base e histórico, o gráfico da meta por dia e o estado da semana"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Tanque cheio e autonomia em cartões",
+      "body": "os dois resultados voltam lado a lado, embaixo dos parâmetros do veículo"
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Uber: distância certa na oferta",
+      "body": "a linha nova do total da Uber era lida como a busca e a nota saía mais baixa que a real",
+      "highlight": true
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Recusa da Uber sem oferta boa",
+      "body": "com a distância lida a mais, a recusa automática recusava oferta boa da Uber desde 03/11",
+      "direct": true,
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Fim da corrida que a tela não mostrou",
+      "body": "em viagem e sem sinal, a próxima oferta encerra a corrida na hora do último sinal"
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Uber: oferta com a busca partida",
+      "body": "com o tempo e os km da busca em linhas separadas, a oferta ficava sem janela"
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Uber flutuando sobre a tela inicial",
+      "body": "A oferta que a Uber abre por cima da tela inicial, com o app em segundo plano, agora é lida e avaliada.",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Margem negativa com o sinal certo",
+      "body": "a margem por semana do custo do km mostra -2,39, não mais -2,-39"
+     }
+    ]
+   },
+   "new": [
+    "Cores da classificação: a janela sobre o Uber/99 mostra o estilo escolhido nas quatro notas; o botão do painel rápido virou FAB",
+    "Busca acha o item: a busca mostra o item achado e a tela onde ele mora, como «Manutenção por km · Custos do veículo»",
+    "Frases para o passageiro: tela própria com a próxima da vez, quando é pulada, horário da saudação e voz só da frase",
+    "Uber conferida pelo total do card: valor, km e tempo da oferta conferidos e corrigidos pelo total e pelo R$/km do card",
+    "Passageiro à mão na viagem particular: nome, telefone, valor, onde sobe e desce e Já pagou; entra no aviso de parada e no caixa",
+    "Paradas no caminho e Otimizar rota: a parada nova entra no lugar certo, com o desvio; Otimizar propõe a ordem mais curta",
+    "Mensagem no WhatsApp ao passageiro: as mensagens do BlaBlaCar já preenchidas; abre a conversa com o texto, você só envia",
+    "Meta de hoje na gaveta sem jornada: quantas horas no seu ritmo, o melhor horário do dia e quanto falta na semana",
+    "Gaveta: compartilhar o print: no print em tela cheia da oferta, o botão abre a folha de compartilhar",
+    "Dias do ciclo no Início: o calendário do mês, com o que bateu, folga e o planejado; tocar num dia marca folga ou trabalho"
+   ],
+   "changed": [
+    "Metas no visual novo: a meta, os modos, os dias e as telas de cada dia em grupos com cor",
+    "Categorias e lembretes no visual novo: listas com setas e editores em grupos; o custo fixo também",
+    "Custos do veículo no visual novo: tipo, custo por km, parâmetros e conta de luz em grupos",
+    "Captura e filtros no visual novo: captura, filtros, perfis e presets em grupos; cada condição do filtro abre numa tela própria",
+    "Recusa automática no visual novo: tempo de reação, proteções, automações da Uber e da 99 e a voz em grupos",
+    "Jornada e mensagens no visual novo: jornada, mensagens prontas e o editor delas em grupos com cor",
+    "Dashcam no visual novo: modo, câmera, espaço e as gravações do dia em grupos; Gravar e Incidente no fim",
+    "Aparelho no visual novo: desempenho, visão e leitura, widgets, Shizuku e permissões em grupos com cor",
+    "Backup, depuração e novidades no visual novo: backup, excluir conta, depuração e a versão do app em grupos",
+    "Tablet em duas colunas: com a tela larga, os grupos vão em duas colunas e a chave da tela sobe para o cabeçalho",
+    "Janela da Uber mais rápida: a nota aparece meio segundo antes, e a oferta por cima da 99 sai sem esperar a tela da 99",
+    "Gaveta: endereços já na oferta: Embarque e Destino, com o navegar, abrem no topo de Números; a aba Rota saiu",
+    "Print da oferta fecha num toque: um toque fecha a tela cheia; com zoom, o primeiro toque volta ao tamanho normal",
+    "Valor do gasto pelo teclado: no gasto e na recarga, tocar no valor abre o teclado; o − e o + continuam",
+    "O que tinha sumido voltou: selos e condições nos filtros, nota grande no teste do perfil, conta do combustível e avisos da diluição",
+    "Desempenho, dashcam e mensagens: temperatura e memória em destaque, bloco REC com o cronômetro e selo EXEMPLO",
+    "Janela da análise: o novo nome da janela sobre o app; a corrida da prévia numa linha que abre a folha",
+    "Corrida em dia de folga vira trabalho: a primeira corrida aceita numa folga marca o dia de trabalho e a meta do dia aparece",
+    "Distribuição semanal completa: cada dia com horas, base e histórico, o gráfico da meta por dia e o estado da semana",
+    "Tanque cheio e autonomia em cartões: os dois resultados voltam lado a lado, embaixo dos parâmetros do veículo"
+   ],
+   "fixed": [
+    "Uber: distância certa na oferta: a linha nova do total da Uber era lida como a busca e a nota saía mais baixa que a real",
+    "Recusa da Uber sem oferta boa: com a distância lida a mais, a recusa automática recusava oferta boa da Uber desde 03/11",
+    "Fim da corrida que a tela não mostrou: em viagem e sem sinal, a próxima oferta encerra a corrida na hora do último sinal",
+    "Uber: oferta com a busca partida: com o tempo e os km da busca em linhas separadas, a oferta ficava sem janela",
+    "Uber flutuando sobre a tela inicial: A oferta que a Uber abre por cima da tela inicial, com o app em segundo plano, agora é lida e avaliada.",
+    "Margem negativa com o sinal certo: a margem por semana do custo do km mostra -2,39, não mais -2,-39"
+   ]
+  },
+  {
+   "version": "2.0.94",
+   "build": 694,
+   "date": "06/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Pedágio por praça no preço da carona",
+      "body": "a planejada mostra as praças da rota com o valor do mapa; toque para salvar o seu, que vale sempre"
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Lista no visual da Início",
+      "body": "grupos com cor, o estado de cada item em verde e a conta com o plano num toque só",
+      "highlight": true
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Conta e plano",
+      "body": "a antiga Conta e dados traz o plano no topo, com Gerenciar e Restaurar compra"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Avisos na corrida no visual novo",
+      "body": "voz, notificações, janela sobre o Uber/99 e Live Activity em grupos com cor"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Motor e filtros no visual novo",
+      "body": "perfis, presets, cortes e filtros de recusa em grupos, com os textos mais simples"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Gastos fixos no visual novo",
+      "body": "as contas, os ajustes e o cálculo da meta em grupos, com os textos mais simples"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Aviso do passageiro só quando muda",
+      "body": "abrir um passageiro no BlaBlaCar só mostra o valor lido se ele mudou ou é novo",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Mensagem do chat com a rota da carona",
+      "body": "sem a rota no topo do chat, a mensagem pega o trecho, a data e a hora do passageiro na carona importada",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Preço da carona com margem",
+      "body": "o preço sugerido soma 50% ao custo por lugar; a margem muda em Configurações › Viagem particular"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Viagem particular no visual novo",
+      "body": "aviso de parada, chegada, voz, carona com lugares e margem e o mapa em grupos com cor"
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🔊",
+      "area": "Voz e alertas",
+      "title": "Chave da frase do embarque",
+      "body": "tocar em Falar depois do embarque liga a chave e mostra a espera e as frases"
+     }
+    ]
+   },
+   "new": [
+    "Pedágio por praça no preço da carona: a planejada mostra as praças da rota com o valor do mapa; toque para salvar o seu, que vale sempre"
+   ],
+   "changed": [
+    "Lista no visual da Início: grupos com cor, o estado de cada item em verde e a conta com o plano num toque só",
+    "Conta e plano: a antiga Conta e dados traz o plano no topo, com Gerenciar e Restaurar compra",
+    "Avisos na corrida no visual novo: voz, notificações, janela sobre o Uber/99 e Live Activity em grupos com cor",
+    "Motor e filtros no visual novo: perfis, presets, cortes e filtros de recusa em grupos, com os textos mais simples",
+    "Gastos fixos no visual novo: as contas, os ajustes e o cálculo da meta em grupos, com os textos mais simples",
+    "Aviso do passageiro só quando muda: abrir um passageiro no BlaBlaCar só mostra o valor lido se ele mudou ou é novo",
+    "Mensagem do chat com a rota da carona: sem a rota no topo do chat, a mensagem pega o trecho, a data e a hora do passageiro na carona importada",
+    "Preço da carona com margem: o preço sugerido soma 50% ao custo por lugar; a margem muda em Configurações › Viagem particular",
+    "Viagem particular no visual novo: aviso de parada, chegada, voz, carona com lugares e margem e o mapa em grupos com cor"
+   ],
+   "fixed": [
+    "Chave da frase do embarque: tocar em Falar depois do embarque liga a chave e mostra a espera e as frases"
+   ]
+  },
   {
    "version": "2.0.93",
    "build": 693,
@@ -1182,90 +1578,6 @@
     "Android Auto: ícone do app de corrida: No carro, Corridas, Início e o detalhe mostram o ícone da Uber, 99, inDrive ou Te Levo."
    ],
    "fixed": []
-  },
-  {
-   "version": "2.0.85",
-   "build": 685,
-   "date": "25/10",
-   "items": {
-    "new": [],
-    "changed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gaveta na direita espelhada",
-      "body": "Com a aba na direita, o trilho e os botões de voltar e fechar vão para a direita.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Ícone do app de corrida no lugar do nome",
-      "body": "Card, gaveta, histórico, jornada e metas mostram o ícone da Uber, 99, inDrive ou Te Levo.",
-      "highlight": true
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Desligar a redistribuição entre dias",
-      "body": "A meta de cada dia volta ao plano na hora, sem o que ela já tinha empurrado.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     }
-    ]
-   },
-   "new": [],
-   "changed": [
-    "Gaveta na direita espelhada: Com a aba na direita, o trilho e os botões de voltar e fechar vão para a direita.",
-    "Ícone do app de corrida no lugar do nome: Card, gaveta, histórico, jornada e metas mostram o ícone da Uber, 99, inDrive ou Te Levo."
-   ],
-   "fixed": [
-    "Desligar a redistribuição entre dias: A meta de cada dia volta ao plano na hora, sem o que ela já tinha empurrado."
-   ]
-  },
-  {
-   "version": "2.0.84",
-   "build": 684,
-   "date": "25/10",
-   "items": {
-    "new": [],
-    "changed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Detalhe da oferta completo",
-      "body": "Na gaveta voltam score, motivos, selos, lucro, km morto e a corrida ao vivo.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "99: total do Painel",
-      "body": "O ganho de hoje é lido mesmo sem o card da semana ou com outro app por cima.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     }
-    ]
-   },
-   "new": [],
-   "changed": [
-    "Detalhe da oferta completo: Na gaveta voltam score, motivos, selos, lucro, km morto e a corrida ao vivo."
-   ],
-   "fixed": [
-    "99: total do Painel: O ganho de hoje é lido mesmo sem o card da semana ou com outro app por cima."
-   ]
   }
  ]
 }
