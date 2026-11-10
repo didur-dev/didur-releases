@@ -1,15 +1,116 @@
 {
- "version": "2.0.95",
- "build": 695,
- "minBuild": 0,
- "publishedAt": "2026-11-08T23:16:27-03:00",
+ "version": "2.0.96",
+ "build": 696,
+ "minBuild": 696,
+ "publishedAt": "2026-11-10T12:09:16-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/2crq9te5g9fvg?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/0gj6p0uaksrvg?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/32ib703qg9l0o?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/7af6vmsj0rkd0?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.96",
+   "build": 696,
+   "date": "10/11",
+   "items": {
+    "new": [],
+    "changed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Um motor só, o Tradicional",
+      "body": "o Didur Score saiu; quem usava passa ao preset Padrão e vê um aviso no Início",
+      "highlight": true
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Oferta sem número de score",
+      "body": "card, painel, carro, Ilha, voz e histórico mostram só a classificação na cor"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Filtro por classificação",
+      "body": "a condição Score virou Classificação (é, ou melhor, ou pior); os filtros salvos foram convertidos"
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Selo da classe na oferta",
+      "body": "ícone e nome na cor da classe no card, no lugar do número; ⇈ ✓ − × valem sem as cores"
+     },
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Classe em degraus",
+      "body": "o anel da corrida tem 4 degraus e as listas e a gaveta mostram o selo da classe"
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Classe primeiro no carro",
+      "body": "aviso, última oferta e histórico do Android Auto abrem com a classe e o ícone dela",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "📜",
+      "area": "Histórico",
+      "title": "Selo da classe",
+      "body": "a lista mostra o selo tinto e o detalhe da corrida o selo cheio, no lugar do número"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Motor na ordem nova",
+      "body": "a estratégia vem primeiro, os cortes ganham a régua de 4 cores e «Aceitável» virou «Regular»"
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Aviso do Didur Score no Início",
+      "body": "banner com as 4 classes, «Ajustar o motor» e «Entendi»; fica até você fechar"
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Live Activity com a classe em degraus",
+      "body": "anel de 4 degraus com o ícone, selo da classe e a Ilha compacta mostra «Classe»",
+      "platforms": [
+       "ios"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Corrida de teste Regular",
+      "body": "a corrida de teste da faixa Regular agora cai mesmo na Regular"
+     }
+    ]
+   },
+   "new": [],
+   "changed": [
+    "Um motor só, o Tradicional: o Didur Score saiu; quem usava passa ao preset Padrão e vê um aviso no Início",
+    "Oferta sem número de score: card, painel, carro, Ilha, voz e histórico mostram só a classificação na cor",
+    "Filtro por classificação: a condição Score virou Classificação (é, ou melhor, ou pior); os filtros salvos foram convertidos",
+    "Selo da classe na oferta: ícone e nome na cor da classe no card, no lugar do número; ⇈ ✓ − × valem sem as cores",
+    "Classe em degraus: o anel da corrida tem 4 degraus e as listas e a gaveta mostram o selo da classe",
+    "Classe primeiro no carro: aviso, última oferta e histórico do Android Auto abrem com a classe e o ícone dela",
+    "Selo da classe: a lista mostra o selo tinto e o detalhe da corrida o selo cheio, no lugar do número",
+    "Motor na ordem nova: a estratégia vem primeiro, os cortes ganham a régua de 4 cores e «Aceitável» virou «Regular»",
+    "Aviso do Didur Score no Início: banner com as 4 classes, «Ajustar o motor» e «Entendi»; fica até você fechar",
+    "Live Activity com a classe em degraus: anel de 4 degraus com o ícone, selo da classe e a Ilha compacta mostra «Classe»"
+   ],
+   "fixed": [
+    "Corrida de teste Regular: a corrida de teste da faixa Regular agora cai mesmo na Regular"
+   ]
+  },
   {
    "version": "2.0.95",
    "build": 695,
@@ -134,7 +235,7 @@
       "emoji": "⚙️",
       "area": "Configurações",
       "title": "Aparelho no visual novo",
-      "body": "desempenho, visão e leitura, widgets, Shizuku e permissões em grupos com cor"
+      "body": "desempenho, visão e leitura, widgets e permissões em grupos com cor"
      },
      {
       "emoji": "⚙️",
@@ -280,7 +381,7 @@
     "Recusa automática no visual novo: tempo de reação, proteções, automações da Uber e da 99 e a voz em grupos",
     "Jornada e mensagens no visual novo: jornada, mensagens prontas e o editor delas em grupos com cor",
     "Dashcam no visual novo: modo, câmera, espaço e as gravações do dia em grupos; Gravar e Incidente no fim",
-    "Aparelho no visual novo: desempenho, visão e leitura, widgets, Shizuku e permissões em grupos com cor",
+    "Aparelho no visual novo: desempenho, visão e leitura, widgets e permissões em grupos com cor",
     "Backup, depuração e novidades no visual novo: backup, excluir conta, depuração e a versão do app em grupos",
     "Tablet em duas colunas: com a tela larga, os grupos vão em duas colunas e a chave da tela sobe para o cabeçalho",
     "Janela da Uber mais rápida: a nota aparece meio segundo antes, e a oferta por cima da 99 sai sem esperar a tela da 99",
@@ -1553,31 +1654,6 @@
    "fixed": [
     "Radar da Uber com \"Tenho interesse\": A Uber trocou de novo o botão do radar; o Didur lê o \"Tenho interesse\" e analisa o radar."
    ]
-  },
-  {
-   "version": "2.0.86",
-   "build": 686,
-   "date": "25/10",
-   "items": {
-    "new": [],
-    "changed": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Android Auto: ícone do app de corrida",
-      "body": "No carro, Corridas, Início e o detalhe mostram o ícone da Uber, 99, inDrive ou Te Levo.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": []
-   },
-   "new": [],
-   "changed": [
-    "Android Auto: ícone do app de corrida: No carro, Corridas, Início e o detalhe mostram o ícone da Uber, 99, inDrive ou Te Levo."
-   ],
-   "fixed": []
   }
  ]
 }
