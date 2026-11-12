@@ -2,7 +2,7 @@
  "version": "2.0.98",
  "build": 698,
  "minBuild": 696,
- "publishedAt": "2026-11-12T19:34:16-03:00",
+ "publishedAt": "2026-11-12T19:34:18-03:00",
  "android": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/27cqrrar2t2ig?utm_source=firebase-tools"
  },
