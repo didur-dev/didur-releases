@@ -1,15 +1,104 @@
 {
- "version": "2.0.96",
- "build": 696,
+ "version": "2.0.98",
+ "build": 698,
  "minBuild": 696,
- "publishedAt": "2026-11-10T12:09:16-03:00",
+ "publishedAt": "2026-11-12T19:34:16-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/0gj6p0uaksrvg?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/27cqrrar2t2ig?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/7af6vmsj0rkd0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/0l6jpl3uk0on0?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.98",
+   "build": 698,
+   "date": "12/11",
+   "items": {
+    "new": [],
+    "changed": [],
+    "fixed": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Print segurando a aba da gaveta",
+      "body": "segurar a aba tira o print de depuração, como no botão do painel rápido"
+     }
+    ]
+   },
+   "new": [],
+   "changed": [],
+   "fixed": [
+    "Print segurando a aba da gaveta: segurar a aba tira o print de depuração, como no botão do painel rápido"
+   ]
+  },
+  {
+   "version": "2.0.97",
+   "build": 697,
+   "date": "12/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Primeiro uso novo",
+      "body": "o card da oferta guia cada passo, da leitura da oferta à corrida de teste, e você sai calculando certo",
+      "highlight": true
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Estilos de motorista",
+      "body": "Exigente, Giro rápido, Viagens longas e Noturno ao lado do Equilibrado (o antigo Padrão)"
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Categoria que você roda",
+      "body": "Econômico, Conforto ou Premium ajusta o mínimo por km; fica no Motor"
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Primeiros passos no Início",
+      "body": "meta do mês, ouvir a voz e 3 atalhos num cartão que some ao terminar"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Log completo por 24 h",
+      "body": "em Depuração, grava calor, bateria e CPU a cada minuto e os prints lidos, para o suporte"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Faixa da carona no BlaBlaCar",
+      "body": "no resumo, mostra quem já tem valor e quem falta abrir para o Didur Driver ler"
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Gaveta: endereços no fim",
+      "body": "Embarque e Destino descem para o fim de Números, no desenho do painel rápido"
+     }
+    ],
+    "fixed": []
+   },
+   "new": [
+    "Primeiro uso novo: o card da oferta guia cada passo, da leitura da oferta à corrida de teste, e você sai calculando certo",
+    "Estilos de motorista: Exigente, Giro rápido, Viagens longas e Noturno ao lado do Equilibrado (o antigo Padrão)",
+    "Categoria que você roda: Econômico, Conforto ou Premium ajusta o mínimo por km; fica no Motor",
+    "Primeiros passos no Início: meta do mês, ouvir a voz e 3 atalhos num cartão que some ao terminar",
+    "Log completo por 24 h: em Depuração, grava calor, bateria e CPU a cada minuto e os prints lidos, para o suporte",
+    "Faixa da carona no BlaBlaCar: no resumo, mostra quem já tem valor e quem falta abrir para o Didur Driver ler"
+   ],
+   "changed": [
+    "Gaveta: endereços no fim: Embarque e Destino descem para o fim de Números, no desenho do painel rápido"
+   ],
+   "fixed": []
+  },
   {
    "version": "2.0.96",
    "build": 696,
@@ -1480,179 +1569,6 @@
     "99: corrida estornada por engano: Dispensar a oferta seguinte durante a viagem (\"OK, corrida cancelada\") não cancela mais a corrida em curso.",
     "Widget da semana com dias do ciclo antigo: Os dias antes do vencimento saem apagados, com o valor feito, e não mais como folga.",
     "Tablet em pé: permissão pendente legível: Os cartões do Início passam a dois por linha em pé, sem quebrar o nome no meio da palavra."
-   ]
-  },
-  {
-   "version": "2.0.88",
-   "build": 688,
-   "date": "29/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Avisa corrida em dinheiro",
-      "body": "A voz termina com \"em dinheiro\" quando a oferta é paga assim; já vem ligado e desliga na tela Voz.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Aceitei e Não fiz na mão",
-      "body": "No painel e na gaveta: marque a corrida que o app não viu aceitar, ou desfaça um aceite errado.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Aviso antes de pedir permissão",
-      "body": "Antes da acessibilidade e da localização o tempo todo, o Didur explica o que lê e para quê; segue só no Concordo.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Excluir a conta",
-      "body": "Em Conta e dados: apaga a conta e os dados dela na nuvem; o histórico no aparelho fica.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Política de privacidade",
-      "body": "Link para a política no fim das Configurações e no aviso antes das permissões.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Lista de ofertas mais leve",
-      "body": "A mesma oferta parada na tela (lista da 99, card da Uber) deixa de ser tratada de novo a cada segundo.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "GPS descansa parado",
-      "body": "Parado há 10 s, o GPS passa para o modo econômico e volta à precisão assim que o carro anda; o km da jornada não muda.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Card da Uber lido por inteiro",
-      "body": "O Didur lê só o card da oferta da Uber, sem reduzir a imagem, e confere os números com o texto que a própria Uber expõe; menos minuto e km lidos errado.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Ciclo anterior na aba inteira",
-      "body": "O ‹ › do topo da aba Ciclo volta para o ciclo fechado: total, dias, energia, ociosidade e insights.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Total da plataforma marca as corridas",
-      "body": "O aceite e o fim da corrida são detectados também nesse modo; a corrida entra na jornada sem somar no ganho.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Ociosidade no Total da plataforma",
-      "body": "Tempo com passageiro, parado e sugestão de Baixa demanda passam a valer também nesse modo.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Oferta flutuante do Te Levo",
-      "body": "Com o Te Levo em segundo plano, a oferta que aparece por cima de outro app (Uber, mapa, tela inicial) volta a ser lida e analisada.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Avisa corrida em dinheiro: A voz termina com \"em dinheiro\" quando a oferta é paga assim; já vem ligado e desliga na tela Voz.",
-    "Aceitei e Não fiz na mão: No painel e na gaveta: marque a corrida que o app não viu aceitar, ou desfaça um aceite errado.",
-    "Aviso antes de pedir permissão: Antes da acessibilidade e da localização o tempo todo, o Didur explica o que lê e para quê; segue só no Concordo.",
-    "Excluir a conta: Em Conta e dados: apaga a conta e os dados dela na nuvem; o histórico no aparelho fica.",
-    "Política de privacidade: Link para a política no fim das Configurações e no aviso antes das permissões."
-   ],
-   "changed": [
-    "Lista de ofertas mais leve: A mesma oferta parada na tela (lista da 99, card da Uber) deixa de ser tratada de novo a cada segundo.",
-    "GPS descansa parado: Parado há 10 s, o GPS passa para o modo econômico e volta à precisão assim que o carro anda; o km da jornada não muda.",
-    "Card da Uber lido por inteiro: O Didur lê só o card da oferta da Uber, sem reduzir a imagem, e confere os números com o texto que a própria Uber expõe; menos minuto e km lidos errado.",
-    "Ciclo anterior na aba inteira: O ‹ › do topo da aba Ciclo volta para o ciclo fechado: total, dias, energia, ociosidade e insights.",
-    "Total da plataforma marca as corridas: O aceite e o fim da corrida são detectados também nesse modo; a corrida entra na jornada sem somar no ganho.",
-    "Ociosidade no Total da plataforma: Tempo com passageiro, parado e sugestão de Baixa demanda passam a valer também nesse modo."
-   ],
-   "fixed": [
-    "Oferta flutuante do Te Levo: Com o Te Levo em segundo plano, a oferta que aparece por cima de outro app (Uber, mapa, tela inicial) volta a ser lida e analisada."
-   ]
-  },
-  {
-   "version": "2.0.87",
-   "build": 687,
-   "date": "27/10",
-   "items": {
-    "new": [],
-    "changed": [],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Radar da Uber com \"Tenho interesse\"",
-      "body": "A Uber trocou de novo o botão do radar; o Didur lê o \"Tenho interesse\" e analisa o radar.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     }
-    ]
-   },
-   "new": [],
-   "changed": [],
-   "fixed": [
-    "Radar da Uber com \"Tenho interesse\": A Uber trocou de novo o botão do radar; o Didur lê o \"Tenho interesse\" e analisa o radar."
    ]
   }
  ]
