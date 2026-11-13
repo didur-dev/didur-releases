@@ -1,15 +1,139 @@
 {
- "version": "2.0.99",
- "build": 699,
+ "version": "2.0.100",
+ "build": 700,
  "minBuild": 696,
- "publishedAt": "2026-11-12T21:46:18-03:00",
+ "publishedAt": "2026-11-13T13:34:31-03:00",
  "android": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/5ddfjf2t63ujg?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/7lpdg8gmmtk98?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/3808sa0gk3ib0?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.100",
+   "build": 700,
+   "date": "13/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Custo real do carro",
+      "body": "parcela, seguro, IPVA, desgaste e energia num número: abaixo dele a corrida dá prejuízo",
+      "highlight": true
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Carro pela tabela FIPE",
+      "body": "marca, modelo e ano trazem o valor do carro; sem internet, você digita"
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Etiqueta Prejuízo no card",
+      "body": "oferta abaixo da linha de prejuízo ganha Prejuízo em vermelho, no lugar do Atrasa a meta",
+      "highlight": true,
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Sete tipos de combustível",
+      "body": "gasolina, etanol, diesel, flex, gás, elétrico e híbrido; flex, gás e híbrido dividem os km"
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Teclado do Didur Driver",
+      "body": "os números abrem um teclado próprio com +5, +10, soma e Próximo, no lugar do teclado do celular",
+      "highlight": true
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Editar passageiro do BlaBlaCar",
+      "body": "valor e onde sobe ou desce, até parada nova; o Atualizar do BlaBlaCar não desfaz o combinado",
+      "highlight": true
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Editar paradas da viagem",
+      "body": "lugar exato, hora e ordem direto do detalhe; parada sem lugar no mapa fica em laranja"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Trocar parada no plano",
+      "body": "toque na parada para mudar o lugar ou a hora, sem apagar e criar de novo"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "WhatsApp do passageiro do BlaBlaCar",
+      "body": "ponha o telefone ao editar e escolha a mensagem pronta que abre a conversa"
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Aplicar o custo real",
+      "body": "contas com vencimento, manutenção por km e km mínimo do estilo num toque, revisando antes"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Manutenção por km até R$ 1,00",
+      "body": "o ajuste passa de R$ 0,50 para caber o que o custo real calcula"
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Diagnóstico liberado fica",
+      "body": "os 7 toques na versão valem até você ocultar em Depuração; o app fechado ou atualizado não esconde mais"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Pedágio e km da carona",
+      "body": "parada sem lugar no mapa cortava o resto da rota e deixava praças de fora"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Parada do BlaBlaCar sem lugar",
+      "body": "a busca procura o posto junto da cidade e tenta de novo ao abrir a viagem"
+     }
+    ]
+   },
+   "new": [
+    "Custo real do carro: parcela, seguro, IPVA, desgaste e energia num número: abaixo dele a corrida dá prejuízo",
+    "Carro pela tabela FIPE: marca, modelo e ano trazem o valor do carro; sem internet, você digita",
+    "Etiqueta Prejuízo no card: oferta abaixo da linha de prejuízo ganha Prejuízo em vermelho, no lugar do Atrasa a meta",
+    "Sete tipos de combustível: gasolina, etanol, diesel, flex, gás, elétrico e híbrido; flex, gás e híbrido dividem os km",
+    "Teclado do Didur Driver: os números abrem um teclado próprio com +5, +10, soma e Próximo, no lugar do teclado do celular",
+    "Editar passageiro do BlaBlaCar: valor e onde sobe ou desce, até parada nova; o Atualizar do BlaBlaCar não desfaz o combinado",
+    "Editar paradas da viagem: lugar exato, hora e ordem direto do detalhe; parada sem lugar no mapa fica em laranja",
+    "Trocar parada no plano: toque na parada para mudar o lugar ou a hora, sem apagar e criar de novo",
+    "WhatsApp do passageiro do BlaBlaCar: ponha o telefone ao editar e escolha a mensagem pronta que abre a conversa"
+   ],
+   "changed": [
+    "Aplicar o custo real: contas com vencimento, manutenção por km e km mínimo do estilo num toque, revisando antes",
+    "Manutenção por km até R$ 1,00: o ajuste passa de R$ 0,50 para caber o que o custo real calcula"
+   ],
+   "fixed": [
+    "Diagnóstico liberado fica: os 7 toques na versão valem até você ocultar em Depuração; o app fechado ou atualizado não esconde mais",
+    "Pedágio e km da carona: parada sem lugar no mapa cortava o resto da rota e deixava praças de fora",
+    "Parada do BlaBlaCar sem lugar: a busca procura o posto junto da cidade e tenta de novo ao abrir a viagem"
+   ]
+  },
   {
    "version": "2.0.99",
    "build": 699,
@@ -1330,173 +1454,6 @@
     "Gaveta abre na hora em Ofertas: a lista desenha só a tela, com 20 ou 100 ofertas",
     "BlaBlaCar: origem e destino da carona: A ponta sem passageiro entra pela carona publicada; e quem reservou 2 lugares conta 2.",
     "Viagem: rota em linha reta: Sair do mapa no meio do cálculo deixava o trecho em linha reta até o fim da viagem."
-   ]
-  },
-  {
-   "version": "2.0.90",
-   "build": 690,
-   "date": "30/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gaveta: viagem particular",
-      "body": "Botão no trilho: inicia, pausa e encerra a viagem, mostra o caixa dela e lança gasto ou ajuda de custo.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Android Auto: viagem particular",
-      "body": "Inicia pelo Início, mostra tempo, km e o caixa na aba Viagem, pausa e encerra retomando ou não a jornada.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Aceitei e Não fiz com Refazer",
-      "body": "Toque duplo com barrinha do tempo e o que acontece; errou no Não fiz, o Refazer volta a corrida.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Encerrar a jornada? com linha do tempo",
-      "body": "Início, última leitura e agora, com tempo, ganho e corridas; o botão diz a hora em que fecha.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Ciclo anterior e próximo no desenho novo",
-      "body": "Batida ou não, quanto faltou em dias, contra o ciclo de antes e a meta planejada do próximo."
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Trocar para Corrida a corrida",
-      "body": "A jornada aberta pelo online, sem corrida nem ganho, é descartada; a próxima abre no 1º aceite."
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gaveta: chaves à direita e filtro com espera",
-      "body": "Filtro seu liga em 3 s com «Ativando…», e tocar de novo cancela.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gaveta › Lançar sem nada cortado",
-      "body": "Grade 2 × 2 com a Recarga (Abastecer na combustão); Estacionamento foi para o «Outro».",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gaveta › Hoje sem quebra no celular",
-      "body": "«Faltam» desce inteiro, «Parar às» numa grade e os números do dia em 2 × 2.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gaveta › Ofertas em cartões",
-      "body": "Cada oferta num cartão com o ícone do app, km e minutos; filtro Recusadas inteiro no texto Grande.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gaveta › Motor com o valor no meio",
-      "body": "O − e o + vão às pontas e o valor fica no centro; o ícone do Valendo agora acompanha o texto.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gaveta › Corrida feita: feito × estimado",
-      "body": "Km, tempo, R$/km, ritmo e lucro contra a oferta, com o selo abaixo, como ou acima do estimado.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎥",
-      "area": "Dashcam",
-      "title": "Gaveta: câmera no próprio cartão",
-      "body": "Estado e tempo, Frontal ou Traseira, incidente e Parar num cartão só, como na arte.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Sair da conta só com conta",
-      "body": "O botão do fim das Configurações só aparece com conta conectada e pede confirmação antes de sair."
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Ociosidade contra o ciclo de antes",
-      "body": "O card dizia «melhor» quando a ociosidade tinha subido, e o contrário."
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Lucro da corrida sem GPS",
-      "body": "Jornada sem pontos de GPS na corrida deixava 0,0 km e o lucro sem custo; agora fica no previsto.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Gaveta: viagem particular: Botão no trilho: inicia, pausa e encerra a viagem, mostra o caixa dela e lança gasto ou ajuda de custo.",
-    "Android Auto: viagem particular: Inicia pelo Início, mostra tempo, km e o caixa na aba Viagem, pausa e encerra retomando ou não a jornada."
-   ],
-   "changed": [
-    "Aceitei e Não fiz com Refazer: Toque duplo com barrinha do tempo e o que acontece; errou no Não fiz, o Refazer volta a corrida.",
-    "Encerrar a jornada? com linha do tempo: Início, última leitura e agora, com tempo, ganho e corridas; o botão diz a hora em que fecha.",
-    "Ciclo anterior e próximo no desenho novo: Batida ou não, quanto faltou em dias, contra o ciclo de antes e a meta planejada do próximo.",
-    "Trocar para Corrida a corrida: A jornada aberta pelo online, sem corrida nem ganho, é descartada; a próxima abre no 1º aceite.",
-    "Gaveta: chaves à direita e filtro com espera: Filtro seu liga em 3 s com «Ativando…», e tocar de novo cancela.",
-    "Gaveta › Lançar sem nada cortado: Grade 2 × 2 com a Recarga (Abastecer na combustão); Estacionamento foi para o «Outro».",
-    "Gaveta › Hoje sem quebra no celular: «Faltam» desce inteiro, «Parar às» numa grade e os números do dia em 2 × 2.",
-    "Gaveta › Ofertas em cartões: Cada oferta num cartão com o ícone do app, km e minutos; filtro Recusadas inteiro no texto Grande.",
-    "Gaveta › Motor com o valor no meio: O − e o + vão às pontas e o valor fica no centro; o ícone do Valendo agora acompanha o texto.",
-    "Gaveta › Corrida feita: feito × estimado: Km, tempo, R$/km, ritmo e lucro contra a oferta, com o selo abaixo, como ou acima do estimado.",
-    "Gaveta: câmera no próprio cartão: Estado e tempo, Frontal ou Traseira, incidente e Parar num cartão só, como na arte."
-   ],
-   "fixed": [
-    "Sair da conta só com conta: O botão do fim das Configurações só aparece com conta conectada e pede confirmação antes de sair.",
-    "Ociosidade contra o ciclo de antes: O card dizia «melhor» quando a ociosidade tinha subido, e o contrário.",
-    "Lucro da corrida sem GPS: Jornada sem pontos de GPS na corrida deixava 0,0 km e o lucro sem custo; agora fica no previsto."
    ]
   }
  ]
