@@ -1,15 +1,62 @@
 {
- "version": "2.0.98",
- "build": 698,
+ "version": "2.0.99",
+ "build": 699,
  "minBuild": 696,
- "publishedAt": "2026-11-12T19:34:18-03:00",
+ "publishedAt": "2026-11-12T21:46:18-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/27cqrrar2t2ig?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/5ddfjf2t63ujg?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/0l6jpl3uk0on0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/7lpdg8gmmtk98?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.99",
+   "build": 699,
+   "date": "12/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Exportar filtros escolhendo quais",
+      "body": "marque os filtros e mande como arquivo; o Importar abre o arquivo recebido"
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Filtros de exemplo na primeira instalação",
+      "body": "mercado, busca longa, dinheiro, parada, nota baixa e outros já vêm na lista"
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Conforto com 99Plus",
+      "body": "a categoria Conforto do Motor cita o 99Plus, o nome que a 99 usa"
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Frases para o passageiro na hora",
+      "body": "mover uma frase e mexer nos ajustes da voz aparece sem reabrir a tela"
+     }
+    ]
+   },
+   "new": [
+    "Exportar filtros escolhendo quais: marque os filtros e mande como arquivo; o Importar abre o arquivo recebido",
+    "Filtros de exemplo na primeira instalação: mercado, busca longa, dinheiro, parada, nota baixa e outros já vêm na lista"
+   ],
+   "changed": [
+    "Conforto com 99Plus: a categoria Conforto do Motor cita o 99Plus, o nome que a 99 usa"
+   ],
+   "fixed": [
+    "Frases para o passageiro na hora: mover uma frase e mexer nos ajustes da voz aparece sem reabrir a tela"
+   ]
+  },
   {
    "version": "2.0.98",
    "build": 698,
@@ -1450,125 +1497,6 @@
     "Sair da conta só com conta: O botão do fim das Configurações só aparece com conta conectada e pede confirmação antes de sair.",
     "Ociosidade contra o ciclo de antes: O card dizia «melhor» quando a ociosidade tinha subido, e o contrário.",
     "Lucro da corrida sem GPS: Jornada sem pontos de GPS na corrida deixava 0,0 km e o lucro sem custo; agora fica no previsto."
-   ]
-  },
-  {
-   "version": "2.0.89",
-   "build": 689,
-   "date": "30/10",
-   "items": {
-    "new": [
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Foto da sua conta Google",
-      "body": "Ao entrar, a foto aparece nas telas de conta e o primeiro passo mostra quem está conectado."
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gaveta: ofertas do dia na jornada",
-      "body": "Com jornada, a gaveta lista as ofertas do dia; o filtro Aceitas mostra todas, sem sumir atrás das novas.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Cartão do plano com selo e cor",
-      "body": "Pro, Master e Ultra com selo e cor próprios; tocar abre o plano ativo e, no Pro, a assinatura na Play.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Aviso antes da leitura de tela e do GPS",
-      "body": "Novo desenho: cada item com título curto, botões sempre à vista e duas colunas no tablet.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Excluir conta em dois passos claros",
-      "body": "O que some e o que fica, aviso a quem assina o Pro e o erro de internet à parte.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Widgets no visual do app",
-      "body": "Cartão com borda, cabeçalho e números maiores; Painel do dia com bruto, R$/h e corridas.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "99: categoria Pop saía como Moto",
-      "body": "O balão \"Motorista\" de outro app por cima da 99 fazia a oferta do Pop ser gravada como 99Moto.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "99: corrida estornada por engano",
-      "body": "Dispensar a oferta seguinte durante a viagem (\"OK, corrida cancelada\") não cancela mais a corrida em curso.",
-      "platforms": [
-       "android",
-       "ios"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Widget da semana com dias do ciclo antigo",
-      "body": "Os dias antes do vencimento saem apagados, com o valor feito, e não mais como folga.",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Tablet em pé: permissão pendente legível",
-      "body": "Os cartões do Início passam a dois por linha em pé, sem quebrar o nome no meio da palavra.",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Foto da sua conta Google: Ao entrar, a foto aparece nas telas de conta e o primeiro passo mostra quem está conectado."
-   ],
-   "changed": [
-    "Gaveta: ofertas do dia na jornada: Com jornada, a gaveta lista as ofertas do dia; o filtro Aceitas mostra todas, sem sumir atrás das novas.",
-    "Cartão do plano com selo e cor: Pro, Master e Ultra com selo e cor próprios; tocar abre o plano ativo e, no Pro, a assinatura na Play.",
-    "Aviso antes da leitura de tela e do GPS: Novo desenho: cada item com título curto, botões sempre à vista e duas colunas no tablet.",
-    "Excluir conta em dois passos claros: O que some e o que fica, aviso a quem assina o Pro e o erro de internet à parte.",
-    "Widgets no visual do app: Cartão com borda, cabeçalho e números maiores; Painel do dia com bruto, R$/h e corridas."
-   ],
-   "fixed": [
-    "99: categoria Pop saía como Moto: O balão \"Motorista\" de outro app por cima da 99 fazia a oferta do Pop ser gravada como 99Moto.",
-    "99: corrida estornada por engano: Dispensar a oferta seguinte durante a viagem (\"OK, corrida cancelada\") não cancela mais a corrida em curso.",
-    "Widget da semana com dias do ciclo antigo: Os dias antes do vencimento saem apagados, com o valor feito, e não mais como folga.",
-    "Tablet em pé: permissão pendente legível: Os cartões do Início passam a dois por linha em pé, sem quebrar o nome no meio da palavra."
    ]
   }
  ]
