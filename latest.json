@@ -1,15 +1,184 @@
 {
- "version": "2.0.101",
- "build": 701,
+ "version": "2.0.104",
+ "build": 704,
  "minBuild": 696,
- "publishedAt": "2026-11-14T13:28:20-03:00",
+ "publishedAt": "2026-11-16T08:13:32-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/5hn3m8vq07ulo?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/5uu2dm230jcp0?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/3808sa0gk3ib0?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.104",
+   "build": 704,
+   "date": "16/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Corrida em curso na gaveta",
+      "body": "mapa da etapa, falta, ritmo e quanto rende, e o embarque marcado com um toque",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Espera no embarque",
+      "body": "cronômetro com o minuto da espera paga e o da taxa de cancelamento, na barra e na gaveta",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Relevo da etapa",
+      "body": "subida, descida e rampa até o embarque ou o destino, com os trechos íngremes, na gaveta",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Trânsito e marcos na corrida",
+      "body": "trechos lentos em laranja e vermelho, pedágios e lugar marcado na barra e no mapa",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Balão do embarque colorido",
+      "body": "Fácil, Complicado e Evitar em cartões com cor e ícone; motivos em pílulas",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": []
+   },
+   "new": [
+    "Corrida em curso na gaveta: mapa da etapa, falta, ritmo e quanto rende, e o embarque marcado com um toque",
+    "Espera no embarque: cronômetro com o minuto da espera paga e o da taxa de cancelamento, na barra e na gaveta",
+    "Relevo da etapa: subida, descida e rampa até o embarque ou o destino, com os trechos íngremes, na gaveta",
+    "Trânsito e marcos na corrida: trechos lentos em laranja e vermelho, pedágios e lugar marcado na barra e no mapa"
+   ],
+   "changed": [
+    "Balão do embarque colorido: Fácil, Complicado e Evitar em cartões com cor e ícone; motivos em pílulas"
+   ],
+   "fixed": []
+  },
+  {
+   "version": "2.0.103",
+   "build": 703,
+   "date": "16/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Barra lateral da corrida",
+      "body": "tempo e km da etapa na borda da tela, com o atraso em laranja; tocar abre a corrida",
+      "highlight": true,
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Embarque fácil, complicado ou evitar",
+      "body": "o balão ganha Evitar e os motivos aceitam mais de um toque",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": []
+   },
+   "new": [
+    "Barra lateral da corrida: tempo e km da etapa na borda da tela, com o atraso em laranja; tocar abre a corrida"
+   ],
+   "changed": [
+    "Embarque fácil, complicado ou evitar: o balão ganha Evitar e os motivos aceitam mais de um toque"
+   ],
+   "fixed": []
+  },
+  {
+   "version": "2.0.102",
+   "build": 702,
+   "date": "15/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "🧩",
+      "area": "Painel rápido",
+      "title": "Motivo no card das ofertas",
+      "body": "a oferta recusada mostra o porquê na lista, sem abrir o detalhe"
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Embarque fácil ou complicado",
+      "body": "no embarque e no fim, um balão pergunta como foi o acesso e guarda o lugar",
+      "highlight": true,
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🔊",
+      "area": "Voz e alertas",
+      "title": "Balão de aviso maior",
+      "body": "letra maior e mais tempo na tela, com extra quando o texto é longo",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🔊",
+      "area": "Voz e alertas",
+      "title": "Aviso falso com a tela apagada",
+      "body": "o aviso não aparece mais de madrugada com o celular apagado; só quando a leitura cai de verdade",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🔊",
+      "area": "Voz e alertas",
+      "title": "Radar da 99 sem repetir",
+      "body": "a mesma corrida da lista fala uma vez só; volta a falar se o valor mudar"
+     }
+    ]
+   },
+   "new": [
+    "Motivo no card das ofertas: a oferta recusada mostra o porquê na lista, sem abrir o detalhe",
+    "Embarque fácil ou complicado: no embarque e no fim, um balão pergunta como foi o acesso e guarda o lugar"
+   ],
+   "changed": [
+    "Balão de aviso maior: letra maior e mais tempo na tela, com extra quando o texto é longo"
+   ],
+   "fixed": [
+    "Aviso falso com a tela apagada: o aviso não aparece mais de madrugada com o celular apagado; só quando a leitura cai de verdade",
+    "Radar da 99 sem repetir: a mesma corrida da lista fala uma vez só; volta a falar se o valor mudar"
+   ]
+  },
   {
    "version": "2.0.101",
    "build": 701,
@@ -799,341 +968,6 @@
     "Uber: oferta com a busca partida: com o tempo e os km da busca em linhas separadas, a oferta ficava sem janela",
     "Uber flutuando sobre a tela inicial: A oferta que a Uber abre por cima da tela inicial, com o app em segundo plano, agora é lida e avaliada.",
     "Margem negativa com o sinal certo: a margem por semana do custo do km mostra -2,39, não mais -2,-39"
-   ]
-  },
-  {
-   "version": "2.0.94",
-   "build": 694,
-   "date": "06/11",
-   "items": {
-    "new": [
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Pedágio por praça no preço da carona",
-      "body": "a planejada mostra as praças da rota com o valor do mapa; toque para salvar o seu, que vale sempre"
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Lista no visual da Início",
-      "body": "grupos com cor, o estado de cada item em verde e a conta com o plano num toque só",
-      "highlight": true
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Conta e plano",
-      "body": "a antiga Conta e dados traz o plano no topo, com Gerenciar e Restaurar compra"
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Avisos na corrida no visual novo",
-      "body": "voz, notificações, janela sobre o Uber/99 e Live Activity em grupos com cor"
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Motor e filtros no visual novo",
-      "body": "perfis, presets, cortes e filtros de recusa em grupos, com os textos mais simples"
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Gastos fixos no visual novo",
-      "body": "as contas, os ajustes e o cálculo da meta em grupos, com os textos mais simples"
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Aviso do passageiro só quando muda",
-      "body": "abrir um passageiro no BlaBlaCar só mostra o valor lido se ele mudou ou é novo",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Mensagem do chat com a rota da carona",
-      "body": "sem a rota no topo do chat, a mensagem pega o trecho, a data e a hora do passageiro na carona importada",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Preço da carona com margem",
-      "body": "o preço sugerido soma 50% ao custo por lugar; a margem muda em Configurações › Viagem particular"
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Viagem particular no visual novo",
-      "body": "aviso de parada, chegada, voz, carona com lugares e margem e o mapa em grupos com cor"
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Chave da frase do embarque",
-      "body": "tocar em Falar depois do embarque liga a chave e mostra a espera e as frases"
-     }
-    ]
-   },
-   "new": [
-    "Pedágio por praça no preço da carona: a planejada mostra as praças da rota com o valor do mapa; toque para salvar o seu, que vale sempre"
-   ],
-   "changed": [
-    "Lista no visual da Início: grupos com cor, o estado de cada item em verde e a conta com o plano num toque só",
-    "Conta e plano: a antiga Conta e dados traz o plano no topo, com Gerenciar e Restaurar compra",
-    "Avisos na corrida no visual novo: voz, notificações, janela sobre o Uber/99 e Live Activity em grupos com cor",
-    "Motor e filtros no visual novo: perfis, presets, cortes e filtros de recusa em grupos, com os textos mais simples",
-    "Gastos fixos no visual novo: as contas, os ajustes e o cálculo da meta em grupos, com os textos mais simples",
-    "Aviso do passageiro só quando muda: abrir um passageiro no BlaBlaCar só mostra o valor lido se ele mudou ou é novo",
-    "Mensagem do chat com a rota da carona: sem a rota no topo do chat, a mensagem pega o trecho, a data e a hora do passageiro na carona importada",
-    "Preço da carona com margem: o preço sugerido soma 50% ao custo por lugar; a margem muda em Configurações › Viagem particular",
-    "Viagem particular no visual novo: aviso de parada, chegada, voz, carona com lugares e margem e o mapa em grupos com cor"
-   ],
-   "fixed": [
-    "Chave da frase do embarque: tocar em Falar depois do embarque liga a chave e mostra a espera e as frases"
-   ]
-  },
-  {
-   "version": "2.0.93",
-   "build": 693,
-   "date": "05/11",
-   "items": {
-    "new": [],
-    "changed": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Início: folga com a arte nova",
-      "body": "selo azul, anel de descanso e Semana e Ciclo completos no dia de folga"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Personalizar: selo de exemplo",
-      "body": "a prévia ganha moldura e o selo «Exemplo · ter 14:20», sem cobrir o widget"
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Início: folga não é falta de meta",
-      "body": "em dia de folga o card diz «Hoje é folga» e mostra a semana e o ciclo"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Personalizar com prévia de exemplo",
-      "body": "a prévia dos widgets mostra o exemplo da arte, mesmo sem dados no dia"
-     }
-    ]
-   },
-   "new": [],
-   "changed": [
-    "Início: folga com a arte nova: selo azul, anel de descanso e Semana e Ciclo completos no dia de folga",
-    "Personalizar: selo de exemplo: a prévia ganha moldura e o selo «Exemplo · ter 14:20», sem cobrir o widget"
-   ],
-   "fixed": [
-    "Início: folga não é falta de meta: em dia de folga o card diz «Hoje é folga» e mostra a semana e o ciclo",
-    "Personalizar com prévia de exemplo: a prévia dos widgets mostra o exemplo da arte, mesmo sem dados no dia"
-   ]
-  },
-  {
-   "version": "2.0.92",
-   "build": 692,
-   "date": "05/11",
-   "items": {
-    "new": [
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Frase para o passageiro",
-      "body": "depois do embarque, o app fala sua frase (\"coloque o cinto\"), com nome, destino e tempo da viagem"
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Mensagens prontas no chat do BlaBlaCar",
-      "body": "um botão sobre o chat cola sua mensagem com nome, rota e horário; quem envia é você",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Início montável",
-      "body": "escolha os widgets, a versão de cada um, a ordem e os ajustes em Personalizar; 14 modelos prontos",
-      "highlight": true
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Monitoramento ligado no Início",
-      "body": "pausar a leitura e iniciar a jornada no mesmo cartão; pausada, avisa quando vira Atenção"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Início: mais jeitos de comparar",
-      "body": "ritmo pela média geral, o que está puxando contra ontem, horas boas de todos os dias e os últimos 7 dias"
-     },
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Não perturbe do Didur",
-      "body": "um atalho no Início cala a voz e as notificações do app; o card da oferta continua"
-     },
-     {
-      "emoji": "🎥",
-      "area": "Dashcam",
-      "title": "Salvar últimos 30 s no Início",
-      "body": "protege o que está gravando e o trecho anterior",
-      "direct": true,
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Posto ou eletroposto perto",
-      "body": "o widget de energia abre o Waze ou o Maps buscando onde abastecer"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Regiões boas agora",
-      "body": "os bairros que mais renderam por hora nas suas corridas, neste mesmo horário"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Clima e demanda",
-      "body": "a previsão de chuva e quanto você costuma render por hora em dias de chuva"
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Lembretes do carro",
-      "body": "óleo, pneus e revisão pelo km do GPS; IPVA e CNH pela data; o que vence aparece no Início"
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "iPhone: tempo correndo na Live Activity",
-      "body": "o tempo conta sozinho (12:34); se o app parar de atualizar, esmaece e diz “atualizado às”",
-      "platforms": [
-       "ios"
-      ]
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Preço da carona e Caronas no visual novo",
-      "body": "a viagem inteira em destaque, o total recebido, o que falta receber e a média por viagem"
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Permissões com frase curta",
-      "body": "cada permissão diz para que serve numa linha, com a conta das prontas"
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Números do motor no topo da aba Motor",
-      "body": "o mínimo por km e as faixas Boa e Ótima, com a conversão por hora ou minuto"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Folhas fecham animadas e com arraste",
-      "body": "puxe pela alça ou pelo título para fechar; o fundo escurecido acompanha"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Card, balão e painéis entram e saem animados",
-      "body": "o card sobe com fade e a oferta nova não espera; o balão e os painéis saem do FAB",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Iniciar jornada em três opções",
-      "body": "ao aceitar uma corrida, ao ficar online ou manual; escolher «ao ficar online» usa o total da plataforma"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Início: plano Grátis e avisos no topo",
-      "body": "a cápsula mostra o tempo de leitura que resta e abre o Pro; os avisos têm a ação de cada um"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Recusas por filtro no Início",
-      "body": "o widget da recusa mostra quantas cada filtro recusou hoje",
-      "direct": true,
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Aviso da carona com os botões inteiros",
-      "body": "o texto dos botões do aviso sobre o BlaBlaCar não sai mais cortado embaixo",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Frase para o passageiro: depois do embarque, o app fala sua frase (\"coloque o cinto\"), com nome, destino e tempo da viagem",
-    "Mensagens prontas no chat do BlaBlaCar: um botão sobre o chat cola sua mensagem com nome, rota e horário; quem envia é você",
-    "Início montável: escolha os widgets, a versão de cada um, a ordem e os ajustes em Personalizar; 14 modelos prontos",
-    "Monitoramento ligado no Início: pausar a leitura e iniciar a jornada no mesmo cartão; pausada, avisa quando vira Atenção",
-    "Início: mais jeitos de comparar: ritmo pela média geral, o que está puxando contra ontem, horas boas de todos os dias e os últimos 7 dias",
-    "Não perturbe do Didur: um atalho no Início cala a voz e as notificações do app; o card da oferta continua",
-    "Salvar últimos 30 s no Início: protege o que está gravando e o trecho anterior",
-    "Posto ou eletroposto perto: o widget de energia abre o Waze ou o Maps buscando onde abastecer",
-    "Regiões boas agora: os bairros que mais renderam por hora nas suas corridas, neste mesmo horário",
-    "Clima e demanda: a previsão de chuva e quanto você costuma render por hora em dias de chuva",
-    "Lembretes do carro: óleo, pneus e revisão pelo km do GPS; IPVA e CNH pela data; o que vence aparece no Início"
-   ],
-   "changed": [
-    "iPhone: tempo correndo na Live Activity: o tempo conta sozinho (12:34); se o app parar de atualizar, esmaece e diz “atualizado às”",
-    "Preço da carona e Caronas no visual novo: a viagem inteira em destaque, o total recebido, o que falta receber e a média por viagem",
-    "Permissões com frase curta: cada permissão diz para que serve numa linha, com a conta das prontas",
-    "Números do motor no topo da aba Motor: o mínimo por km e as faixas Boa e Ótima, com a conversão por hora ou minuto",
-    "Folhas fecham animadas e com arraste: puxe pela alça ou pelo título para fechar; o fundo escurecido acompanha",
-    "Card, balão e painéis entram e saem animados: o card sobe com fade e a oferta nova não espera; o balão e os painéis saem do FAB",
-    "Iniciar jornada em três opções: ao aceitar uma corrida, ao ficar online ou manual; escolher «ao ficar online» usa o total da plataforma",
-    "Início: plano Grátis e avisos no topo: a cápsula mostra o tempo de leitura que resta e abre o Pro; os avisos têm a ação de cada um",
-    "Recusas por filtro no Início: o widget da recusa mostra quantas cada filtro recusou hoje"
-   ],
-   "fixed": [
-    "Aviso da carona com os botões inteiros: o texto dos botões do aviso sobre o BlaBlaCar não sai mais cortado embaixo"
    ]
   }
  ]
