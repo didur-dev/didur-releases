@@ -1,15 +1,345 @@
 {
- "version": "2.0.105",
- "build": 705,
+ "version": "2.0.106",
+ "build": 706,
  "minBuild": 696,
- "publishedAt": "2026-11-16T22:06:17-03:00",
+ "publishedAt": "2026-11-18T02:44:03-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/4manprrm9top0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/5l8oolkbgleg0?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/3808sa0gk3ib0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/0040k1e65msmg?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.106",
+   "build": 706,
+   "date": "18/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Busca de bairros e cidades",
+      "body": "sem acento; a cidade de qualquer lugar do Brasil se marca e avisa na oferta"
+     },
+     {
+      "emoji": "📊",
+      "area": "Estatísticas",
+      "title": "Finanças por mês ou período",
+      "body": "chips Mês e Período no Resumo e no Extrato; Saídas por tipo nos Gráficos"
+     },
+     {
+      "emoji": "📊",
+      "area": "Estatísticas",
+      "title": "Fechar o dia",
+      "body": "confira ganhos, km, tempo e energia lidos do dia e veja o resumo; lembrete às 21h30",
+      "highlight": true
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Widgets do dinheiro no Início",
+      "body": "Finanças (pequeno e grande), Custo real e Imposto do mês"
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Widgets Próxima conta e Finanças",
+      "body": "na tela inicial do celular; o widget Ciclo mostra a próxima conta e a atrasada",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Parada pela localização enviada",
+      "body": "cole o link do Maps ou do WhatsApp, ou compartilhe com o Didur Driver, e vira o ponto exato"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Busca de endereço pelo Google",
+      "body": "posto, loja e rodoviária achados pelo nome nas paradas e no Planejar",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Viagem: o lugar de cada parada",
+      "body": "debaixo do endereço, o lugar conhecido ali (rodoviária, posto); na gaveta, Cidade · Lugar",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Acompanha como a Uber",
+      "body": "gira para onde o carro vai, o zoom abre na estrada e fecha chegando na parada",
+      "highlight": true
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Carona no mapa",
+      "body": "quem desce e sobe em cada parada, Recebi com Pix ou dinheiro e Embarcou; puxe o painel para ver tudo"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Avisos na viagem",
+      "body": "pedágio que passou, atraso para quem espera, energia que não chega, pausa e fim, um por vez"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Leitura do painel do carro",
+      "body": "bateria, consumo ou autonomia em um toque; o gasto sai por trecho e por parada"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Resumo ao encerrar",
+      "body": "a conta da carona, o que cada trecho rendeu e a linha do tempo das paradas"
+     },
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Negrito e itálico nas mensagens",
+      "body": "botões no editor e prévia como o WhatsApp mostra; no chat da Uber, 99 e BlaBlaCar sai só o texto"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Não embarcou",
+      "body": "quem cancelou na hora sai da rota e das contas e fica riscado na viagem"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Pix para quem não pagou",
+      "body": "no embarque e chegando onde desce, um toque abre o WhatsApp com o Pix"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Mensagens já enviadas",
+      "body": "o WhatsApp do passageiro abre as mensagens prontas, com ✓ e a hora das enviadas"
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Barra: trânsito a cada 10 min",
+      "body": "rota e relevo uma vez por etapa e de novo se o destino mudar; trânsito relido a cada 10 min"
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Grande Floripa com 9 cidades",
+      "body": "Biguaçu, Palhoça e vizinhas no mapa; cidade marcada a evitar agora avisa"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Importar do BlaBlaCar avisa e espera",
+      "body": "o aviso fica até você tocar e pede Ver sua carona quando falta partida ou chegada",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Carona: parada sem passageiro",
+      "body": "parada do meio sem ninguém subindo nem descendo fica apagada e a rota passa direto",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Viagem: lugar só se for referência",
+      "body": "debaixo do endereço só rodoviária, posto, shopping, hospital e afins",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Busca de lugar mais calma",
+      "body": "espera você parar de digitar (quase 1 s) e só busca a partir de 3 letras",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Navegar com o app que você escolher",
+      "body": "o botão abre a lista; marque para usar sempre o mesmo"
+     },
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Mensagens com o local exato",
+      "body": "{embarque} e {desembarque} trazem o lugar e o endereço, não só a cidade"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Passageiros na ordem de embarque",
+      "body": "no planejamento e na tela da viagem, quem sobe primeiro vem primeiro"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Bateria e consumo numa leitura só",
+      "body": "a folha abre na última leitura e o fechamento usa o que o painel mostrou"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Acompanhar com o GPS ao vivo",
+      "body": "segue o carro sem pular e fecha na próxima parada sem girar para o norte"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Painel mais limpo",
+      "body": "tocar no mapa fecha a lista; na parada aparece só quem sobe e desce ali"
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Uber lida certa não se perde",
+      "body": "o mesmo card relido com erro não desfaz a oferta; o aceite, a barra e o embarque seguem"
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Oferta vista não trava o agora",
+      "body": "a oferta que o app não voltou a mostrar sai em 2 min; o Aceitei acha a corrida certa"
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Radar da 99 depois de uma oferta",
+      "body": "a borda aparece mesmo com uma oferta da 99 vista antes",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Mapa de bairros responde",
+      "body": "arrasta solto e tocar no bairro abre o cartão com Evitar, Permitido e Por partes"
+     },
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "99: radar sempre com borda",
+      "body": "com uma corrida ou título cortado, nada de card nem gaveta fechando; borda no card inteiro"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Faixa da carona volta com a lista rolada",
+      "body": "ao voltar de cada passageiro ela reaparece com quem falta",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Editar parada: busca no Ponto exato",
+      "body": "digitar mostra a lista de lugares, como no Adicionar parada",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Carona: parada nova do BlaBlaCar",
+      "body": "passageiro que reserva até outra cidade cria a parada no lugar certo",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Viagem: a próxima parada inteira na tela",
+      "body": "no Próxima, a saída e a chegada do trecho não ficam mais atrás da barra e do cartão",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Pedágio passado sem aviso",
+      "body": "a praça conta pelo caminho feito e avisa por notificação com o mapa fechado"
+     }
+    ]
+   },
+   "new": [
+    "Busca de bairros e cidades: sem acento; a cidade de qualquer lugar do Brasil se marca e avisa na oferta",
+    "Finanças por mês ou período: chips Mês e Período no Resumo e no Extrato; Saídas por tipo nos Gráficos",
+    "Fechar o dia: confira ganhos, km, tempo e energia lidos do dia e veja o resumo; lembrete às 21h30",
+    "Widgets do dinheiro no Início: Finanças (pequeno e grande), Custo real e Imposto do mês",
+    "Widgets Próxima conta e Finanças: na tela inicial do celular; o widget Ciclo mostra a próxima conta e a atrasada",
+    "Parada pela localização enviada: cole o link do Maps ou do WhatsApp, ou compartilhe com o Didur Driver, e vira o ponto exato",
+    "Busca de endereço pelo Google: posto, loja e rodoviária achados pelo nome nas paradas e no Planejar",
+    "Viagem: o lugar de cada parada: debaixo do endereço, o lugar conhecido ali (rodoviária, posto); na gaveta, Cidade · Lugar",
+    "Acompanha como a Uber: gira para onde o carro vai, o zoom abre na estrada e fecha chegando na parada",
+    "Carona no mapa: quem desce e sobe em cada parada, Recebi com Pix ou dinheiro e Embarcou; puxe o painel para ver tudo",
+    "Avisos na viagem: pedágio que passou, atraso para quem espera, energia que não chega, pausa e fim, um por vez",
+    "Leitura do painel do carro: bateria, consumo ou autonomia em um toque; o gasto sai por trecho e por parada",
+    "Resumo ao encerrar: a conta da carona, o que cada trecho rendeu e a linha do tempo das paradas",
+    "Negrito e itálico nas mensagens: botões no editor e prévia como o WhatsApp mostra; no chat da Uber, 99 e BlaBlaCar sai só o texto",
+    "Não embarcou: quem cancelou na hora sai da rota e das contas e fica riscado na viagem",
+    "Pix para quem não pagou: no embarque e chegando onde desce, um toque abre o WhatsApp com o Pix",
+    "Mensagens já enviadas: o WhatsApp do passageiro abre as mensagens prontas, com ✓ e a hora das enviadas"
+   ],
+   "changed": [
+    "Barra: trânsito a cada 10 min: rota e relevo uma vez por etapa e de novo se o destino mudar; trânsito relido a cada 10 min",
+    "Grande Floripa com 9 cidades: Biguaçu, Palhoça e vizinhas no mapa; cidade marcada a evitar agora avisa",
+    "Importar do BlaBlaCar avisa e espera: o aviso fica até você tocar e pede Ver sua carona quando falta partida ou chegada",
+    "Carona: parada sem passageiro: parada do meio sem ninguém subindo nem descendo fica apagada e a rota passa direto",
+    "Viagem: lugar só se for referência: debaixo do endereço só rodoviária, posto, shopping, hospital e afins",
+    "Busca de lugar mais calma: espera você parar de digitar (quase 1 s) e só busca a partir de 3 letras",
+    "Navegar com o app que você escolher: o botão abre a lista; marque para usar sempre o mesmo",
+    "Mensagens com o local exato: {embarque} e {desembarque} trazem o lugar e o endereço, não só a cidade",
+    "Passageiros na ordem de embarque: no planejamento e na tela da viagem, quem sobe primeiro vem primeiro",
+    "Bateria e consumo numa leitura só: a folha abre na última leitura e o fechamento usa o que o painel mostrou",
+    "Acompanhar com o GPS ao vivo: segue o carro sem pular e fecha na próxima parada sem girar para o norte",
+    "Painel mais limpo: tocar no mapa fecha a lista; na parada aparece só quem sobe e desce ali"
+   ],
+   "fixed": [
+    "Uber lida certa não se perde: o mesmo card relido com erro não desfaz a oferta; o aceite, a barra e o embarque seguem",
+    "Oferta vista não trava o agora: a oferta que o app não voltou a mostrar sai em 2 min; o Aceitei acha a corrida certa",
+    "Radar da 99 depois de uma oferta: a borda aparece mesmo com uma oferta da 99 vista antes",
+    "Mapa de bairros responde: arrasta solto e tocar no bairro abre o cartão com Evitar, Permitido e Por partes",
+    "99: radar sempre com borda: com uma corrida ou título cortado, nada de card nem gaveta fechando; borda no card inteiro",
+    "Faixa da carona volta com a lista rolada: ao voltar de cada passageiro ela reaparece com quem falta",
+    "Editar parada: busca no Ponto exato: digitar mostra a lista de lugares, como no Adicionar parada",
+    "Carona: parada nova do BlaBlaCar: passageiro que reserva até outra cidade cria a parada no lugar certo",
+    "Viagem: a próxima parada inteira na tela: no Próxima, a saída e a chegada do trecho não ficam mais atrás da barra e do cartão",
+    "Pedágio passado sem aviso: a praça conta pelo caminho feito e avisa por notificação com o mapa fechado"
+   ]
+  },
   {
    "version": "2.0.105",
    "build": 705,
@@ -724,107 +1054,6 @@
     "Gaveta: endereços no fim: Embarque e Destino descem para o fim de Números, no desenho do painel rápido"
    ],
    "fixed": []
-  },
-  {
-   "version": "2.0.96",
-   "build": 696,
-   "date": "10/11",
-   "items": {
-    "new": [],
-    "changed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Um motor só, o Tradicional",
-      "body": "o Didur Score saiu; quem usava passa ao preset Padrão e vê um aviso no Início",
-      "highlight": true
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Oferta sem número de score",
-      "body": "card, painel, carro, Ilha, voz e histórico mostram só a classificação na cor"
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Filtro por classificação",
-      "body": "a condição Score virou Classificação (é, ou melhor, ou pior); os filtros salvos foram convertidos"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Selo da classe na oferta",
-      "body": "ícone e nome na cor da classe no card, no lugar do número; ⇈ ✓ − × valem sem as cores"
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Classe em degraus",
-      "body": "o anel da corrida tem 4 degraus e as listas e a gaveta mostram o selo da classe"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Classe primeiro no carro",
-      "body": "aviso, última oferta e histórico do Android Auto abrem com a classe e o ícone dela",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "📜",
-      "area": "Histórico",
-      "title": "Selo da classe",
-      "body": "a lista mostra o selo tinto e o detalhe da corrida o selo cheio, no lugar do número"
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Motor na ordem nova",
-      "body": "a estratégia vem primeiro, os cortes ganham a régua de 4 cores e «Aceitável» virou «Regular»"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Aviso do Didur Score no Início",
-      "body": "banner com as 4 classes, «Ajustar o motor» e «Entendi»; fica até você fechar"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Live Activity com a classe em degraus",
-      "body": "anel de 4 degraus com o ícone, selo da classe e a Ilha compacta mostra «Classe»",
-      "platforms": [
-       "ios"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Corrida de teste Regular",
-      "body": "a corrida de teste da faixa Regular agora cai mesmo na Regular"
-     }
-    ]
-   },
-   "new": [],
-   "changed": [
-    "Um motor só, o Tradicional: o Didur Score saiu; quem usava passa ao preset Padrão e vê um aviso no Início",
-    "Oferta sem número de score: card, painel, carro, Ilha, voz e histórico mostram só a classificação na cor",
-    "Filtro por classificação: a condição Score virou Classificação (é, ou melhor, ou pior); os filtros salvos foram convertidos",
-    "Selo da classe na oferta: ícone e nome na cor da classe no card, no lugar do número; ⇈ ✓ − × valem sem as cores",
-    "Classe em degraus: o anel da corrida tem 4 degraus e as listas e a gaveta mostram o selo da classe",
-    "Classe primeiro no carro: aviso, última oferta e histórico do Android Auto abrem com a classe e o ícone dela",
-    "Selo da classe: a lista mostra o selo tinto e o detalhe da corrida o selo cheio, no lugar do número",
-    "Motor na ordem nova: a estratégia vem primeiro, os cortes ganham a régua de 4 cores e «Aceitável» virou «Regular»",
-    "Aviso do Didur Score no Início: banner com as 4 classes, «Ajustar o motor» e «Entendi»; fica até você fechar",
-    "Live Activity com a classe em degraus: anel de 4 degraus com o ícone, selo da classe e a Ilha compacta mostra «Classe»"
-   ],
-   "fixed": [
-    "Corrida de teste Regular: a corrida de teste da faixa Regular agora cai mesmo na Regular"
-   ]
   }
  ]
 }
