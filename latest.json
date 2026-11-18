@@ -1,15 +1,198 @@
 {
- "version": "2.0.106",
- "build": 706,
+ "version": "2.0.107",
+ "build": 707,
  "minBuild": 696,
- "publishedAt": "2026-11-18T02:44:03-03:00",
+ "publishedAt": "2026-11-18T19:08:42-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/5l8oolkbgleg0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/0tvoi6qkq31qo?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/0040k1e65msmg?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/2m3q1uss03bko?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.107",
+   "build": 707,
+   "date": "18/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Recarga e abastecimento na viagem",
+      "body": "kWh ou litros, valor e onde; a bateria de depois vira leitura no mesmo km",
+      "highlight": true
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Carona na meta",
+      "body": "a carona encerrada soma o que sobrou no dia em que começou; vinculada conta pela jornada"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Pedágios do caminho na encerrada",
+      "body": "as praças por onde o GPS passou, com Paguei e Não paguei"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Não viajou na encerrada",
+      "body": "ao lado do Recebi; sai do a receber e fica riscado, com toque longo para desfazer"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Recarregou em…?",
+      "body": "a bateria subiu sem recarga lançada; o Didur Driver acha a parada pelo GPS e propõe lançar"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Energia gasta sobre a altitude",
+      "body": "na encerrada, o gasto ao longo do caminho com o relevo; o dedo anda no mapa"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Quem não embarcou, no Encerrar",
+      "body": "sem Embarcou e sem pagar vira pergunta antes do resumo: Não veio ou Veio"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Para a próxima",
+      "body": "na encerrada, o que a viagem ensinou: atraso, onde recarregar e a sobra por passageiro"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Consumo aprendido por trecho",
+      "body": "a chegada prevista usa o que as viagens anteriores gastaram no mesmo caminho"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Meus carregadores",
+      "body": "a recarga na rua salva o carregador com o preço pago; lista e detalhe a partir de Recargas"
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Banco de energia",
+      "body": "o que está no carro, o preço médio e o que entrou e saiu; Li a bateria e Recarreguei num toque"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Plano de energia",
+      "body": "onde parar, quanto pôr e com quanto chega; mais barato ou menos paradas, alvo de 10 a 30%"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Chovendo na leitura do painel",
+      "body": "marcado pelo clima do lugar; a leitura grava altitude e velocidade junto"
+     },
+     {
+      "emoji": "📲",
+      "area": "App",
+      "title": "Widget Caixa da energia no Início",
+      "body": "o que está no carro, o preço médio e a última recarga; toque abre o banco"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Odômetro e bateria na saída e no fim",
+      "body": "também pela gaveta lateral e pelo painel rápido; acertam o banco de energia"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Bolinha da energia",
+      "body": "parado e sem passageiro, pergunta a bateria ou se recarregou; segurar cala até amanhã",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Leitura do painel num mostrador",
+      "body": "abas Bateria e Consumo, valores prontos com a última e a prevista; um Registrar grava as duas"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Energia da viagem pelo caixa",
+      "body": "conta a recarga feita no caminho e sai pelo preço do que estava no carro"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Viagem encerrada pela arte nova",
+      "body": "uma conta só com a meta, quem ainda deve, energia por trecho e paradas na hora real",
+      "highlight": true
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Preço da carona pelo custo real",
+      "body": "energia pelo caixa e consumo aprendido no caminho; Planejar a volta com isso"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Onde recarregar no caminho",
+      "body": "com pouca bateria, o carregador aberto quando você passa e o mais barato primeiro"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Velocímetro e a próxima parada",
+      "body": "no Acompanhar, a velocidade no canto; chips com a próxima parada, energia em % e kWh"
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Gráfico da energia completo",
+      "body": "velocidade, séries, zoom com dois dedos, a viagem anterior e Velocidade × consumo"
+     }
+    ],
+    "fixed": []
+   },
+   "new": [
+    "Recarga e abastecimento na viagem: kWh ou litros, valor e onde; a bateria de depois vira leitura no mesmo km",
+    "Carona na meta: a carona encerrada soma o que sobrou no dia em que começou; vinculada conta pela jornada",
+    "Pedágios do caminho na encerrada: as praças por onde o GPS passou, com Paguei e Não paguei",
+    "Não viajou na encerrada: ao lado do Recebi; sai do a receber e fica riscado, com toque longo para desfazer",
+    "Recarregou em…?: a bateria subiu sem recarga lançada; o Didur Driver acha a parada pelo GPS e propõe lançar",
+    "Energia gasta sobre a altitude: na encerrada, o gasto ao longo do caminho com o relevo; o dedo anda no mapa",
+    "Quem não embarcou, no Encerrar: sem Embarcou e sem pagar vira pergunta antes do resumo: Não veio ou Veio",
+    "Para a próxima: na encerrada, o que a viagem ensinou: atraso, onde recarregar e a sobra por passageiro",
+    "Consumo aprendido por trecho: a chegada prevista usa o que as viagens anteriores gastaram no mesmo caminho",
+    "Meus carregadores: a recarga na rua salva o carregador com o preço pago; lista e detalhe a partir de Recargas",
+    "Banco de energia: o que está no carro, o preço médio e o que entrou e saiu; Li a bateria e Recarreguei num toque",
+    "Plano de energia: onde parar, quanto pôr e com quanto chega; mais barato ou menos paradas, alvo de 10 a 30%",
+    "Chovendo na leitura do painel: marcado pelo clima do lugar; a leitura grava altitude e velocidade junto",
+    "Widget Caixa da energia no Início: o que está no carro, o preço médio e a última recarga; toque abre o banco",
+    "Odômetro e bateria na saída e no fim: também pela gaveta lateral e pelo painel rápido; acertam o banco de energia",
+    "Bolinha da energia: parado e sem passageiro, pergunta a bateria ou se recarregou; segurar cala até amanhã"
+   ],
+   "changed": [
+    "Leitura do painel num mostrador: abas Bateria e Consumo, valores prontos com a última e a prevista; um Registrar grava as duas",
+    "Energia da viagem pelo caixa: conta a recarga feita no caminho e sai pelo preço do que estava no carro",
+    "Viagem encerrada pela arte nova: uma conta só com a meta, quem ainda deve, energia por trecho e paradas na hora real",
+    "Preço da carona pelo custo real: energia pelo caixa e consumo aprendido no caminho; Planejar a volta com isso",
+    "Onde recarregar no caminho: com pouca bateria, o carregador aberto quando você passa e o mais barato primeiro",
+    "Velocímetro e a próxima parada: no Acompanhar, a velocidade no canto; chips com a próxima parada, energia em % e kWh",
+    "Gráfico da energia completo: velocidade, séries, zoom com dois dedos, a viagem anterior e Velocidade × consumo"
+   ],
+   "fixed": []
+  },
   {
    "version": "2.0.106",
    "build": 706,
@@ -987,73 +1170,6 @@
    "fixed": [
     "Print segurando a aba da gaveta: segurar a aba tira o print de depuração, como no botão do painel rápido"
    ]
-  },
-  {
-   "version": "2.0.97",
-   "build": 697,
-   "date": "12/11",
-   "items": {
-    "new": [
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Primeiro uso novo",
-      "body": "o card da oferta guia cada passo, da leitura da oferta à corrida de teste, e você sai calculando certo",
-      "highlight": true
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Estilos de motorista",
-      "body": "Exigente, Giro rápido, Viagens longas e Noturno ao lado do Equilibrado (o antigo Padrão)"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Categoria que você roda",
-      "body": "Econômico, Conforto ou Premium ajusta o mínimo por km; fica no Motor"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Primeiros passos no Início",
-      "body": "meta do mês, ouvir a voz e 3 atalhos num cartão que some ao terminar"
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Log completo por 24 h",
-      "body": "em Depuração, grava calor, bateria e CPU a cada minuto e os prints lidos, para o suporte"
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Faixa da carona no BlaBlaCar",
-      "body": "no resumo, mostra quem já tem valor e quem falta abrir para o Didur Driver ler"
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Gaveta: endereços no fim",
-      "body": "Embarque e Destino descem para o fim de Números, no desenho do painel rápido"
-     }
-    ],
-    "fixed": []
-   },
-   "new": [
-    "Primeiro uso novo: o card da oferta guia cada passo, da leitura da oferta à corrida de teste, e você sai calculando certo",
-    "Estilos de motorista: Exigente, Giro rápido, Viagens longas e Noturno ao lado do Equilibrado (o antigo Padrão)",
-    "Categoria que você roda: Econômico, Conforto ou Premium ajusta o mínimo por km; fica no Motor",
-    "Primeiros passos no Início: meta do mês, ouvir a voz e 3 atalhos num cartão que some ao terminar",
-    "Log completo por 24 h: em Depuração, grava calor, bateria e CPU a cada minuto e os prints lidos, para o suporte",
-    "Faixa da carona no BlaBlaCar: no resumo, mostra quem já tem valor e quem falta abrir para o Didur Driver ler"
-   ],
-   "changed": [
-    "Gaveta: endereços no fim: Embarque e Destino descem para o fim de Números, no desenho do painel rápido"
-   ],
-   "fixed": []
   }
  ]
 }
