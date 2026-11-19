@@ -1,15 +1,59 @@
 {
- "version": "2.0.111",
- "build": 711,
+ "version": "2.0.112",
+ "build": 712,
  "minBuild": 696,
- "publishedAt": "2026-11-19T18:26:34-03:00",
+ "publishedAt": "2026-11-19T20:50:11-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/4jg5c5pj7lc6g?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/1qcdfcg0cfg50?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/5a00dfhu2kkug?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/41sfo8p6oe6m0?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.112",
+   "build": 712,
+   "date": "19/11",
+   "items": {
+    "new": [],
+    "changed": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Botão das mensagens prontas arrastável",
+      "body": "no chat da Uber, da 99 e do BlaBlaCar ele não tapa mais as mensagens; fica onde você deixar",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "99: borda do radar na largura do card",
+      "body": "no moto a borda parava no meio do card; agora vai de lado a lado",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Folga sem o Primeiro uso",
+      "body": "o dia de folga marcada não faz mais o Início achar que você está sem meta"
+     }
+    ]
+   },
+   "new": [],
+   "changed": [
+    "Botão das mensagens prontas arrastável: no chat da Uber, da 99 e do BlaBlaCar ele não tapa mais as mensagens; fica onde você deixar"
+   ],
+   "fixed": [
+    "99: borda do radar na largura do card: no moto a borda parava no meio do card; agora vai de lado a lado",
+    "Folga sem o Primeiro uso: o dia de folga marcada não faz mais o Início achar que você está sem meta"
+   ]
+  },
   {
    "version": "2.0.111",
    "build": 711,
@@ -942,70 +986,6 @@
     "Embarque fácil, complicado ou evitar: o balão ganha Evitar e os motivos aceitam mais de um toque"
    ],
    "fixed": []
-  },
-  {
-   "version": "2.0.102",
-   "build": 702,
-   "date": "15/11",
-   "items": {
-    "new": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Motivo no card das ofertas",
-      "body": "a oferta recusada mostra o porquê na lista, sem abrir o detalhe"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Embarque fácil ou complicado",
-      "body": "no embarque e no fim, um balão pergunta como foi o acesso e guarda o lugar",
-      "highlight": true,
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Balão de aviso maior",
-      "body": "letra maior e mais tempo na tela, com extra quando o texto é longo",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Aviso falso com a tela apagada",
-      "body": "o aviso não aparece mais de madrugada com o celular apagado; só quando a leitura cai de verdade",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Radar da 99 sem repetir",
-      "body": "a mesma corrida da lista fala uma vez só; volta a falar se o valor mudar"
-     }
-    ]
-   },
-   "new": [
-    "Motivo no card das ofertas: a oferta recusada mostra o porquê na lista, sem abrir o detalhe",
-    "Embarque fácil ou complicado: no embarque e no fim, um balão pergunta como foi o acesso e guarda o lugar"
-   ],
-   "changed": [
-    "Balão de aviso maior: letra maior e mais tempo na tela, com extra quando o texto é longo"
-   ],
-   "fixed": [
-    "Aviso falso com a tela apagada: o aviso não aparece mais de madrugada com o celular apagado; só quando a leitura cai de verdade",
-    "Radar da 99 sem repetir: a mesma corrida da lista fala uma vez só; volta a falar se o valor mudar"
-   ]
   }
  ]
 }
