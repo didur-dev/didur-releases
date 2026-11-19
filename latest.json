@@ -1,15 +1,80 @@
 {
- "version": "2.0.109",
- "build": 709,
+ "version": "2.0.110",
+ "build": 710,
  "minBuild": 696,
- "publishedAt": "2026-11-19T08:09:34-03:00",
+ "publishedAt": "2026-11-19T13:35:42-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/20so7mf7kgjh8?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/30rt39ppci4s8?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/7f4rj49jiqulo?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.110",
+   "build": 710,
+   "date": "19/11",
+   "items": {
+    "new": [],
+    "changed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Não fiz na gaveta",
+      "body": "o cartão da corrida em andamento tem Não fiz e, com passageiro, Encerrar",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Confirmar ganho saiu",
+      "body": "toda corrida detectada já entra confirmada; aceite errado se desfaz no Não fiz"
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Subida e chegada prevista",
+      "body": "a subida conta daqui até a parada, sem o sobe-e-desce do relevo; acabou o \"chega com 0%\" no fim da viagem"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Bolinha da energia",
+      "body": "sem leitura no dia, pergunta \"Bateria agora?\"",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Custo real",
+      "body": "a meta que já paga as contas não aparece como \"para casa\"; laranja se não cobre o carro"
+     },
+     {
+      "emoji": "🎯",
+      "area": "Metas",
+      "title": "Corrida aceita fora da meta",
+      "body": "a corrida detectada entra sempre na meta, e as que ficaram pendentes passam a contar"
+     }
+    ]
+   },
+   "new": [],
+   "changed": [
+    "Não fiz na gaveta: o cartão da corrida em andamento tem Não fiz e, com passageiro, Encerrar",
+    "Confirmar ganho saiu: toda corrida detectada já entra confirmada; aceite errado se desfaz no Não fiz"
+   ],
+   "fixed": [
+    "Subida e chegada prevista: a subida conta daqui até a parada, sem o sobe-e-desce do relevo; acabou o \"chega com 0%\" no fim da viagem",
+    "Bolinha da energia: sem leitura no dia, pergunta \"Bateria agora?\"",
+    "Custo real: a meta que já paga as contas não aparece como \"para casa\"; laranja se não cobre o carro",
+    "Corrida aceita fora da meta: a corrida detectada entra sempre na meta, e as que ficaram pendentes passam a contar"
+   ]
+  },
   {
    "version": "2.0.109",
    "build": 709,
@@ -1026,130 +1091,6 @@
     "Tempo lido com um dígito a mais: o ícone antes do tempo virava número (6 min → 36, 26 → 926); vale o do card",
     "Mesma oferta falada de novo: relida com um número diferente, a oferta só atualiza o card; a voz repete se o veredito mudar",
     "Recusa de oferta que já saiu boa: um quadro lido errado não recusa mais sozinho a oferta que já tinha saído boa"
-   ]
-  },
-  {
-   "version": "2.0.100",
-   "build": 700,
-   "date": "13/11",
-   "items": {
-    "new": [
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Custo real do carro",
-      "body": "parcela, seguro, IPVA, desgaste e energia num número: abaixo dele a corrida dá prejuízo",
-      "highlight": true
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Carro pela tabela FIPE",
-      "body": "marca, modelo e ano trazem o valor do carro; sem internet, você digita"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Etiqueta Prejuízo no card",
-      "body": "oferta abaixo da linha de prejuízo ganha Prejuízo em vermelho, no lugar do Atrasa a meta",
-      "highlight": true,
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Sete tipos de combustível",
-      "body": "gasolina, etanol, diesel, flex, gás, elétrico e híbrido; flex, gás e híbrido dividem os km"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Teclado do Didur Driver",
-      "body": "os números abrem um teclado próprio com +5, +10, soma e Próximo, no lugar do teclado do celular",
-      "highlight": true
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Editar passageiro do BlaBlaCar",
-      "body": "valor e onde sobe ou desce, até parada nova; o Atualizar do BlaBlaCar não desfaz o combinado",
-      "highlight": true
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Editar paradas da viagem",
-      "body": "lugar exato, hora e ordem direto do detalhe; parada sem lugar no mapa fica em laranja"
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Trocar parada no plano",
-      "body": "toque na parada para mudar o lugar ou a hora, sem apagar e criar de novo"
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "WhatsApp do passageiro do BlaBlaCar",
-      "body": "ponha o telefone ao editar e escolha a mensagem pronta que abre a conversa"
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Aplicar o custo real",
-      "body": "contas com vencimento, manutenção por km e km mínimo do estilo num toque, revisando antes"
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Manutenção por km até R$ 1,00",
-      "body": "o ajuste passa de R$ 0,50 para caber o que o custo real calcula"
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Diagnóstico liberado fica",
-      "body": "os 7 toques na versão valem até você ocultar em Depuração; o app fechado ou atualizado não esconde mais"
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Pedágio e km da carona",
-      "body": "parada sem lugar no mapa cortava o resto da rota e deixava praças de fora"
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Parada do BlaBlaCar sem lugar",
-      "body": "a busca procura o posto junto da cidade e tenta de novo ao abrir a viagem"
-     }
-    ]
-   },
-   "new": [
-    "Custo real do carro: parcela, seguro, IPVA, desgaste e energia num número: abaixo dele a corrida dá prejuízo",
-    "Carro pela tabela FIPE: marca, modelo e ano trazem o valor do carro; sem internet, você digita",
-    "Etiqueta Prejuízo no card: oferta abaixo da linha de prejuízo ganha Prejuízo em vermelho, no lugar do Atrasa a meta",
-    "Sete tipos de combustível: gasolina, etanol, diesel, flex, gás, elétrico e híbrido; flex, gás e híbrido dividem os km",
-    "Teclado do Didur Driver: os números abrem um teclado próprio com +5, +10, soma e Próximo, no lugar do teclado do celular",
-    "Editar passageiro do BlaBlaCar: valor e onde sobe ou desce, até parada nova; o Atualizar do BlaBlaCar não desfaz o combinado",
-    "Editar paradas da viagem: lugar exato, hora e ordem direto do detalhe; parada sem lugar no mapa fica em laranja",
-    "Trocar parada no plano: toque na parada para mudar o lugar ou a hora, sem apagar e criar de novo",
-    "WhatsApp do passageiro do BlaBlaCar: ponha o telefone ao editar e escolha a mensagem pronta que abre a conversa"
-   ],
-   "changed": [
-    "Aplicar o custo real: contas com vencimento, manutenção por km e km mínimo do estilo num toque, revisando antes",
-    "Manutenção por km até R$ 1,00: o ajuste passa de R$ 0,50 para caber o que o custo real calcula"
-   ],
-   "fixed": [
-    "Diagnóstico liberado fica: os 7 toques na versão valem até você ocultar em Depuração; o app fechado ou atualizado não esconde mais",
-    "Pedágio e km da carona: parada sem lugar no mapa cortava o resto da rota e deixava praças de fora",
-    "Parada do BlaBlaCar sem lugar: a busca procura o posto junto da cidade e tenta de novo ao abrir a viagem"
    ]
   }
  ]
