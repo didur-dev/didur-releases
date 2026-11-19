@@ -1,15 +1,40 @@
 {
- "version": "2.0.107",
- "build": 707,
+ "version": "2.0.108",
+ "build": 708,
  "minBuild": 696,
- "publishedAt": "2026-11-18T19:08:42-03:00",
+ "publishedAt": "2026-11-19T07:53:23-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/0tvoi6qkq31qo?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/24l3r57ddhfqg?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/2m3q1uss03bko?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/7f4rj49jiqulo?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.108",
+   "build": 708,
+   "date": "19/11",
+   "items": {
+    "new": [],
+    "changed": [],
+    "fixed": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "App fechando sozinho",
+      "body": "a bolinha da energia derrubava o app quando ia aparecer, parado na jornada",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [],
+   "changed": [],
+   "fixed": [
+    "App fechando sozinho: a bolinha da energia derrubava o app quando ia aparecer, parado na jornada"
+   ]
+  },
   {
    "version": "2.0.107",
    "build": 707,
@@ -1147,28 +1172,6 @@
    ],
    "fixed": [
     "Frases para o passageiro na hora: mover uma frase e mexer nos ajustes da voz aparece sem reabrir a tela"
-   ]
-  },
-  {
-   "version": "2.0.98",
-   "build": 698,
-   "date": "12/11",
-   "items": {
-    "new": [],
-    "changed": [],
-    "fixed": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Print segurando a aba da gaveta",
-      "body": "segurar a aba tira o print de depuração, como no botão do painel rápido"
-     }
-    ]
-   },
-   "new": [],
-   "changed": [],
-   "fixed": [
-    "Print segurando a aba da gaveta: segurar a aba tira o print de depuração, como no botão do painel rápido"
    ]
   }
  ]
