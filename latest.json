@@ -1,15 +1,40 @@
 {
- "version": "2.0.108",
- "build": 708,
+ "version": "2.0.109",
+ "build": 709,
  "minBuild": 696,
- "publishedAt": "2026-11-19T07:53:23-03:00",
+ "publishedAt": "2026-11-19T08:09:34-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/24l3r57ddhfqg?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/20so7mf7kgjh8?utm_source=firebase-tools"
  },
  "ios": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/7f4rj49jiqulo?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.109",
+   "build": 709,
+   "date": "19/11",
+   "items": {
+    "new": [],
+    "changed": [],
+    "fixed": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "App fechando ao reabrir",
+      "body": "sem a localização liberada o tempo todo, o app caía quando o Android religava a jornada sozinho",
+      "platforms": [
+       "android"
+      ]
+     }
+    ]
+   },
+   "new": [],
+   "changed": [],
+   "fixed": [
+    "App fechando ao reabrir: sem a localização liberada o tempo todo, o app caía quando o Android religava a jornada sozinho"
+   ]
+  },
   {
    "version": "2.0.108",
    "build": 708,
@@ -1125,53 +1150,6 @@
     "Diagnóstico liberado fica: os 7 toques na versão valem até você ocultar em Depuração; o app fechado ou atualizado não esconde mais",
     "Pedágio e km da carona: parada sem lugar no mapa cortava o resto da rota e deixava praças de fora",
     "Parada do BlaBlaCar sem lugar: a busca procura o posto junto da cidade e tenta de novo ao abrir a viagem"
-   ]
-  },
-  {
-   "version": "2.0.99",
-   "build": 699,
-   "date": "12/11",
-   "items": {
-    "new": [
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Exportar filtros escolhendo quais",
-      "body": "marque os filtros e mande como arquivo; o Importar abre o arquivo recebido"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Filtros de exemplo na primeira instalação",
-      "body": "mercado, busca longa, dinheiro, parada, nota baixa e outros já vêm na lista"
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Conforto com 99Plus",
-      "body": "a categoria Conforto do Motor cita o 99Plus, o nome que a 99 usa"
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Frases para o passageiro na hora",
-      "body": "mover uma frase e mexer nos ajustes da voz aparece sem reabrir a tela"
-     }
-    ]
-   },
-   "new": [
-    "Exportar filtros escolhendo quais: marque os filtros e mande como arquivo; o Importar abre o arquivo recebido",
-    "Filtros de exemplo na primeira instalação: mercado, busca longa, dinheiro, parada, nota baixa e outros já vêm na lista"
-   ],
-   "changed": [
-    "Conforto com 99Plus: a categoria Conforto do Motor cita o 99Plus, o nome que a 99 usa"
-   ],
-   "fixed": [
-    "Frases para o passageiro na hora: mover uma frase e mexer nos ajustes da voz aparece sem reabrir a tela"
    ]
   }
  ]
