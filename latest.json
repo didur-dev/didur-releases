@@ -2,12 +2,12 @@
  "version": "2.0.110",
  "build": 710,
  "minBuild": 696,
- "publishedAt": "2026-11-19T13:35:42-03:00",
+ "publishedAt": "2026-11-19T14:29:45-03:00",
  "android": {
   "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/30rt39ppci4s8?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/7f4rj49jiqulo?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/4bfdq8k4p79t8?utm_source=firebase-tools"
  },
  "history": [
   {
