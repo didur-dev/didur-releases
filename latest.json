@@ -1,15 +1,66 @@
 {
- "version": "2.0.110",
- "build": 710,
+ "version": "2.0.111",
+ "build": 711,
  "minBuild": 696,
- "publishedAt": "2026-11-19T14:29:45-03:00",
+ "publishedAt": "2026-11-19T18:26:34-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/30rt39ppci4s8?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/4jg5c5pj7lc6g?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/4bfdq8k4p79t8?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/5a00dfhu2kkug?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.111",
+   "build": 711,
+   "date": "19/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Telefone pelo Ligar do BlaBlaCar",
+      "body": "o Didur Driver lê o número no discador e pergunta se inclui no passageiro",
+      "platforms": [
+       "android"
+      ]
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Passageiro sem telefone",
+      "body": "selo na viagem e o botão Pegar telefone no BlaBlaCar",
+      "platforms": [
+       "android"
+      ]
+     }
+    ],
+    "changed": [],
+    "fixed": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Viagem planejada com a previsão",
+      "body": "o detalhe mostra a saída marcada, a distância e o tempo da rota, não 0 km e as horas desde a importação"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Viagem: ponto novo já marcado",
+      "body": "criado no Onde sobe ou Onde desce de um passageiro, o ponto fica escolhido mesmo no meio da rota"
+     }
+    ]
+   },
+   "new": [
+    "Telefone pelo Ligar do BlaBlaCar: o Didur Driver lê o número no discador e pergunta se inclui no passageiro",
+    "Passageiro sem telefone: selo na viagem e o botão Pegar telefone no BlaBlaCar"
+   ],
+   "changed": [],
+   "fixed": [
+    "Viagem planejada com a previsão: o detalhe mostra a saída marcada, a distância e o tempo da rota, não 0 km e as horas desde a importação",
+    "Viagem: ponto novo já marcado: criado no Onde sobe ou Onde desce de um passageiro, o ponto fica escolhido mesmo no meio da rota"
+   ]
+  },
   {
    "version": "2.0.110",
    "build": 710,
@@ -954,143 +1005,6 @@
    "fixed": [
     "Aviso falso com a tela apagada: o aviso não aparece mais de madrugada com o celular apagado; só quando a leitura cai de verdade",
     "Radar da 99 sem repetir: a mesma corrida da lista fala uma vez só; volta a falar se o valor mudar"
-   ]
-  },
-  {
-   "version": "2.0.101",
-   "build": 701,
-   "date": "14/11",
-   "items": {
-    "new": [
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Seus dados nas mensagens",
-      "body": "carro, cor, placa e Pix ficam em Conta e entram nas mensagens prontas e no WhatsApp",
-      "highlight": true
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "22 mensagens prontas novas",
-      "body": "confirmar a viagem, Pix, parada, cadê você, portaria e mais, com emoji e várias linhas"
-     },
-     {
-      "emoji": "💰",
-      "area": "Lançamentos",
-      "title": "Contas",
-      "body": "parcela, seguro e IPVA com vencimento, Paguei e quanto a meta já guardou para cada uma",
-      "highlight": true
-     },
-     {
-      "emoji": "💰",
-      "area": "Lançamentos",
-      "title": "Lançada sozinha no vencimento",
-      "body": "sem o Paguei, a conta entra como paga no dia com o valor dela; dá para desfazer"
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Soma das contas",
-      "body": "a meta soma as contas sozinha e você diz quanto quer levar para casa, até zero"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Contas no Início",
-      "body": "a próxima conta, quanto já foi guardado e a atrasada com o Paguei"
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Editor de mensagens",
-      "body": "várias linhas, emoji e variáveis novas: onde sobe e desce, valor, paradas e seus dados"
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Telefone formatado ao digitar",
-      "body": "colar +55 41 99876-5432 vira (41) 99876-5432 na hora; número de outro país fica como veio"
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Mensagem do WhatsApp inteira",
-      "body": "a escolhida abre inteira antes de ir; sem seus dados, um aviso diz quantas sumiram"
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Reserva pelo que falta",
-      "body": "a meta do dia guarda o que falta da conta até o vencimento; paga, ela para de pesar"
-     },
-     {
-      "emoji": "⚙️",
-      "area": "Configurações",
-      "title": "Custo real sem desvalorização",
-      "body": "um interruptor tira a desvalorização da linha de prejuízo e do resultado"
-     },
-     {
-      "emoji": "📲",
-      "area": "App",
-      "title": "Primeiros passos com o custo real",
-      "body": "quem já usava o app ganha o cartão com o custo real e as contas"
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Valor da 99 no Escolha uma",
-      "body": "o valor pequeno ao lado do \"100% dos ganhos\" não é mais lido como o valor da corrida"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Tempo lido com um dígito a mais",
-      "body": "o ícone antes do tempo virava número (6 min → 36, 26 → 926); vale o do card"
-     },
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Mesma oferta falada de novo",
-      "body": "relida com um número diferente, a oferta só atualiza o card; a voz repete se o veredito mudar"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Recusa de oferta que já saiu boa",
-      "body": "um quadro lido errado não recusa mais sozinho a oferta que já tinha saído boa",
-      "direct": true,
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Seus dados nas mensagens: carro, cor, placa e Pix ficam em Conta e entram nas mensagens prontas e no WhatsApp",
-    "22 mensagens prontas novas: confirmar a viagem, Pix, parada, cadê você, portaria e mais, com emoji e várias linhas",
-    "Contas: parcela, seguro e IPVA com vencimento, Paguei e quanto a meta já guardou para cada uma",
-    "Lançada sozinha no vencimento: sem o Paguei, a conta entra como paga no dia com o valor dela; dá para desfazer",
-    "Soma das contas: a meta soma as contas sozinha e você diz quanto quer levar para casa, até zero",
-    "Contas no Início: a próxima conta, quanto já foi guardado e a atrasada com o Paguei"
-   ],
-   "changed": [
-    "Editor de mensagens: várias linhas, emoji e variáveis novas: onde sobe e desce, valor, paradas e seus dados",
-    "Telefone formatado ao digitar: colar +55 41 99876-5432 vira (41) 99876-5432 na hora; número de outro país fica como veio",
-    "Mensagem do WhatsApp inteira: a escolhida abre inteira antes de ir; sem seus dados, um aviso diz quantas sumiram",
-    "Reserva pelo que falta: a meta do dia guarda o que falta da conta até o vencimento; paga, ela para de pesar",
-    "Custo real sem desvalorização: um interruptor tira a desvalorização da linha de prejuízo e do resultado",
-    "Primeiros passos com o custo real: quem já usava o app ganha o cartão com o custo real e as contas"
-   ],
-   "fixed": [
-    "Valor da 99 no Escolha uma: o valor pequeno ao lado do \"100% dos ganhos\" não é mais lido como o valor da corrida",
-    "Tempo lido com um dígito a mais: o ícone antes do tempo virava número (6 min → 36, 26 → 926); vale o do card",
-    "Mesma oferta falada de novo: relida com um número diferente, a oferta só atualiza o card; a voz repete se o veredito mudar",
-    "Recusa de oferta que já saiu boa: um quadro lido errado não recusa mais sozinho a oferta que já tinha saído boa"
    ]
   }
  ]
