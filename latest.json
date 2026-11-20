@@ -1,15 +1,92 @@
 {
- "version": "2.0.112",
- "build": 712,
+ "version": "2.0.114",
+ "build": 714,
  "minBuild": 696,
- "publishedAt": "2026-11-19T20:50:11-03:00",
+ "publishedAt": "2026-11-20T13:55:36-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/1qcdfcg0cfg50?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/7s9htehuduf0o?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/41sfo8p6oe6m0?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/22fn022lj29bg?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.114",
+   "build": 714,
+   "date": "20/11",
+   "items": {
+    "new": [],
+    "changed": [],
+    "fixed": [
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Link do Google Maps sem coordenada",
+      "body": "o link do Compartilhar colado na parada busca pelo endereço escrito nele"
+     }
+    ]
+   },
+   "new": [],
+   "changed": [],
+   "fixed": [
+    "Link do Google Maps sem coordenada: o link do Compartilhar colado na parada busca pelo endereço escrito nele"
+   ]
+  },
+  {
+   "version": "2.0.113",
+   "build": 713,
+   "date": "20/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Tarifas de casa",
+      "body": "normal, horário reduzido, com 50%; a recarga em casa vem com a tarifa da hora",
+      "highlight": true
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Mensagem Confirmar particular",
+      "body": "embarque, destino, valor, pagamento no embarque, Pix e as malas"
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Mensagens com o lugar em duas linhas",
+      "body": "embarque e desembarque com o nome em negrito e o endereço embaixo"
+     },
+     {
+      "emoji": "⏱️",
+      "area": "Jornada",
+      "title": "Mensagens prontas só as novas",
+      "body": "as 6 antigas sem emoji saem; a que você editou fica"
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Recarga de hoje",
+      "body": "lançada de manhã, aparece na hora em Recargas e no Início, não só ao meio-dia"
+     }
+    ]
+   },
+   "new": [
+    "Tarifas de casa: normal, horário reduzido, com 50%; a recarga em casa vem com a tarifa da hora",
+    "Mensagem Confirmar particular: embarque, destino, valor, pagamento no embarque, Pix e as malas"
+   ],
+   "changed": [
+    "Mensagens com o lugar em duas linhas: embarque e desembarque com o nome em negrito e o endereço embaixo",
+    "Mensagens prontas só as novas: as 6 antigas sem emoji saem; a que você editou fica"
+   ],
+   "fixed": [
+    "Recarga de hoje: lançada de manhã, aparece na hora em Recargas e no Início, não só ao meio-dia"
+   ]
+  },
   {
    "version": "2.0.112",
    "build": 712,
@@ -881,111 +958,6 @@
     "Pausa automática com o radar: a lista do radar não adia mais a pausa com o carro parado",
     "Barra lateral sai da frente da oferta: some enquanto há oferta na tela e volta depois; o × da Uber fica livre"
    ]
-  },
-  {
-   "version": "2.0.104",
-   "build": 704,
-   "date": "16/11",
-   "items": {
-    "new": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Corrida em curso na gaveta",
-      "body": "mapa da etapa, falta, ritmo e quanto rende, e o embarque marcado com um toque",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Espera no embarque",
-      "body": "cronômetro com o minuto da espera paga e o da taxa de cancelamento, na barra e na gaveta",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Relevo da etapa",
-      "body": "subida, descida e rampa até o embarque ou o destino, com os trechos íngremes, na gaveta",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Trânsito e marcos na corrida",
-      "body": "trechos lentos em laranja e vermelho, pedágios e lugar marcado na barra e no mapa",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Balão do embarque colorido",
-      "body": "Fácil, Complicado e Evitar em cartões com cor e ícone; motivos em pílulas",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": []
-   },
-   "new": [
-    "Corrida em curso na gaveta: mapa da etapa, falta, ritmo e quanto rende, e o embarque marcado com um toque",
-    "Espera no embarque: cronômetro com o minuto da espera paga e o da taxa de cancelamento, na barra e na gaveta",
-    "Relevo da etapa: subida, descida e rampa até o embarque ou o destino, com os trechos íngremes, na gaveta",
-    "Trânsito e marcos na corrida: trechos lentos em laranja e vermelho, pedágios e lugar marcado na barra e no mapa"
-   ],
-   "changed": [
-    "Balão do embarque colorido: Fácil, Complicado e Evitar em cartões com cor e ícone; motivos em pílulas"
-   ],
-   "fixed": []
-  },
-  {
-   "version": "2.0.103",
-   "build": 703,
-   "date": "16/11",
-   "items": {
-    "new": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Barra lateral da corrida",
-      "body": "tempo e km da etapa na borda da tela, com o atraso em laranja; tocar abre a corrida",
-      "highlight": true,
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Embarque fácil, complicado ou evitar",
-      "body": "o balão ganha Evitar e os motivos aceitam mais de um toque",
-      "platforms": [
-       "android"
-      ]
-     }
-    ],
-    "fixed": []
-   },
-   "new": [
-    "Barra lateral da corrida: tempo e km da etapa na borda da tela, com o atraso em laranja; tocar abre a corrida"
-   ],
-   "changed": [
-    "Embarque fácil, complicado ou evitar: o balão ganha Evitar e os motivos aceitam mais de um toque"
-   ],
-   "fixed": []
   }
  ]
 }
