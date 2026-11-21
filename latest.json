@@ -1,15 +1,90 @@
 {
- "version": "2.0.114",
- "build": 714,
+ "version": "2.0.115",
+ "build": 715,
  "minBuild": 696,
- "publishedAt": "2026-11-20T13:55:36-03:00",
+ "publishedAt": "2026-11-21T08:46:02-03:00",
  "android": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/7s9htehuduf0o?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:android:2a8c57212fcddda7546895/releases/7oscsc1o3g55o?utm_source=firebase-tools"
  },
  "ios": {
-  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/22fn022lj29bg?utm_source=firebase-tools"
+  "url": "https://appdistribution.firebase.google.com/testerapps/1:294058965520:ios:f9e34c550a560ab4546895/releases/1r99vkp66tl2o?utm_source=firebase-tools"
  },
  "history": [
+  {
+   "version": "2.0.115",
+   "build": 715,
+   "date": "21/11",
+   "items": {
+    "new": [
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Importar print da recarga",
+      "body": "o recibo da Tupi ou OnCharge vira a recarga, com taxas e potência."
+     },
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Medidor do zero",
+      "body": "na primeira leitura do wallbox, uma chave faz a leitura inteira virar recarga."
+     },
+     {
+      "emoji": "⚙️",
+      "area": "Configurações",
+      "title": "Potência máxima de recarga",
+      "body": "em Custos do veículo, o teto da avaliação da recarga rápida."
+     },
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "Meus carregadores",
+      "body": "cada recarga importada vira uma barra: o que o carregador anuncia e o que entrega."
+     },
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Ler nota fiscal",
+      "body": "o QR do cupom vira o gasto; no suporte, aponte para a câmera da frente e ouça o bipe."
+     }
+    ],
+    "changed": [
+     {
+      "emoji": "🗺️",
+      "area": "Mapa",
+      "title": "O que o painel mostra",
+      "body": "bateria e consumo numa tela só, abrindo na última leitura de qualquer tela."
+     },
+     {
+      "emoji": "💰",
+      "area": "Lançamentos",
+      "title": "Tarifas de casa",
+      "body": "o nome da tarifa aparece inteiro no botão, em até duas linhas."
+     }
+    ],
+    "fixed": [
+     {
+      "emoji": "🚗",
+      "area": "Corrida",
+      "title": "Chat da 99",
+      "body": "abrir o chat não marca mais a chegada no embarque (a frase rápida enganava)."
+     }
+    ]
+   },
+   "new": [
+    "Importar print da recarga: o recibo da Tupi ou OnCharge vira a recarga, com taxas e potência.",
+    "Medidor do zero: na primeira leitura do wallbox, uma chave faz a leitura inteira virar recarga.",
+    "Potência máxima de recarga: em Custos do veículo, o teto da avaliação da recarga rápida.",
+    "Meus carregadores: cada recarga importada vira uma barra: o que o carregador anuncia e o que entrega.",
+    "Ler nota fiscal: o QR do cupom vira o gasto; no suporte, aponte para a câmera da frente e ouça o bipe."
+   ],
+   "changed": [
+    "O que o painel mostra: bateria e consumo numa tela só, abrindo na última leitura de qualquer tela.",
+    "Tarifas de casa: o nome da tarifa aparece inteiro no botão, em até duas linhas."
+   ],
+   "fixed": [
+    "Chat da 99: abrir o chat não marca mais a chegada no embarque (a frase rápida enganava)."
+   ]
+  },
   {
    "version": "2.0.114",
    "build": 714,
@@ -808,155 +883,6 @@
     "Carona: parada nova do BlaBlaCar: passageiro que reserva até outra cidade cria a parada no lugar certo",
     "Viagem: a próxima parada inteira na tela: no Próxima, a saída e a chegada do trecho não ficam mais atrás da barra e do cartão",
     "Pedágio passado sem aviso: a praça conta pelo caminho feito e avisa por notificação com o mapa fechado"
-   ]
-  },
-  {
-   "version": "2.0.105",
-   "build": 705,
-   "date": "16/11",
-   "items": {
-    "new": [
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Corrida ativa como na gaveta",
-      "body": "mapa da etapa, falta, ritmo, espera, relevo e embarque no topo",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Lugares de outros motoristas",
-      "body": "o Complicado e o Evitar marcados por outros aparecem na barra, com nome e dia"
-     },
-     {
-      "emoji": "🔊",
-      "area": "Voz e alertas",
-      "title": "Lugar e morro na oferta",
-      "body": "\"embarque a evitar, morro forte\" ou \"morro provável\", no card e na voz",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Avisos do app para todos",
-      "body": "mercado, espera, busca longa e mais em Filtros de recusa, sem importar arquivo"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Palavras do mercado e da espera",
-      "body": "dá para tirar e acrescentar, como a rede de mercado da sua cidade"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "99: radar com borda colorida",
-      "body": "com várias na lista, cada uma ganha a borda do veredito e o valor por minuto; a voz fala só a melhor",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Bairros e cidades a evitar",
-      "body": "mapa em hexágonos com relevo; a oferta para um lugar marcado avisa no card e na voz",
-      "highlight": true
-     },
-     {
-      "emoji": "🧩",
-      "area": "Painel rápido",
-      "title": "Atalho para os bairros",
-      "body": "em Filtros da gaveta, abre o mapa para marcar na rua",
-      "platforms": [
-       "android"
-      ]
-     },
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Imposto do motorista",
-      "body": "carnê-leão do mês com o valor para lançar, o DARF, o ajuste do ano e o lembrete",
-      "highlight": true
-     },
-     {
-      "emoji": "📊",
-      "area": "Estatísticas",
-      "title": "Finanças na barra",
-      "body": "Resumo com o que já é seu (caixa e econômico), contas, custo real e imposto; gráficos numa aba",
-      "highlight": true
-     },
-     {
-      "emoji": "📊",
-      "area": "Estatísticas",
-      "title": "Extrato e Lançar em Finanças",
-      "body": "dia a dia com as jornadas, os gastos de fora e as contas; lançar entrada ou saída"
-     }
-    ],
-    "changed": [
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Motivo no lugar marcado",
-      "body": "o aviso na barra e no mapa diz por quê: \"embarque a evitar · Morro forte\""
-     },
-     {
-      "emoji": "📊",
-      "area": "Estatísticas",
-      "title": "Contas em Finanças",
-      "body": "a lista de contas saiu das Configurações e virou uma aba de Finanças (no Modo Básico, segue nas Configurações)"
-     }
-    ],
-    "fixed": [
-     {
-      "emoji": "🎯",
-      "area": "Metas",
-      "title": "Soma das contas com R$ 0 para casa",
-      "body": "salva e mostra as contas como meta; na meta digitada as contas não somam mais por cima"
-     },
-     {
-      "emoji": "⏱️",
-      "area": "Jornada",
-      "title": "Pausa automática com o radar",
-      "body": "a lista do radar não adia mais a pausa com o carro parado"
-     },
-     {
-      "emoji": "🚗",
-      "area": "Corrida",
-      "title": "Barra lateral sai da frente da oferta",
-      "body": "some enquanto há oferta na tela e volta depois; o × da Uber fica livre",
-      "platforms": [
-       "android"
-      ]
-     }
-    ]
-   },
-   "new": [
-    "Corrida ativa como na gaveta: mapa da etapa, falta, ritmo, espera, relevo e embarque no topo",
-    "Lugares de outros motoristas: o Complicado e o Evitar marcados por outros aparecem na barra, com nome e dia",
-    "Lugar e morro na oferta: \"embarque a evitar, morro forte\" ou \"morro provável\", no card e na voz",
-    "Avisos do app para todos: mercado, espera, busca longa e mais em Filtros de recusa, sem importar arquivo",
-    "Palavras do mercado e da espera: dá para tirar e acrescentar, como a rede de mercado da sua cidade",
-    "99: radar com borda colorida: com várias na lista, cada uma ganha a borda do veredito e o valor por minuto; a voz fala só a melhor",
-    "Bairros e cidades a evitar: mapa em hexágonos com relevo; a oferta para um lugar marcado avisa no card e na voz",
-    "Atalho para os bairros: em Filtros da gaveta, abre o mapa para marcar na rua",
-    "Imposto do motorista: carnê-leão do mês com o valor para lançar, o DARF, o ajuste do ano e o lembrete",
-    "Finanças na barra: Resumo com o que já é seu (caixa e econômico), contas, custo real e imposto; gráficos numa aba",
-    "Extrato e Lançar em Finanças: dia a dia com as jornadas, os gastos de fora e as contas; lançar entrada ou saída"
-   ],
-   "changed": [
-    "Motivo no lugar marcado: o aviso na barra e no mapa diz por quê: \"embarque a evitar · Morro forte\"",
-    "Contas em Finanças: a lista de contas saiu das Configurações e virou uma aba de Finanças (no Modo Básico, segue nas Configurações)"
-   ],
-   "fixed": [
-    "Soma das contas com R$ 0 para casa: salva e mostra as contas como meta; na meta digitada as contas não somam mais por cima",
-    "Pausa automática com o radar: a lista do radar não adia mais a pausa com o carro parado",
-    "Barra lateral sai da frente da oferta: some enquanto há oferta na tela e volta depois; o × da Uber fica livre"
    ]
   }
  ]
